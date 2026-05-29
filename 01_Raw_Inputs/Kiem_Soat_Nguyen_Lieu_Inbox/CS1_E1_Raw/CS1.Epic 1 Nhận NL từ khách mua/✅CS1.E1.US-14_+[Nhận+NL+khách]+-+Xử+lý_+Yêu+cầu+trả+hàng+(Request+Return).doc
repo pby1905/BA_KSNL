@@ -1,0 +1,330 @@
+Date: Sat, 18 Apr 2026 13:08:09 +0700 (ICT)
+Message-ID: <1711823172.157.1776492489829@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_156_205837490.1776492489829"
+
+------=_Part_156_205837490.1776492489829
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-14: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD=
+ l=C3=BD: Y=C3=AAu c=E1=BA=A7u tr=E1=BA=A3 h=C3=A0ng (Request Return)</titl=
+e>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-14: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD l=
+=C3=BD: Y=C3=AAu c=E1=BA=A7u tr=E1=BA=A3 h=C3=A0ng (Request Return)</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=
+=ADl=C3=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-1.USERSTO=
+RY"><strong>1. USER STORY</strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t:</strong> Ng=C6=B0=E1=BB=9Di ph=C3=AA duy=E1=
+=BB=87t ch=C3=AAnh l=E1=BB=87ch.</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n:</strong> Xem x=C3=A9t c=C3=A1c d=C3=B2ng =
+nguy=C3=AAn li=E1=BB=87u c=C3=B3 sai l=E1=BB=87ch v=C6=B0=E1=BB=A3t ng=C6=
+=B0=E1=BB=A1ng v=C3=A0 th=E1=BB=B1c hi=E1=BB=87n =C4=91=C6=B0a ra quy=E1=BA=
+=BFt =C4=91=E1=BB=8Bnh.&nbsp;</p>
+<p><strong>=C4=90=E1=BB=83:</strong> Ch=C3=ADnh th=E1=BB=A9c ghi nh=E1=BA=
+=ADn c=C3=A1c th=C3=B4ng s=E1=BB=91 =C4=91o =C4=91=E1=BA=A1c th=E1=BB=B1c t=
+=E1=BA=BF v=C3=A0o h=E1=BB=87 th=E1=BB=91ng v=C3=A0 cho ph=C3=A9p ti=E1=BA=
+=BFp t=E1=BB=A5c quy tr=C3=ACnh.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-2.TI=C3=8AUCH=C3=
+=8DCH=E1=BA=A4PNH=E1=BA=ACN(ACCEPTANCECRITERIA-AC)"><strong>2. TI=C3=8AU CH=
+=C3=8D CH=E1=BA=A4P NH=E1=BA=ACN (ACCEPTANCE CRITERIA - AC)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-AC1:Y=C3=AAuc=E1=
+=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)">AC1: Y=C3=AAu c=E1=BA=A7u tr=E1=
+=BA=A3 h=C3=A0ng (Request Return)</h3>
+<ul>
+ <li data-uuid=3D"ed495597-6d3e-4e29-9dc2-2c0440a9e651"><strong>Given:&nbsp=
+;</strong>Ng=C6=B0=E1=BB=9Di d=C3=B9ng<span style=3D"color:#172b4d;">&nbsp;=
+m=E1=BB=9F phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn, H=E1=BB=87 th=E1=BB=91n=
+g hi=E1=BB=83n th=E1=BB=8B danh s=C3=A1ch c=C3=A1c d=C3=B2ng nguy=C3=AAn li=
+=E1=BB=87u =C4=91=C3=A3 ti=E1=BA=BFp nh=E1=BA=ADn</span></li>
+ <li data-uuid=3D"124ffe0b-0b33-4b77-99d8-f1aa97e29cb0"><strong>When:&nbsp;=
+</strong>Ng=C6=B0=E1=BB=9Di d=C3=B9ng ch=E1=BB=8Dn d=C3=B2ng nguy=C3=AAn li=
+=E1=BB=87u =E1=BB=9F tr=E1=BA=A1ng th=C3=A1i "Ch=E1=BB=9D x=C3=A1c nh=E1=BA=
+=ADn"</li>
+ <li data-uuid=3D"2e498fa9-7f93-45ff-8818-a4b11a79fc4f"><strong>And:&nbsp;<=
+/strong>Ch=E1=BB=8Dn "Y=C3=AAu c=E1=BA=A7u tr=E1=BA=A3 NL" (t=E1=BB=ABng ph=
+i=E1=BA=BFu, kh=C3=B4ng ph=C3=AA duy=E1=BB=87t c=C3=B9ng l=C3=BAc nhi=E1=BB=
+=81u phi=E1=BA=BFu)</li>
+ <li data-uuid=3D"ba111933-d83a-4f5f-97b7-ce0e25011823"><strong>Then:&nbsp;=
+</strong>H=E1=BB=87 th=E1=BB=91ng m=E1=BB=9F popup x=C3=A1c nh=E1=BA=ADn Y/=
+N</li>
+ <li data-uuid=3D"881a79db-dbd1-4099-b281-d88b068488a2"><strong>And:&nbsp;<=
+/strong>Ng=C6=B0=E1=BB=9Di d=C3=B9ng ch=E1=BB=8Dn Yes v=C3=A0 nh=E1=BA=ADp =
+Ghi ch=C3=BA</li>
+ <li data-uuid=3D"87e6aec2-dbf1-4a5c-8cd3-516341338464"><strong>Then:</stro=
+ng><br>
+  <ul>
+   <li>C=E1=BA=ADp nh=E1=BA=ADt tr=E1=BA=A1ng th=C3=A1i d=C3=B2ng nguy=C3=
+=AAn li=E1=BB=87u: T=E1=BB=AB "Ch=E1=BB=9D x=C3=A1c nh=E1=BA=ADn" sang =E2=
+=86=92 "Y=C3=AAu c=E1=BA=A7u tr=E1=BA=A3"</li>
+   <li>C=E1=BA=ADp nh=E1=BA=ADt tr=E1=BA=A1ng th=C3=A1i phi=E1=BA=BFu x=E1=
+=BB=AD l=C3=BD ch=C3=AAnh l=E1=BB=87ch: T=E1=BB=AB "Ch=E1=BB=9D x=C3=A1c nh=
+=E1=BA=ADn" sang =E2=86=92 "Y=C3=AAu c=E1=BA=A7u tr=E1=BA=A3"</li>
+   <li>Ghi nh=E1=BA=ADn ghi ch=C3=BA v=C3=A0o phi=E1=BA=BFu x=E1=BB=AD l=C3=
+=BD ch=C3=AAnh l=E1=BB=87ch</li>
+  </ul></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-3.THI=E1=BA=BETK=
+=E1=BA=BE(UX/UI)"><strong>3. THI=E1=BA=BET K=E1=BA=BE (UX/UI)</strong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-4.QUYT=E1=BA=AEC=
+NGHI=E1=BB=86PV=E1=BB=A4(BUSINESSRULES)"><strong>4. QUY T=E1=BA=AEC NGHI=E1=
+=BB=86P V=E1=BB=A4 (BUSINESS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"bb9ee08e-ceed-457d-9ed3-8b54953d77e8"><strong>BR-01:</str=
+ong> Ch=E1=BB=89 nh=E1=BB=AFng user c=C3=B3 quy=E1=BB=81n <strong>"Ph=C3=AA=
+ duy=E1=BB=87t ch=C3=AAnh l=E1=BB=87ch"</strong> m=E1=BB=9Bi nh=C3=ACn th=
+=E1=BA=A5y v=C3=A0 t=C6=B0=C6=A1ng t=C3=A1c =C4=91=C6=B0=E1=BB=A3c n=C3=BAt=
+ "Ch=E1=BA=A5p nh=E1=BA=ADn ch=C3=AAnh l=E1=BB=87ch"/"Y=C3=AAu c=E1=BA=A7u =
+tr=E1=BA=A3 NL".</li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-5.GHICH=C3=9AK=
+=E1=BB=B8THU=E1=BA=ACT&amp;VALIDATION(TECHNOTES)"><strong>5. GHI CH=C3=9A K=
+=E1=BB=B8 THU=E1=BA=ACT &amp; VALIDATION (TECH NOTES)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-5.1ValidationLog=
+ic">5.1 Validation Logic</h3>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-5.2FieldDefiniti=
+on(ActionButtons)">5.2 Field Definition (Action Buttons)</h3>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US14:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Y=C3=AAuc=E1=BA=A7utr=E1=BA=A3h=C3=A0ng(RequestReturn)-6.GHICH=C3=9ACHO=
+QC"><strong>6. GHI CH=C3=9A CHO QC</strong></h2>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_156_205837490.1776492489829--

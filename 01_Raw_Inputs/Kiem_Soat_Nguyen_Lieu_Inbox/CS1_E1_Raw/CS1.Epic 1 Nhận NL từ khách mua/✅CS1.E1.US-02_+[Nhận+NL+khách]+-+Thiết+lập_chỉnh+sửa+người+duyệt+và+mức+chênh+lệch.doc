@@ -1,0 +1,481 @@
+Date: Sat, 18 Apr 2026 13:06:51 +0700 (ICT)
+Message-ID: <1536418569.133.1776492411261@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_132_8644670.1776492411260"
+
+------=_Part_132_8644670.1776492411260
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-02: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Thi=E1=BA=
+=BFt l=E1=BA=ADp/ch=E1=BB=89nh s=E1=BB=ADa ng=C6=B0=E1=BB=9Di duy=E1=BB=87t=
+ v=C3=A0 m=E1=BB=A9c ch=C3=AAnh l=E1=BB=87ch</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-02: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Thi=E1=BA=BFt=
+ l=E1=BA=ADp/ch=E1=BB=89nh s=E1=BB=ADa ng=C6=B0=E1=BB=9Di duy=E1=BB=87t v=
+=C3=A0 m=E1=BB=A9c ch=C3=AAnh l=E1=BB=87ch</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=
+=BA=BFtl=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=
+=C3=A0m=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-1.USERSTORY"><strong>1. USER STORY<=
+/strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t (As a):</strong> Tr=C6=B0=E1=BB=9Fng b=E1=BB=
+=99 ph=E1=BA=ADn Material Control (TBP MC)</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n (I want):</strong> C=E1=BA=A5u h=C3=ACnh d=
+anh s=C3=A1ch ng=C6=B0=E1=BB=9Di ph=C3=AA duy=E1=BB=87t v=C3=A0 thi=E1=BA=
+=BFt l=E1=BA=ADp c=C3=A1c ng=C6=B0=E1=BB=A1ng ch=C3=AAnh l=E1=BB=87ch cho p=
+h=C3=A9p =C4=91=E1=BB=91i:</p>
+<ul>
+ <li data-uuid=3D"b71c5c74-9039-4364-ba16-73d6ae4fc516"><span style=3D"colo=
+r:#172b4d;">TL bao b=C3=AC;</span></li>
+ <li data-uuid=3D"b0231798-9ffc-4e2b-9769-2865b89089ab"><span style=3D"colo=
+r:#172b4d;">TL v=C3=A0 tu=E1=BB=95i d=E1=BA=BB;</span></li>
+ <li data-uuid=3D"7dcab286-219c-4396-8fd6-211c9bf3685b"><span style=3D"colo=
+r:#172b4d;">TL =C4=91=C3=A1 h=C3=A0ng h=E1=BB=93i; </span></li>
+ <li data-uuid=3D"615e0616-3b4a-4a06-a41a-06e0a9c947c1"><span style=3D"colo=
+r:#172b4d;">TL, tu=E1=BB=95i, gi=C3=A1 c=C3=B4ng h=C3=A0ng h=E1=BB=93i m=E1=
+=BB=9Bi/h=C3=A0ng g=E1=BB=ADi s=E1=BB=ADa</span></li>
+</ul>
+<p><strong>=C4=90=E1=BB=83 (So that):</strong> H=E1=BB=87 th=E1=BB=91ng c=
+=C3=B3 th=E1=BB=83 t=E1=BB=B1 =C4=91=E1=BB=99ng ki=E1=BB=83m so=C3=A1t d=E1=
+=BB=AF li=E1=BB=87u =C4=91=E1=BA=A7u v=C3=A0o, ng=C4=83n ch=E1=BA=B7n c=C3=
+=A1c sai s=C3=B3t v=C6=B0=E1=BB=A3t m=E1=BB=A9c v=C3=A0 =C4=91=E1=BA=A3m b=
+=E1=BA=A3o quy tr=C3=ACnh ph=C3=AA duy=E1=BB=87t di=E1=BB=85n ra =C4=91=C3=
+=BAng th=E1=BA=A9m quy=E1=BB=81n khi c=C3=B3 bi=E1=BA=BFn =C4=91=E1=BB=99ng=
+ b=E1=BA=A5t th=C6=B0=E1=BB=9Dng.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-2.TI=C3=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=AC=
+N(ACCEPTANCECRITERIA-AC)"><strong>2. TI=C3=8AU CH=C3=8D CH=E1=BA=A4P NH=E1=
+=BA=ACN (ACCEPTANCE CRITERIA - AC)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-AC1:C=E1=BA=A5uh=C3=ACnhdanhs=C3=A1chng=C6=
+=B0=E1=BB=9Diph=C3=AAduy=E1=BB=87t(ApprovalWorkflow)">AC 1: C=E1=BA=A5u h=
+=C3=ACnh danh s=C3=A1ch ng=C6=B0=E1=BB=9Di ph=C3=AA duy=E1=BB=87t (Approval=
+ Workflow)</h3>
+<ul>
+ <li data-uuid=3D"c3610b19-308b-4833-87a5-a6b352b19185">
+  <p><strong>Given:</strong> TBP MC =C4=91ang =E1=BB=9F m=C3=A0n h=C3=ACnh =
+"C=E1=BA=A5u h=C3=ACnh ph=C3=AA duy=E1=BB=87t ch=C3=AAnh l=E1=BB=87ch".</p>=
+</li>
+ <li data-uuid=3D"833139af-225d-499d-9cbb-a6c1707bd1fc">
+  <p><strong>When:</strong> Ch=E1=BB=8Dn lo=E1=BA=A1i nghi=E1=BB=87p v=E1=
+=BB=A5 (Ki=E1=BB=83m bao b=C3=AC/Ki=E1=BB=83m d=E1=BA=BB/Ki=E1=BB=83m h=C3=
+=A0ng h=E1=BB=93i/Ki=E1=BB=83m h=C3=A0ng s=E1=BB=ADa) v=C3=A0 ch=E1=BB=8Dn =
+danh s=C3=A1ch ng=C6=B0=E1=BB=9Di d=C3=B9ng t=E1=BB=AB danh m=E1=BB=A5c nh=
+=C3=A2n vi=C3=AAn =C4=91=E1=BB=83 ph=C3=A2n quy=E1=BB=81n ph=C3=AA duy=E1=
+=BB=87t.</p></li>
+ <li data-uuid=3D"9c381877-4511-45c1-b641-67d0710449a5">
+  <p><strong>Then:</strong> H=E1=BB=87 th=E1=BB=91ng l=C6=B0u l=E1=BA=A1i d=
+anh s=C3=A1ch</p></li>
+</ul>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-AC2:C=E1=BA=A5uh=C3=ACnhng=C6=B0=E1=BB=A1n=
+gch=C3=AAnhl=E1=BB=87chTr=E1=BB=8Dngl=C6=B0=E1=BB=A3ng(TL)baob=C3=AC">AC 2:=
+ C=E1=BA=A5u h=C3=ACnh ng=C6=B0=E1=BB=A1ng ch=C3=AAnh l=E1=BB=87ch Tr=E1=BB=
+=8Dng l=C6=B0=E1=BB=A3ng (TL) bao b=C3=AC</h3>
+<ul>
+ <li data-uuid=3D"6ca8831c-9870-4b68-b768-a18ec399fb25">
+  <p><strong>Given:</strong> =C4=90ang th=E1=BB=B1c hi=E1=BB=87n c=E1=BA=A5=
+u h=C3=ACnh cho m=E1=BB=A5c Ki=E1=BB=83m bao b=C3=AC.</p></li>
+ <li data-uuid=3D"0bb19714-1506-4079-9ba2-008a32812553">
+  <p><strong>When:</strong> Nh=E1=BA=ADp tr=E1=BB=8B s=E1=BB=91 ch=C3=AAnh =
+l=E1=BB=87ch t=E1=BB=91i =C4=91a cho ph=C3=A9p gi=E1=BB=AFa tr=E1=BB=8Dng l=
+=C6=B0=E1=BB=A3ng kh=C3=A1ch b=C3=A1o v=C3=A0 tr=E1=BB=8Dng l=C6=B0=E1=BB=
+=A3ng th=E1=BB=B1c t=E1=BA=BF v=C3=A0 nh=E1=BA=A5n "L=C6=B0u".</p></li>
+ <li data-uuid=3D"9b27cb13-6d21-4ed2-8f9c-1a12ef6496cb">
+  <p><strong>Then:</strong> H=E1=BB=87 th=E1=BB=91ng l=C6=B0u l=E1=BA=A1i c=
+=E1=BA=A5u h=C3=ACnh.</p></li>
+</ul>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-AC3:C=E1=BA=A5uh=C3=ACnhch=C3=AAnhl=E1=BB=
+=87chD=E1=BA=BB(TL&amp;Tu=E1=BB=95id=E1=BA=BB)">AC 3: C=E1=BA=A5u h=C3=ACnh=
+ ch=C3=AAnh l=E1=BB=87ch D=E1=BA=BB (TL &amp; Tu=E1=BB=95i d=E1=BA=BB)</h3>
+<ul>
+ <li data-uuid=3D"e744e28e-e07c-4378-8237-1421dd6e3d4b">
+  <p><strong>Given:</strong> =C4=90ang c=E1=BA=A5u h=C3=ACnh th=C3=B4ng s=
+=E1=BB=91 cho Ki=E1=BB=83m d=E1=BA=BB.</p></li>
+ <li data-uuid=3D"46862f18-88fe-484c-99a5-a84382187594">
+  <p><strong>When:</strong> Thi=E1=BA=BFt l=E1=BA=ADp ng=C6=B0=E1=BB=A1ng s=
+ai s=E1=BB=91 cho Tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng v=C3=A0 sai s=E1=BB=91 T=
+u=E1=BB=95i d=E1=BA=BB v=C3=A0 nh=E1=BA=A5n "L=C6=B0u".</p></li>
+ <li data-uuid=3D"a07f73a2-9ec5-4ee5-828f-c42c2d49a96a">
+  <p><strong>Then:</strong> H=E1=BB=87 th=E1=BB=91ng l=C6=B0u l=E1=BA=A1i c=
+=E1=BA=A5u h=C3=ACnh<span style=3D"letter-spacing: 0.0px;">.</span></p></li=
+>
+</ul>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-AC4:C=E1=BA=A5uh=C3=ACnhch=C3=AAnhl=E1=BB=
+=87chH=C3=A0ngh=E1=BB=93i">AC 4: C=E1=BA=A5u h=C3=ACnh ch=C3=AAnh l=E1=BB=
+=87ch H=C3=A0ng h=E1=BB=93i</h3>
+<ul>
+ <li data-uuid=3D"2abbdbab-5e55-4179-81fb-face7d2d143c">
+  <p><strong>Given:</strong> =C4=90ang c=E1=BA=A5u h=C3=ACnh cho Ki=E1=BB=
+=83m h=C3=A0ng h=E1=BB=93i.</p></li>
+ <li data-uuid=3D"918a7416-0286-4691-b4d0-e1109d19e415">
+  <p><strong>When:</strong> Nh=E1=BA=ADp ng=C6=B0=E1=BB=A1ng cho ph=C3=A9p =
+cho 2 ch=E1=BB=89 s=E1=BB=91: TL =C4=91=C3=A1 v=C3=A0 nh=E1=BA=A5n "L=C6=B0=
+u".</p></li>
+ <li data-uuid=3D"b6b48d81-b253-4d02-bb95-98150309980d">
+  <p><strong>Then:</strong> H=E1=BB=87 th=E1=BB=91ng l=C6=B0u l=E1=BA=A1i c=
+=E1=BA=A5u h=C3=ACnh<span>.</span></p></li>
+</ul>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-AC4:C=E1=BA=A5uh=C3=ACnhch=C3=AAnhl=E1=BB=
+=87chH=C3=A0ngh=E1=BB=93i&amp;H=C3=A0ngg=E1=BB=ADis=E1=BB=ADa">AC 4: C=E1=
+=BA=A5u h=C3=ACnh ch=C3=AAnh l=E1=BB=87ch H=C3=A0ng h=E1=BB=93i &amp; H=C3=
+=A0ng g=E1=BB=ADi s=E1=BB=ADa</h3>
+<ul>
+ <li data-uuid=3D"b48c4f39-cc4e-41b9-ac8c-9fc03b108757">
+  <p><strong>Given:</strong> =C4=90ang c=E1=BA=A5u h=C3=ACnh cho Ki=E1=BB=
+=83m h=C3=A0ng s=E1=BB=ADa.</p></li>
+ <li data-uuid=3D"d8bf9035-27ea-42d4-bc0d-268737a46343">
+  <p><strong>When:</strong> Nh=E1=BA=ADp ng=C6=B0=E1=BB=A1ng cho ph=C3=A9p =
+cho 3 ch=E1=BB=89 s=E1=BB=91: Tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng (TL), Tu=E1=
+=BB=95i v=C3=A0ng, Gi=C3=A1 c=C3=B4ng v=C3=A0 nh=E1=BA=A5n "L=C6=B0u".</p><=
+/li>
+ <li data-uuid=3D"88588302-9c02-45fa-937d-bb8615bba6d2"><strong>Then:</stro=
+ng> H=E1=BB=87 th=E1=BB=91ng l=C6=B0u l=E1=BA=A1i c=E1=BA=A5u h=C3=ACnh<spa=
+n>.</span></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-3.QUYT=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=A4(B=
+USINESSRULES)"><strong>3. QUY T=E1=BA=AEC NGHI=E1=BB=86P V=E1=BB=A4 (BUSINE=
+SS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"4d638fe3-01bf-4213-999c-0a0147c90220">
+  <p><strong>BR-01:</strong> M=E1=BB=99t lo=E1=BA=A1i c=E1=BA=A5u h=C3=ACnh=
+ ch=E1=BB=89 =C4=91=C6=B0=E1=BB=A3c ph=C3=A9p c=C3=B3 <strong>01 phi=C3=AAn=
+ b=E1=BA=A3n Hi=E1=BB=87u l=E1=BB=B1c</strong> t=E1=BA=A1i m=E1=BB=99t th=
+=E1=BB=9Di =C4=91i=E1=BB=83m.</p></li>
+ <li data-uuid=3D"9c6f9443-7b89-42f6-a462-118879a6757f"><strong>BR-02:</str=
+ong> M=E1=BB=97i lo=E1=BA=A1i ch=C3=AAnh l=E1=BB=87ch c=E1=BA=A7n c=C3=B3 =
+=C3=ADt nh=E1=BA=A5t 1 ng=C6=B0=E1=BB=9Di duy=E1=BB=87t</li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-4.B=E1=BA=A2NG=C4=90=E1=BB=8ANHNGH=C4=A8AT=
+R=C6=AF=E1=BB=9CNGD=E1=BB=AELI=E1=BB=86U(FIELDDEFINITION)"><strong>4. B=E1=
+=BA=A2NG =C4=90=E1=BB=8ANH NGH=C4=A8A TR=C6=AF=E1=BB=9CNG D=E1=BB=AE LI=E1=
+=BB=86U (FIELD DEFINITION)</strong></h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <thead class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>T=C3=AAn tr=C6=B0=E1=BB=9Dng</strong=
+></td>
+    <td class=3D"confluenceTd"><strong>Ki=E1=BB=83u d=E1=BB=AF li=E1=BB=87u=
+</strong></td>
+    <td class=3D"confluenceTd"><strong>Required</strong></td>
+    <td class=3D"confluenceTd"><strong>Quy t=E1=BA=AFc Validation</strong><=
+/td>
+   </tr>
+  </thead>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>Lo=E1=BA=A1i nghi=E1=BB=87p v=E1=BB=A5=
+</span></td>
+    <td class=3D"confluenceTd"><span>Dropdown</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li><span>Ki=E1=BB=83m bao b=C3=AC</span></li>
+      <li data-uuid=3D"ca25d190-3cf2-430f-9382-1a38a2047621"><span>Ki=E1=BB=
+=83m d=E1=BA=BB</span></li>
+      <li data-uuid=3D"cd073825-fe79-4c20-aadd-4282db1bae9e"><span>Ki=E1=BB=
+=83m h=C3=A0ng h=E1=BB=93i</span></li>
+      <li data-uuid=3D"a9efa95d-8998-43d4-bbdd-1fed008029ff"><span>Ki=E1=BB=
+=83m h=C3=A0ng s=E1=BB=ADa</span></li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>Ng=C6=B0=E1=BB=9Di ph=C3=AA duy=E1=BB=
+=87t</span></td>
+    <td class=3D"confluenceTd"><span>List (User)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span>Ch=E1=BB=8Dn t=E1=BB=AB danh s=C3=A1ch=
+ User</span></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>TL bao b=C3=AC</span></td>
+    <td class=3D"confluenceTd"><span>Decimal (4,4)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span>Cho ph=C3=A9p nh=E1=BA=ADp s=E1=BB=91 =
+d=C6=B0=C6=A1ng. =C4=90=C6=A1n v=E1=BB=8B: l=C6=B0=E1=BB=A3ng.</span></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span>TL NL</span></td>
+    <td class=3D"confluenceTd"><span>Decimal (4,4)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span>Cho ph=C3=A9p nh=E1=BA=ADp s=E1=BB=91 =
+d=C6=B0=C6=A1ng. =C4=90=C6=A1n v=E1=BB=8B: l=C6=B0=E1=BB=A3ng.</span></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>Tu=E1=BB=95i</span></td>
+    <td class=3D"confluenceTd"><span>Decimal (2,2)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span><span>Cho ph=C3=A9p nh=E1=BA=ADp s=E1=
+=BB=91 d=C6=B0=C6=A1ng ( &gt; 0, &lt;=3D 99.99)</span></span></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>Tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng =C4=
+=91=C3=A1</span></td>
+    <td class=3D"confluenceTd"><span>Decimal (4,4)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span>Cho ph=C3=A9p nh=E1=BA=ADp s=E1=BB=91 =
+d=C6=B0=C6=A1ng. =C4=90=C6=A1n v=E1=BB=8B: l=C6=B0=E1=BB=A3ng.</span></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span>Gi=C3=A1 c=C3=B4ng</span></td>
+    <td class=3D"confluenceTd"><span>Amount</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd"><span>S=E1=BB=91 ti=E1=BB=81n ch=C3=AAnh l=
+=E1=BB=87ch t=E1=BB=91i =C4=91a cho ph=C3=A9p.</span></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US02:[Nh=E1=BA=ADnNLkh=C3=A1ch]Thi=E1=BA=BFtl=
+=E1=BA=ADp/ch=E1=BB=89nhs=E1=BB=ADang=C6=B0=E1=BB=9Diduy=E1=BB=87tv=C3=A0m=
+=E1=BB=A9cch=C3=AAnhl=E1=BB=87ch-5.GHICH=C3=9ACHOQC"><strong>5. GHI CH=C3=
+=9A CHO QC</strong></h2>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_132_8644670.1776492411260--

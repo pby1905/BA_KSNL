@@ -1,0 +1,468 @@
+Date: Tue, 5 May 2026 15:15:12 +0700 (ICT)
+Message-ID: <1409530070.17.1777968912443@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_1816928223.1777968912442"
+
+------=_Part_16_1816928223.1777968912442
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-19: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Search/Sor=
+t/Filter</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-19: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Search/Sort/F=
+ilter</h1>
+    <div class=3D"Section1">
+        <h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADn=
+NLkh=C3=A1ch]Search/Sort/Filter-1.USERSTORY">1. USER STORY</h3>
+<ul>
+ <li class=3D"code-line" data-uuid=3D"1fd36c7a-040b-42c1-b9c5-19b9788ee0f9"=
+><strong>L=C3=A0 m=E1=BB=99t (As a):</strong><span>&nbsp;</span>Nh=C3=A2n v=
+i=C3=AAn ti=E1=BA=BFp nh=E1=BA=ADn nguy=C3=AAn li=E1=BB=87u / Tr=C6=B0=E1=
+=BB=9Fng b=E1=BB=99 ph=E1=BA=ADn Material Control (MC).<span> </span></li>
+ <li class=3D"code-line" data-uuid=3D"ad31a6b0-33f5-42df-a3da-16ac9369ef69"=
+><strong>T=C3=B4i mu=E1=BB=91n (I want):</strong><span>&nbsp;</span>T=C3=AC=
+m ki=E1=BA=BFm, l=E1=BB=8Dc v=C3=A0 s=E1=BA=AFp x=E1=BA=BFp danh s=C3=A1ch =
+c=C3=A1c phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn nguy=C3=AAn li=E1=BB=87u.<=
+span> </span></li>
+ <li class=3D"code-line" data-uuid=3D"d3fe6200-491b-47f4-b930-44b7562be5f1"=
+><strong>=C4=90=E1=BB=83 (So that):</strong><span>&nbsp;</span>T=C3=B4i c=
+=C3=B3 th=E1=BB=83 d=E1=BB=85 d=C3=A0ng tra c=E1=BB=A9u, qu=E1=BA=A3n l=C3=
+=BD kh=E1=BB=91i l=C6=B0=E1=BB=A3ng c=C3=B4ng vi=E1=BB=87c, v=C3=A0 theo d=
+=C3=B5i ti=E1=BA=BFn =C4=91=E1=BB=99 x=E1=BB=AD l=C3=BD c=E1=BB=A7a t=E1=BB=
+=ABng phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn m=E1=BB=99t c=C3=A1ch nhanh c=
+h=C3=B3ng v=C3=A0 ch=C3=ADnh x=C3=A1c.</li>
+</ul>
+<hr>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-2.TI=C3=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=ACN(ACCEPT=
+ANCECRITERIA-AC)">2. TI=C3=8AU CH=C3=8D CH=E1=BA=A4P NH=E1=BA=ACN (ACCEPTAN=
+CE CRITERIA - AC)</h3>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-AC1:T=C3=ACmki=E1=BA=BFmnhanh(GlobalSearch)">AC 1:=
+ T=C3=ACm ki=E1=BA=BFm nhanh (Global Search)</h3>
+<p class=3D"code-line"><strong>Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong><=
+span>&nbsp;</span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng =C4=91ang =E1=BB=9F m=C3=A0n=
+ h=C3=ACnh "Danh s=C3=A1ch phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn NL".<spa=
+n>&nbsp;<br></span><strong>When (Khi):</strong><span>&nbsp;</span>Ng=C6=B0=
+=E1=BB=9Di d=C3=B9ng nh=E1=BA=ADp t=E1=BB=AB kh=C3=B3a v=C3=A0o =C3=B4 t=C3=
+=ACm ki=E1=BA=BFm (Search bar) v=C3=A0 nh=E1=BA=A5n Enter (ho=E1=BA=B7c Ico=
+n Search).<span>&nbsp;<br></span><strong>Then (Th=C3=AC):</strong><span>&nb=
+sp;</span>H=E1=BB=87 th=E1=BB=91ng t=C3=ACm ki=E1=BA=BFm v=C3=A0 hi=E1=BB=
+=83n th=E1=BB=8B c=C3=A1c phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn c=C3=B3 c=
+h=E1=BB=A9a t=E1=BB=AB kh=C3=B3a (T=C3=ACm ki=E1=BA=BFm t=C6=B0=C6=A1ng =C4=
+=91=E1=BB=91i - Like) t=E1=BA=A1i m=E1=BB=99t trong c=C3=A1c tr=C6=B0=E1=BB=
+=9Dng sau:</p>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"fbed7eba-4e80-4514-a86e-bba1c2b337d1"=
+>M=C3=A3 phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn</li>
+ <li class=3D"code-line" data-uuid=3D"2d2b06df-0341-466c-b032-8bef409d9a81"=
+>T=C3=AAn Kh=C3=A1ch h=C3=A0ng</li>
+ <li class=3D"code-line" data-uuid=3D"6d6c9f6a-4a86-4434-bdd7-b9e8c1deeeb3"=
+>M=C3=A3 Kh=C3=A1ch h=C3=A0ng</li>
+ <li class=3D"code-line" data-uuid=3D"144bff8c-f2bc-4d2c-81eb-5bc70d6f0cca"=
+>L=C3=B4 (Lot)</li>
+</ul>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-AC2:B=E1=BB=99l=E1=BB=8Dc(Filter)theodanhm=E1=BB=
+=A5cc=C3=B3s=E1=BA=B5nv=C3=A0th=E1=BB=9Digian">AC 2: B=E1=BB=99 l=E1=BB=8Dc=
+ (Filter) theo danh m=E1=BB=A5c c=C3=B3 s=E1=BA=B5n v=C3=A0 th=E1=BB=9Di gi=
+an</h3>
+<p class=3D"code-line"><strong>Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong><=
+span>&nbsp;</span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng m=E1=BB=9F khu v=E1=BB=B1c/p=
+opup B=E1=BB=99 l=E1=BB=8Dc n=C3=A2ng cao.<span>&nbsp;<br></span><strong>Wh=
+en (Khi):</strong><span>&nbsp;</span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng thao t=C3=
+=A1c ch=E1=BB=8Dn c=C3=A1c =C4=91i=E1=BB=81u ki=E1=BB=87n l=E1=BB=8Dc:</p>
+<ol class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"d807e831-b4e5-4adc-8e6b-37414b11b4bd"=
+><strong>Th=E1=BB=9Di gian nh=E1=BA=ADn (Date Range):</strong><span>&nbsp;<=
+/span>Ch=E1=BB=8Dn "T=E1=BB=AB ng=C3=A0y" (From) v=C3=A0 "=C4=90=E1=BA=BFn =
+ng=C3=A0y" (To).</li>
+ <li class=3D"code-line" data-uuid=3D"7998984a-439b-43c1-8e15-3d976c160c99"=
+><strong>Tr=C6=B0=E1=BB=9Dng c=C3=B3 danh s=C3=A1ch (Master Data / Dropdown=
+):</strong><span>&nbsp;</span>Cho ph=C3=A9p ch=E1=BB=8Dn m=E1=BB=99t ho=E1=
+=BA=B7c nhi=E1=BB=81u (Multi-select) c=C3=A1c gi=C3=A1 tr=E1=BB=8B trong da=
+nh s=C3=A1ch c=C3=B3 s=E1=BA=B5n:=20
+  <ul class=3D"code-line">
+   <li class=3D"code-line">Tr=E1=BA=A1ng th=C3=A1i phi=E1=BA=BFu (Nh=C3=A1p=
+, =C4=90ang th=E1=BB=B1c hi=E1=BB=87n, Ch=E1=BB=9D x=C3=A1c nh=E1=BA=ADn, H=
+o=C3=A0n th=C3=A0nh, Tr=E1=BA=A3 h=C3=A0ng, H=E1=BB=A7y)</li>
+   <li class=3D"code-line">Kh=C3=A1ch h=C3=A0ng</li>
+   <li class=3D"code-line">
+    <h3 id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=A1ch]Search/Sort=
+/Filter-T=C3=ACnhtr=E1=BA=A1ngbaob=C3=AC">T=C3=ACnh tr=E1=BA=A1ng bao b=C3=
+=AC</h3></li>
+   <li class=3D"code-line">Ng=C6=B0=E1=BB=9Di t=E1=BA=A1o / Ng=C6=B0=E1=BB=
+=9Di ph=E1=BB=A5 tr=C3=A1ch<span>&nbsp;</span><strong>Then (Th=C3=AC):</str=
+ong><span>&nbsp;</span>H=E1=BB=87 th=E1=BB=91ng l=E1=BA=ADp t=E1=BB=A9c (ho=
+=E1=BA=B7c sau khi b=E1=BA=A5m n=C3=BAt "=C3=81p d=E1=BB=A5ng") l=E1=BB=8Dc=
+ danh s=C3=A1ch theo =C4=91i=E1=BB=81u ki=E1=BB=87n k=E1=BA=BFt h=E1=BB=A3p=
+ (Logic AND) gi=E1=BB=AFa c=C3=A1c tr=C6=B0=E1=BB=9Dng =C4=91=C3=A3 ch=E1=
+=BB=8Dn v=C3=A0 tr=E1=BA=A3 v=E1=BB=81 k=E1=BA=BFt qu=E1=BA=A3 t=C6=B0=C6=
+=A1ng =E1=BB=A9ng.</li>
+  </ul></li>
+</ol>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-AC3:S=E1=BA=AFpx=E1=BA=BFpd=E1=BB=AFli=E1=BB=87u(S=
+ort)">AC 3: S=E1=BA=AFp x=E1=BA=BFp d=E1=BB=AF li=E1=BB=87u (Sort)</h3>
+<p class=3D"code-line"><strong>Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong><=
+span>&nbsp;</span>Danh s=C3=A1ch phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn =
+=C4=91ang hi=E1=BB=83n th=E1=BB=8B d=E1=BB=AF li=E1=BB=87u.<span>&nbsp;<br>=
+</span><strong>Then (Th=C3=AC):</strong></p>
+<ol class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"f91191db-ec99-4bb1-9f22-bb827bfed72b"=
+><strong>S=E1=BA=AFp x=E1=BA=BFp m=E1=BA=B7c =C4=91=E1=BB=8Bnh:</strong><sp=
+an>&nbsp;</span>D=E1=BB=AF li=E1=BB=87u hi=E1=BB=83n th=E1=BB=8B s=E1=BA=AF=
+p x=E1=BA=BFp theo<span>&nbsp;</span><strong>"Ng=C3=A0y nh=E1=BA=ADn" m=E1=
+=BB=9Bi nh=E1=BA=A5t l=C3=AAn =C4=91=E1=BA=A7u</strong><span>&nbsp;</span>(=
+Descending).</li>
+ <li class=3D"code-line" data-uuid=3D"81970688-bcb7-46a4-85eb-e6ed111b14ac"=
+><strong>S=E1=BA=AFp x=E1=BA=BFp t=C3=B9y ch=E1=BB=8Dn:</strong><span>&nbsp=
+;</span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng c=C3=B3 th=E1=BB=83 click v=C3=A0o ti=
+=C3=AAu =C4=91=E1=BB=81 c=C3=A1c c=E1=BB=99t (Column Header) =C4=91=E1=BB=
+=83 s=E1=BA=AFp x=E1=BA=BFp T=C4=83ng d=E1=BA=A7n (Ascending) ho=E1=BA=B7c =
+Gi=E1=BA=A3m d=E1=BA=A7n (Descending) theo c=C3=A1c c=E1=BB=99t sau:=20
+  <ul class=3D"code-line">
+   <li class=3D"code-line">M=C3=A3 phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn<=
+/li>
+   <li class=3D"code-line">Ng=C3=A0y nh=E1=BA=ADn</li>
+   <li class=3D"code-line">Kh=C3=A1ch h=C3=A0ng</li>
+   <li class=3D"code-line">Tr=E1=BA=A1ng th=C3=A1i</li>
+  </ul></li>
+</ol>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-AC4:Tr=E1=BA=A1ngth=C3=A1it=C6=B0=C6=A1ngt=C3=A1cb=
+=E1=BB=99l=E1=BB=8Dc">AC 4: Tr=E1=BA=A1ng th=C3=A1i t=C6=B0=C6=A1ng t=C3=A1=
+c b=E1=BB=99 l=E1=BB=8Dc</h3>
+<p class=3D"code-line"><strong>Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong><=
+span>&nbsp;</span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng =C4=91ang thao t=C3=A1c t=C3=
+=ACm ki=E1=BA=BFm/l=E1=BB=8Dc.<span>&nbsp;<br></span><strong>Then (Th=C3=AC=
+):</strong></p>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"a07eefaf-a097-480f-88ee-119adccbe76a"=
+><strong>Tr=C6=B0=E1=BB=9Dng h=E1=BB=A3p kh=C3=B4ng c=C3=B3 k=E1=BA=BFt qu=
+=E1=BA=A3:</strong><span>&nbsp;</span>N=E1=BA=BFu kh=C3=B4ng c=C3=B3 phi=E1=
+=BA=BFu n=C3=A0o kh=E1=BB=9Bp v=E1=BB=9Bi =C4=91i=E1=BB=81u ki=E1=BB=87n, l=
+=C6=B0=E1=BB=9Bi d=E1=BB=AF li=E1=BB=87u (Grid) tr=E1=BB=91ng v=C3=A0 hi=E1=
+=BB=83n th=E1=BB=8B th=C3=B4ng b=C3=A1o "Kh=C3=B4ng t=C3=ACm th=E1=BA=A5y d=
+=E1=BB=AF li=E1=BB=87u ph=C3=B9 h=E1=BB=A3p v=E1=BB=9Bi =C4=91i=E1=BB=81u k=
+i=E1=BB=87n t=C3=ACm ki=E1=BA=BFm".</li>
+ <li class=3D"code-line code-active-line" data-uuid=3D"4c8dccfb-cc58-4b82-9=
+209-ed2fdd1b256f"><strong>X=C3=B3a b=E1=BB=99 l=E1=BB=8Dc (Clear Filters):<=
+/strong><span>&nbsp;</span>H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=BB=
+=8B n=C3=BAt "X=C3=B3a b=E1=BB=99 l=E1=BB=8Dc". Khi click v=C3=A0o, t=E1=BA=
+=A5t c=E1=BA=A3 c=C3=A1c tham s=E1=BB=91 Search/Filter s=E1=BA=BD b=E1=BB=
+=8B reset v=C3=A0 danh s=C3=A1ch quay l=E1=BA=A1i tr=E1=BA=A1ng th=C3=A1i h=
+i=E1=BB=83n th=E1=BB=8B m=E1=BA=B7c =C4=91=E1=BB=8Bnh (xem AC 3).</li>
+</ul>
+<hr>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-3.THI=E1=BA=BETK=E1=BA=BE(UX/UI)">3. THI=E1=BA=BET=
+ K=E1=BA=BE (UX/UI)</h3>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"21709d82-6eaf-4209-9423-15fd28aa3fd0"=
+><em>Link Figma:</em><span>&nbsp;</span>(Ch=E1=BB=9D c=E1=BA=ADp nh=E1=BA=
+=ADt theo thi=E1=BA=BFt k=E1=BA=BF d=E1=BB=B1 =C3=A1n).</li>
+ <li class=3D"code-line" data-uuid=3D"882a6293-78a6-43ca-8edd-abf534c44c6b"=
+>Khung t=C3=ACm ki=E1=BA=BFm (Search bar) =C4=91=E1=BA=B7t =E1=BB=9F g=C3=
+=B3c tr=C3=AAn b=C3=AAn ph=E1=BA=A3i ho=E1=BA=B7c b=C3=AAn tr=C3=A1i ph=C3=
+=ADa tr=C3=AAn l=C6=B0=E1=BB=9Bi danh s=C3=A1ch.</li>
+ <li class=3D"code-line" data-uuid=3D"db6952b2-3206-4c37-9e03-3fd07dee2095"=
+>N=C3=BAt "B=E1=BB=99 l=E1=BB=8Dc" (Filter) n=E1=BA=B1m c=E1=BA=A1nh Search=
+ bar, c=C3=B3 th=E1=BB=83 hi=E1=BB=83n th=E1=BB=8B s=E1=BB=91 l=C6=B0=E1=BB=
+=A3ng =C4=91i=E1=BB=81u ki=E1=BB=87n =C4=91ang =C4=91=C6=B0=E1=BB=A3c =C3=
+=A1p d=E1=BB=A5ng (VD: Filter (2)).</li>
+</ul>
+<hr>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-4.QUYT=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=A4(BUSINESSR=
+ULES)">4. QUY T=E1=BA=AEC NGHI=E1=BB=86P V=E1=BB=A4 (BUSINESS RULES)</h3>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"0cbea087-5982-4266-aa95-c9875e2343fa"=
+><strong>BR-01:</strong><span>&nbsp;</span>R=C3=A0ng bu=E1=BB=99c l=E1=BB=
+=8Dc th=E1=BB=9Di gian: "T=E1=BB=AB ng=C3=A0y" (From Date) ph=E1=BA=A3i lu=
+=C3=B4n nh=E1=BB=8F h=C6=A1n ho=E1=BA=B7c b=E1=BA=B1ng "=C4=90=E1=BA=BFn ng=
+=C3=A0y" (To Date). N=E1=BA=BFu ng=C6=B0=E1=BB=9Di d=C3=B9ng ch=E1=BB=8Dn s=
+ai, h=E1=BB=87 th=E1=BB=91ng c=E1=BA=A3nh b=C3=A1o ho=E1=BA=B7c t=E1=BB=B1 =
+=C4=91=E1=BB=99ng disable c=C3=A1c ng=C3=A0y kh=C3=B4ng h=E1=BB=A3p l=E1=BB=
+=87.</li>
+ <li class=3D"code-line" data-uuid=3D"2f0315ad-a388-4397-8d83-1aac559340fe"=
+><strong>BR-02:</strong><span>&nbsp;</span>Reset Pagination: Khi c=C3=B3 b=
+=E1=BA=A5t k=E1=BB=B3 thay =C4=91=E1=BB=95i n=C3=A0o v=E1=BB=81 tham s=E1=
+=BB=91 Search/Filter/Sort, h=E1=BB=87 th=E1=BB=91ng ph=E1=BA=A3i t=E1=BB=B1=
+ =C4=91=E1=BB=99ng load l=E1=BA=A1i trang danh s=C3=A1ch v=E1=BB=81 Trang 1=
+ (Page 1).</li>
+ <li class=3D"code-line" data-uuid=3D"0851fb92-72a2-4ebf-884d-0d5581c7facd"=
+><strong>BR-03:</strong><span>&nbsp;</span>C=C3=A1c tr=C6=B0=E1=BB=9Dng c=
+=C3=B3 danh s=C3=A1ch (Dropdown Filter) ch=E1=BB=89 hi=E1=BB=83n th=E1=BB=
+=8B c=C3=A1c gi=C3=A1 tr=E1=BB=8B Master Data =C4=91ang =C4=91=C6=B0=E1=BB=
+=A3c active (Hi=E1=BB=87u l=E1=BB=B1c).</li>
+</ul>
+<hr>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-5.GHICH=C3=9AK=E1=BB=B8THU=E1=BA=ACT&amp;VALIDATIO=
+N(TECHNOTES)">5. GHI CH=C3=9A K=E1=BB=B8 THU=E1=BA=ACT &amp; VALIDATION (TE=
+CH NOTES)</h3>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"97d7fece-efa8-47ad-9574-c800250ef28a"=
+><strong>Performance:</strong><span>&nbsp;</span>T=C3=ACm ki=E1=BA=BFm theo=
+ "T=C3=AAn Kh=C3=A1ch h=C3=A0ng" (Text) tr=C3=AAn d=E1=BB=AF li=E1=BB=87u l=
+=E1=BB=9Bn c=E1=BA=A7n =C4=91=E1=BA=A3m b=E1=BA=A3o query t=E1=BB=91i =C6=
+=B0u ho=E1=BA=B7c s=E1=BB=AD d=E1=BB=A5ng index =E1=BB=9F Database.</li>
+ <li class=3D"code-line" data-uuid=3D"2972d920-54cf-4f5b-9077-77cc75e151aa"=
+>Khi ng=C6=B0=E1=BB=9Di d=C3=B9ng click v=C3=A0o xem chi ti=E1=BA=BFt 1 phi=
+=E1=BA=BFu, sau =C4=91=C3=B3 b=E1=BA=A5m n=C3=BAt "Back" ho=E1=BA=B7c quay =
+l=E1=BA=A1i danh s=C3=A1ch, h=E1=BB=87 th=E1=BB=91ng n=C3=AAn<span>&nbsp;</=
+span><strong>gi=E1=BB=AF nguy=C3=AAn (retain)</strong><span>&nbsp;</span>c=
+=C3=A1c tham s=E1=BB=91 b=E1=BB=99 l=E1=BB=8Dc/sort/pagination tr=C6=B0=E1=
+=BB=9Bc =C4=91=C3=B3.</li>
+</ul>
+<hr>
+<h3 class=3D"code-line" id=3D"id-=E2=9C=85CS1.E1.US19:[Nh=E1=BA=ADnNLkh=C3=
+=A1ch]Search/Sort/Filter-6.GHICH=C3=9ACHOQC(TESTCASES)">6. GHI CH=C3=9A CHO=
+ QC (TEST CASES)</h3>
+<ul class=3D"code-line">
+ <li class=3D"code-line" data-uuid=3D"ee2e71c0-9988-4044-adef-73b0d8f9b800"=
+><strong>TC1:</strong><span>&nbsp;</span>Ki=E1=BB=83m th=E1=BB=AD nh=E1=BA=
+=ADp k=C3=BD t=E1=BB=B1 =C4=91=E1=BA=B7c bi=E1=BB=87t (!@#$%^) v=C3=A0o =C3=
+=B4 Search xem h=E1=BB=87 th=E1=BB=91ng c=C3=B3 b=E1=BB=8B l=E1=BB=97i SQL =
+Injection ho=E1=BA=B7c crash kh=C3=B4ng.</li>
+ <li class=3D"code-line" data-uuid=3D"861f2a34-27dc-4e13-83be-517d70a6b5d3"=
+><strong>TC2:</strong><span>&nbsp;</span>Ki=E1=BB=83m th=E1=BB=AD logic k=
+=E1=BA=BFt h=E1=BB=A3p (AND): V=E1=BB=ABa nh=E1=BA=ADp Search t=E1=BB=AB kh=
+=C3=B3a, v=E1=BB=ABa ch=E1=BB=8Dn Filter tr=E1=BA=A1ng th=C3=A1i =3D "=C4=
+=90ang th=E1=BB=B1c hi=E1=BB=87n", ki=E1=BB=83m tra xem k=E1=BA=BFt qu=E1=
+=BA=A3 tr=E1=BA=A3 v=E1=BB=81 c=C3=B3 th=E1=BB=8Fa m=C3=A3n c=E1=BA=A3 2 =
+=C4=91i=E1=BB=81u ki=E1=BB=87n kh=C3=B4ng.</li>
+ <li class=3D"code-line" data-uuid=3D"ef1b8660-6b7f-4786-ba60-9926b33557aa"=
+><strong>TC3:</strong><span>&nbsp;</span>Ki=E1=BB=83m th=E1=BB=AD ng=C3=A0y=
+ "T=E1=BB=AB ng=C3=A0y" v=C3=A0 "=C4=90=E1=BA=BFn ng=C3=A0y" tr=C3=B9ng nha=
+u (VD: c=C3=B9ng ch=E1=BB=8Dn ng=C3=A0y h=C3=B4m nay) -&gt; Ph=E1=BA=A3i ra=
+ c=C3=A1c phi=E1=BA=BFu nh=E1=BA=ADn trong ng=C3=A0y h=C3=B4m nay.</li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_16_1816928223.1777968912442--

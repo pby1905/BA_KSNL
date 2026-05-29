@@ -1,0 +1,460 @@
+Date: Sat, 18 Apr 2026 13:06:55 +0700 (ICT)
+Message-ID: <1309913663.135.1776492415928@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134_1110663014.1776492415928"
+
+------=_Part_134_1110663014.1776492415928
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-03: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=C3=B3a n=
+h=C3=A1p</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-03: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=C3=B3a nh=
+=C3=A1p</h1>
+    <div class=3D"Section1">
+        <h2 data-path-to-node=3D"4" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=
+=ADnNLkh=C3=A1ch]X=C3=B3anh=C3=A1p-1.USERSTORY"><strong>1. USER STORY</stro=
+ng></h2>
+<p data-path-to-node=3D"5"><strong data-path-to-node=3D"5" data-index-in-no=
+de=3D"0">L=C3=A0 m=E1=BB=99t (As a):</strong> Nh=C3=A2n vi=C3=AAn ti=E1=BA=
+=BFp nh=E1=BA=ADn nguy=C3=AAn li=E1=BB=87u</p>
+<p data-path-to-node=3D"6"><strong data-path-to-node=3D"6" data-index-in-no=
+de=3D"0">T=C3=B4i mu=E1=BB=91n (I want):</strong> X=C3=B3a c=C3=A1c phi=E1=
+=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn nguy=C3=AAn li=E1=BB=87u =C4=91ang =E1=BB=
+=9F tr=E1=BA=A1ng th=C3=A1i "B=E1=BA=A3n nh=C3=A1p".</p>
+<p data-path-to-node=3D"7"><strong data-path-to-node=3D"7" data-index-in-no=
+de=3D"0">=C4=90=E1=BB=83 (So that):</strong> Lo=E1=BA=A1i b=E1=BB=8F c=C3=
+=A1c phi=E1=BA=BFu t=E1=BA=A1o sai ho=E1=BA=B7c kh=C3=B4ng c=C3=B2n nhu c=
+=E1=BA=A7u x=E1=BB=AD l=C3=BD, gi=C3=BAp danh s=C3=A1ch phi=E1=BA=BFu ti=E1=
+=BA=BFp nh=E1=BA=ADn =C4=91=C6=B0=E1=BB=A3c g=E1=BB=8Dn g=C3=A0ng v=C3=A0 c=
+h=C3=ADnh x=C3=A1c.</p>
+<hr data-path-to-node=3D"8">
+<h2 data-path-to-node=3D"9" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLkh=
+=C3=A1ch]X=C3=B3anh=C3=A1p-2.TI=C3=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=ACN(ACCE=
+PTANCECRITERIA-AC)"><strong>2. TI=C3=8AU CH=C3=8D CH=E1=BA=A4P NH=E1=BA=ACN=
+ (ACCEPTANCE CRITERIA - AC)</strong></h2>
+<h3 data-path-to-node=3D"10" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-AC1:X=C3=B3ab=E1=BA=A3nnh=C3=A1pth=C3=A0nhc=C3=
+=B4ngt=E1=BB=ABm=C3=A0nh=C3=ACnhdanhs=C3=A1ch">AC 1: X=C3=B3a b=E1=BA=A3n n=
+h=C3=A1p th=C3=A0nh c=C3=B4ng t=E1=BB=AB m=C3=A0n h=C3=ACnh danh s=C3=A1ch<=
+/h3>
+<ul data-path-to-node=3D"11">
+ <li data-uuid=3D"14bafe99-0f59-4946-916e-31fb8e2a577d">
+  <p data-path-to-node=3D"11,0,0"><strong data-path-to-node=3D"11,0,0" data=
+-index-in-node=3D"0">Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong> Nh=C3=A2n =
+vi=C3=AAn =C4=91ang =E1=BB=9F m=C3=A0n h=C3=ACnh "Danh s=C3=A1ch phi=E1=BA=
+=BFu ti=E1=BA=BFp nh=E1=BA=ADn NL".</p></li>
+ <li data-uuid=3D"fb4fd282-047b-41b2-ae65-6cca488349a4">
+  <p data-path-to-node=3D"11,1,0"><strong data-path-to-node=3D"11,1,0" data=
+-index-in-node=3D"0">And (V=C3=A0):</strong> Phi=E1=BA=BFu ti=E1=BA=BFp nh=
+=E1=BA=ADn =C4=91=C6=B0=E1=BB=A3c ch=E1=BB=8Dn =C4=91ang c=C3=B3 tr=E1=BA=
+=A1ng th=C3=A1i l=C3=A0 <strong data-path-to-node=3D"11,1,0" data-index-in-=
+node=3D"58">"B=E1=BA=A3n nh=C3=A1p"</strong>.</p></li>
+ <li data-uuid=3D"142574cd-aa2a-482c-bd37-93e1b5668eb7">
+  <p data-path-to-node=3D"11,2,0"><strong data-path-to-node=3D"11,2,0" data=
+-index-in-node=3D"0">When (Khi):</strong> Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n =
+v=C3=A0o icon/n=C3=BAt "X=C3=B3a" v=C3=A0 x=C3=A1c nh=E1=BA=ADn t=E1=BA=A1i=
+ pop-up "B=E1=BA=A1n c=C3=B3 ch=E1=BA=AFc ch=E1=BA=AFn mu=E1=BB=91n x=C3=B3=
+a b=E1=BA=A3n nh=C3=A1p n=C3=A0y?".</p></li>
+ <li data-uuid=3D"91069d20-36a2-489e-8a09-c2f30bd31511">
+  <p data-path-to-node=3D"11,3,0"><strong data-path-to-node=3D"11,3,0" data=
+-index-in-node=3D"0">Then (Th=C3=AC):</strong> H=E1=BB=87 th=E1=BB=91ng hi=
+=E1=BB=83n th=E1=BB=8B th=C3=B4ng b=C3=A1o "X=C3=B3a b=E1=BA=A3n nh=C3=A1p =
+th=C3=A0nh c=C3=B4ng", phi=E1=BA=BFu bi=E1=BA=BFn m=E1=BA=A5t kh=E1=BB=8Fi =
+danh s=C3=A1ch hi=E1=BB=83n th=E1=BB=8B.</p></li>
+</ul>
+<h3 data-path-to-node=3D"12" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-AC2:Kh=C3=B4ngchoph=C3=A9px=C3=B3aphi=E1=BA=BFu=
+=C4=91=C3=A3l=C6=B0uch=C3=ADnhth=E1=BB=A9c">AC 2: Kh=C3=B4ng cho ph=C3=A9p =
+x=C3=B3a phi=E1=BA=BFu =C4=91=C3=A3 l=C6=B0u ch=C3=ADnh th=E1=BB=A9c</h3>
+<ul data-path-to-node=3D"13">
+ <li data-uuid=3D"c33d1d5b-9262-4aea-b9d1-be2f00d82224">
+  <p data-path-to-node=3D"13,0,0"><strong data-path-to-node=3D"13,0,0" data=
+-index-in-node=3D"0">Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong> Phi=E1=BA=
+=BFu ti=E1=BA=BFp nh=E1=BA=ADn =C4=91ang =E1=BB=9F tr=E1=BA=A1ng th=C3=A1i =
+kh=C3=A1c "B=E1=BA=A3n nh=C3=A1p" (VD: =C4=90ang th=E1=BB=B1c hi=E1=BB=87n,=
+ Ho=C3=A0n th=C3=A0nh).</p></li>
+ <li data-uuid=3D"ba62064e-0456-4035-9549-94656f839188"><strong data-path-t=
+o-node=3D"11,2,0" data-index-in-node=3D"0">When (Khi):</strong> Nh=C3=A2n v=
+i=C3=AAn nh=E1=BA=A5n v=C3=A0o icon/n=C3=BAt "X=C3=B3a" .</li>
+ <li data-uuid=3D"d7bfb287-7229-4c6c-88d6-d35504031abf">
+  <p data-path-to-node=3D"13,2,0"><strong data-path-to-node=3D"13,2,0" data=
+-index-in-node=3D"0">Then (Th=C3=AC):</strong> N=C3=BAt "X=C3=B3a" b=E1=BB=
+=8B =E1=BA=A9n (Hidden) ho=E1=BA=B7c b=E1=BB=8B v=C3=B4 hi=E1=BB=87u h=C3=
+=B3a (Disabled) =C4=91=E1=BB=83 ng=C4=83n ch=E1=BA=B7n vi=E1=BB=87c x=C3=B3=
+a c=C3=A1c phi=E1=BA=BFu =C4=91=C3=A3 ph=C3=A1t sinh nghi=E1=BB=87p v=E1=BB=
+=A5.</p></li>
+</ul>
+<h3 data-path-to-node=3D"14" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-AC3:H=E1=BB=A7yb=E1=BB=8Fthaot=C3=A1cx=C3=B3a">=
+AC 3: H=E1=BB=A7y b=E1=BB=8F thao t=C3=A1c x=C3=B3a</h3>
+<ul data-path-to-node=3D"15">
+ <li data-uuid=3D"3d21b38b-3ec3-4f83-9a3f-2cccf5912718">
+  <p data-path-to-node=3D"15,0,0"><strong data-path-to-node=3D"15,0,0" data=
+-index-in-node=3D"0">Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong> Pop-up x=
+=C3=A1c nh=E1=BA=ADn x=C3=B3a =C4=91ang hi=E1=BB=83n th=E1=BB=8B.</p></li>
+ <li data-uuid=3D"d5f6b150-9ccd-4754-8478-04d0156d1bdb">
+  <p><strong>When (Khi):</strong> Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n n=C3=BAt=
+ "H=E1=BB=A7y" ho=E1=BA=B7c "=C4=90=C3=B3ng".</p></li>
+ <li data-uuid=3D"b688e7cb-a8c4-4d81-baf6-53d77c723e42">
+  <p data-path-to-node=3D"15,2,0"><strong data-path-to-node=3D"15,2,0" data=
+-index-in-node=3D"0">Then (Th=C3=AC):</strong> H=E1=BB=87 th=E1=BB=91ng =C4=
+=91=C3=B3ng pop-up, phi=E1=BA=BFu v=E1=BA=ABn gi=E1=BB=AF nguy=C3=AAn tr=E1=
+=BA=A1ng th=C3=A1i "B=E1=BA=A3n nh=C3=A1p" v=C3=A0 kh=C3=B4ng c=C3=B3 thay =
+=C4=91=E1=BB=95i n=C3=A0o x=E1=BA=A3y ra.</p></li>
+</ul>
+<hr data-path-to-node=3D"16">
+<h2 data-path-to-node=3D"17" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-3.THI=E1=BA=BETK=E1=BA=BE(UX/UI)"><strong>3. TH=
+I=E1=BA=BET K=E1=BA=BE (UX/UI)</strong></h2>
+<p><br></p>
+<hr data-path-to-node=3D"19">
+<h2 data-path-to-node=3D"20" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-4.QUYT=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=A4(BUSINE=
+SSRULES)"><strong>4. QUY T=E1=BA=AEC NGHI=E1=BB=86P V=E1=BB=A4 (BUSINESS RU=
+LES)</strong></h2>
+<ul data-path-to-node=3D"21">
+ <li data-uuid=3D"5e5b66c5-c2d0-4b0a-9896-006589b7cfaf">
+  <p data-path-to-node=3D"21,0,0"><strong data-path-to-node=3D"21,0,0" data=
+-index-in-node=3D"0">BR-01 (Tr=E1=BA=A1ng th=C3=A1i):</strong> Ch=E1=BB=89 =
+cho ph=C3=A9p x=C3=B3a c=C3=A1c phi=E1=BA=BFu c=C3=B3 <code data-path-to-no=
+de=3D"21,0,0" data-index-in-node=3D"50">Status =3D DRAFT</code>.</p></li>
+ <li data-uuid=3D"9e7af0ba-3fcf-40e0-b0cc-95f8620647d5">
+  <p data-path-to-node=3D"21,1,0"><strong data-path-to-node=3D"21,1,0" data=
+-index-in-node=3D"0">BR-02 (Quy=E1=BB=81n h=E1=BA=A1n):</strong> Ch=E1=BB=
+=89 ng=C6=B0=E1=BB=9Di t=E1=BA=A1o ra b=E1=BA=A3n nh=C3=A1p =C4=91=C3=B3 ho=
+=E1=BA=B7c ng=C6=B0=E1=BB=9Di c=C3=B3 Role "Qu=E1=BA=A3n l=C3=BD/Admin" m=
+=E1=BB=9Bi c=C3=B3 quy=E1=BB=81n x=C3=B3a. Nh=C3=A2n vi=C3=AAn kh=C3=A1c kh=
+=C3=B4ng nh=C3=ACn th=E1=BA=A5y n=C3=BAt x=C3=B3a tr=C3=AAn b=E1=BA=A3n nh=
+=C3=A1p c=E1=BB=A7a ng=C6=B0=E1=BB=9Di kh=C3=A1c.</p></li>
+ <li data-uuid=3D"89f73a01-0f53-4345-8638-d15376129334">
+  <p data-path-to-node=3D"21,2,0"><strong data-path-to-node=3D"21,2,0" data=
+-index-in-node=3D"0">BR-03 (L=E1=BB=8Bch s=E1=BB=AD):</strong> H=E1=BB=87 t=
+h=E1=BB=91ng th=E1=BB=B1c hi=E1=BB=87n <strong data-path-to-node=3D"21,2,0"=
+ data-index-in-node=3D"36">Soft Delete</strong> (kh=C3=B4ng x=C3=B3a h=E1=
+=BA=B3n kh=E1=BB=8Fi DB m=C3=A0 c=E1=BA=ADp nh=E1=BA=ADt <code data-path-to=
+-node=3D"21,2,0" data-index-in-node=3D"83">is_deleted =3D true</code>) =C4=
+=91=E1=BB=83 ph=E1=BB=A5c v=E1=BB=A5 vi=E1=BB=87c truy xu=E1=BA=A5t log khi=
+ c=E1=BA=A7n thi=E1=BA=BFt.</p></li>
+</ul>
+<hr data-path-to-node=3D"22">
+<h2 data-path-to-node=3D"23" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-5.GHICH=C3=9AK=E1=BB=B8THU=E1=BA=ACT&amp;VALIDA=
+TION(TECHNOTES)"><strong>5. GHI CH=C3=9A K=E1=BB=B8 THU=E1=BA=ACT &amp; VAL=
+IDATION (TECH NOTES)</strong></h2>
+<h3 data-path-to-node=3D"24" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-5.1Workflowvalidation">5.1 Workflow validation<=
+/h3>
+<ul data-path-to-node=3D"25">
+ <li data-uuid=3D"93efb83a-fc84-447a-938a-565ec07f471e">
+  <p data-path-to-node=3D"25,0,0">Ki=E1=BB=83m tra tr=E1=BA=A1ng th=C3=A1i =
+phi=E1=BA=BFu =E1=BB=9F ph=C3=ADa Backend tr=C6=B0=E1=BB=9Bc khi th=E1=BB=
+=B1c hi=E1=BB=87n l=E1=BB=87nh x=C3=B3a =C4=91=E1=BB=83 tr=C3=A1nh tr=C6=B0=
+=E1=BB=9Dng h=E1=BB=A3p ng=C6=B0=E1=BB=9Di d=C3=B9ng m=E1=BB=9F 2 tab, 1 ta=
+b =C4=91=C3=A3 nh=E1=BA=A5n L=C6=B0u ch=C3=ADnh th=E1=BB=A9c nh=C6=B0ng tab=
+ kia v=E1=BA=ABn nh=E1=BA=A5n X=C3=B3a nh=C3=A1p.</p></li>
+</ul>
+<h3 data-path-to-node=3D"26" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-5.2FieldDefinitionTable(ActionButton)">5.2 Fiel=
+d Definition Table (Action Button)</h3>
+<div class=3D"table-wrap">
+ <table class=3D"confluenceTable">
+  <thead class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>Field Name</strong></td>
+    <td class=3D"confluenceTd"><strong>Type</strong></td>
+    <td class=3D"confluenceTd"><strong>Description</strong></td>
+    <td class=3D"confluenceTd"><strong>Rules</strong></td>
+   </tr>
+  </thead>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,1,0,0"><strong=
+ data-path-to-node=3D"27,1,0,0" data-index-in-node=3D"0">N=C3=BAt X=C3=B3a<=
+/strong></span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,1,1,0">Button<=
+/span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,1,2,0">Th=E1=
+=BB=B1c hi=E1=BB=87n x=C3=B3a b=E1=BA=A3n nh=C3=A1p</span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,1,3,0">Ch=E1=
+=BB=89 Enable khi phi=E1=BA=BFu =E1=BB=9F tr=E1=BA=A1ng th=C3=A1i "B=E1=BA=
+=A3n nh=C3=A1p".</span></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,2,0,0"><strong=
+ data-path-to-node=3D"27,2,0,0" data-index-in-node=3D"0">N=C3=BAt X=C3=A1c =
+nh=E1=BA=ADn</strong></span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,2,1,0">Button<=
+/span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,2,2,0">X=C3=A1=
+c nh=E1=BA=ADn x=C3=B3a tr=C3=AAn Pop-up</span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,2,3,0">G=E1=BB=
+=8Di API c=E1=BA=ADp nh=E1=BA=ADt tr=E1=BA=A1ng th=C3=A1i x=C3=B3a.</span><=
+/td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,3,0,0"><strong=
+ data-path-to-node=3D"27,3,0,0" data-index-in-node=3D"0">N=C3=BAt H=E1=BB=
+=A7y</strong></span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,3,1,0">Button<=
+/span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,3,2,0">H=E1=BB=
+=A7y b=E1=BB=8F l=E1=BB=87nh x=C3=B3a</span></td>
+    <td class=3D"confluenceTd"><span data-path-to-node=3D"27,3,3,0">=C4=90=
+=C3=B3ng Modal.</span></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<hr data-path-to-node=3D"28">
+<h2 data-path-to-node=3D"29" id=3D"id-=E2=9C=85CS1.E1.US03:[Nh=E1=BA=ADnNLk=
+h=C3=A1ch]X=C3=B3anh=C3=A1p-6.GHICH=C3=9ACHOQC">6. GHI CH=C3=9A CHO QC</h2>
+<ul data-path-to-node=3D"30">
+ <li data-uuid=3D"f5cdb708-8c34-40d2-9ef4-ee9769353944">
+  <p data-path-to-node=3D"30,0,0"><strong data-path-to-node=3D"30,0,0" data=
+-index-in-node=3D"0">Ki=E1=BB=83m tra ph=C3=A2n quy=E1=BB=81n:</strong> D=
+=C3=B9ng t=C3=A0i kho=E1=BA=A3n Nh=C3=A2n vi=C3=AAn A =C4=91=E1=BB=83 x=C3=
+=B3a b=E1=BA=A3n nh=C3=A1p c=E1=BB=A7a Nh=C3=A2n vi=C3=AAn B (K=E1=BA=BFt q=
+u=E1=BA=A3 mong =C4=91=E1=BB=A3i: Kh=C3=B4ng th=E1=BA=A5y n=C3=BAt x=C3=B3a=
+).</p></li>
+ <li data-uuid=3D"230bd130-907f-4817-ab4f-9cf99a1cae43">
+  <p data-path-to-node=3D"30,1,0"><strong data-path-to-node=3D"30,1,0" data=
+-index-in-node=3D"0">Ki=E1=BB=83m tra tr=E1=BA=A1ng th=C3=A1i:</strong> Th=
+=E1=BB=AD d=C3=B9ng c=C3=B4ng c=E1=BB=A5 (Postman) g=E1=BB=ADi y=C3=AAu c=
+=E1=BA=A7u x=C3=B3a m=E1=BB=99t phi=E1=BA=BFu =C4=91=C3=A3 =E1=BB=9F tr=E1=
+=BA=A1ng th=C3=A1i "Ch=E1=BB=9D x=E1=BB=AD l=C3=BD" (K=E1=BA=BFt qu=E1=BA=
+=A3 mong =C4=91=E1=BB=A3i: Backend ph=E1=BA=A3i tr=E1=BA=A3 v=E1=BB=81 l=E1=
+=BB=97i 400 ho=E1=BA=B7c 403).</p></li>
+ <li data-uuid=3D"eee813ba-48e5-4429-8248-f19e4ed07cde">
+  <p data-path-to-node=3D"30,2,0"><strong data-path-to-node=3D"30,2,0" data=
+-index-in-node=3D"0">Ki=E1=BB=83m tra lu=E1=BB=93ng:</strong> Sau khi x=C3=
+=B3a th=C3=A0nh c=C3=B4ng, quay l=E1=BA=A1i m=C3=A0n h=C3=ACnh danh s=C3=A1=
+ch v=C3=A0 ki=E1=BB=83m tra t=E1=BB=95ng s=E1=BB=91 l=C6=B0=E1=BB=A3ng phi=
+=E1=BA=BFu (Total records) ph=E1=BA=A3i gi=E1=BA=A3m =C4=91i 1.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_134_1110663014.1776492415928--

@@ -1,0 +1,13 @@
+﻿ChÃªnh lá»‡ch|Weight Discrepancy
+Ghi chÃº|Remarks
+GiÃ¡ cÃ´ng - Seva|Labour Cost (Seva)
+KhÃ¡ch hÃ ng|Customer
+Khu vá»±c nháº­p kho|Storage Zone
+LÃ´|Lot
+NgÃ y nháº­n|Receipt date
+Quy 99.99 - CÃ´ng ná»£ Ä‘iá»u chá»‰nh|99.99 Equiv. Liability Adjustment
+Quy 99.99 - CÃ´ng ná»£|Net 99.99 Equiv. Liability Receipt
+TÃ¬nh tráº¡ng bao bÃ¬|Packaging condition
+TÃ­nh cÃ´ng ná»£|Liability Impact
+Trá»ng lÆ°á»£ng khÃ¡ch bÃ¡o|Declared gross weight
+Trá»ng lÆ°á»£ng thá»±c táº¿|Actual gross weight

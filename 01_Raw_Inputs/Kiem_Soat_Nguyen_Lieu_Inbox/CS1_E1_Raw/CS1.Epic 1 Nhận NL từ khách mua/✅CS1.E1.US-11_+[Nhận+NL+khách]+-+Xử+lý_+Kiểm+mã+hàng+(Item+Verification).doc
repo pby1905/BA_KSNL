@@ -1,0 +1,600 @@
+Date: Sat, 18 Apr 2026 13:07:55 +0700 (ICT)
+Message-ID: <1093984348.151.1776492475732@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_150_1751079031.1776492475732"
+
+------=_Part_150_1751079031.1776492475732
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-11: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD=
+ l=C3=BD: Ki=E1=BB=83m m=C3=A3 h=C3=A0ng (Item Verification)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-11: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD l=
+=C3=BD: Ki=E1=BB=83m m=C3=A3 h=C3=A0ng (Item Verification)</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=
+=ADl=C3=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-1.USERSTORY"><str=
+ong>1. USER STORY</strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t:</strong> Nh=C3=A2n vi=C3=AAn Ti=E1=BA=BFp n=
+h=E1=BA=ADn Nguy=C3=AAn li=E1=BB=87u</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n:</strong> Th=E1=BB=B1c hi=E1=BB=87n =C4=91=
+=E1=BB=91i so=C3=A1t m=C3=A3 s=E1=BA=A3n ph=E1=BA=A9m th=E1=BB=B1c t=E1=BA=
+=BF c=E1=BB=A7a kh=C3=A1ch h=C3=A0ng so v=E1=BB=9Bi danh m=E1=BB=A5c h=C3=
+=A0ng h=C3=B3a (Item) c=E1=BB=A7a c=C3=B4ng ty.&nbsp;</p>
+<p><strong>=C4=90=E1=BB=83:</strong> X=C3=A1c =C4=91=E1=BB=8Bnh ch=C3=ADnh =
+x=C3=A1c th=C3=B4ng tin h=C3=A0ng h=C3=B3a, =C4=91=E1=BA=A3m b=E1=BA=A3o t=
+=C3=ADnh nguy=C3=AAn b=E1=BA=A3n c=E1=BB=A7a s=E1=BA=A3n ph=E1=BA=A9m v=C3=
+=A0 ghi nh=E1=BA=ADn c=C3=A1c sai l=E1=BB=87ch v=E1=BB=81 th=C3=B4ng tin m=
+=C3=A3 h=C3=A0ng n=E1=BA=BFu c=C3=B3.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-2.TI=C3=8AUCH=C3=8DCH=E1=
+=BA=A4PNH=E1=BA=ACN(ACCEPTANCECRITERIA-AC)"><strong>2. TI=C3=8AU CH=C3=8D C=
+H=E1=BA=A4P NH=E1=BA=ACN (ACCEPTANCE CRITERIA - AC)</strong></h2>
+<p><strong>AC 1: Ki=E1=BB=83m m=C3=A3 h=C3=A0ng</strong></p>
+<ul>
+ <li data-uuid=3D"eee67773-afa8-4b00-94cf-d8670d837a26">
+  <p><strong>Given:</strong> Nh=C3=A2n vi=C3=AAn =C4=91o ph=E1=BB=95 m=E1=
+=BB=9F phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn, H=E1=BB=87 th=E1=BB=91ng hi=
+=E1=BB=83n th=E1=BB=8B danh s=C3=A1ch c=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=
+=BB=87u =C4=91=C3=A3 ti=E1=BA=BFp nh=E1=BA=ADn =E1=BB=9F b=C6=B0=E1=BB=9Bc =
+tr=C6=B0=E1=BB=9Bc.</p></li>
+ <li data-uuid=3D"97d08138-3821-4168-a8ea-916dbeb2158f"><strong>And:</stron=
+g> Nh=C3=A2n vi=C3=AAn ch=E1=BB=8Dn c=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=BB=
+=87u c=C3=B3:=20
+  <ul>
+   <li data-uuid=3D"d9bdc41a-1475-4778-9e63-d4c9bf921399">Lo=E1=BA=A1i =3D =
+"H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi" ho=E1=BA=B7c "H=C3=A0ng g=E1=BB=ADi s=
+=E1=BB=ADa".</li>
+   <li data-uuid=3D"ad48b55c-ecb1-4839-853c-c2639839f8ab">v=C3=A0, t=C3=ACn=
+h tr=E1=BA=A1ng =3D "=C4=90=C6=A1n h=C3=A0ng"</li>
+  </ul></li>
+ <li data-uuid=3D"bd1c86d0-a222-49a9-b601-0a5e5c7fe524"><strong>And: </stro=
+ng>Nh=E1=BA=A5n v=C3=A0o n=C3=BAt "Ki=E1=BB=83m m=C3=A3 h=C3=A0ng".</li>
+ <li data-uuid=3D"ef82e1a9-df63-416b-8f37-be0d65f85583">
+  <p><strong>When:</strong> H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=BB=
+=8B Modal "Ki=E1=BB=83m m=C3=A3 h=C3=A0ng" (nh=C6=B0 h=C3=ACnh =E1=BA=A3nh =
+thi=E1=BA=BFt k=E1=BA=BF).</p></li>
+ <li data-uuid=3D"22eb6f4f-2938-4dfe-9785-ff266c4358d9">
+  <p><strong>Then:</strong> Nh=C3=A2n vi=C3=AAn c=C3=B3 th=E1=BB=83 nh=E1=
+=BA=ADp th=C3=B4ng tin m=C3=A3 h=C3=A0ng t=C6=B0=C6=A1ng =E1=BB=A9ng cho t=
+=E1=BB=ABng d=C3=B2ng =C4=91=C6=B0=E1=BB=A3c ch=E1=BB=8Dn.</p></li>
+</ul>
+<p><strong>AC 2: Ki=E1=BB=83m l=E1=BA=A1i &amp; h=E1=BB=A7y x=C3=A1c nh=E1=
+=BA=ADn ch=C3=AAnh l=E1=BB=87ch</strong></p>
+<ul>
+ <li data-uuid=3D"6fe1701a-5d02-4730-9770-13571302ed6a"><strong>Given:&nbsp=
+;</strong>Nh=C3=A2n vi=C3=AAn ch=E1=BB=8Dn c=C3=A1c d=C3=B2ng nguy=C3=AAn l=
+i=E1=BB=87u c=C3=B3:=20
+  <ul>
+   <li>Lo=E1=BA=A1i =3D "H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi" ho=E1=BA=B7c "H=
+=C3=A0ng g=E1=BB=ADi s=E1=BB=ADa".</li>
+   <li>v=C3=A0, t=C3=ACnh tr=E1=BA=A1ng =3D "=C4=90=C6=A1n h=C3=A0ng"</li>
+  </ul>
+  <ul>
+   <li data-uuid=3D"1c008cc1-516c-4c94-9ebf-1d7fe271d64b">v=C3=A0, tr=E1=BA=
+=A1ng th=C3=A1i =3D "=C4=90ang x=E1=BB=AD l=C3=BD"&nbsp;</li>
+  </ul></li>
+ <li data-uuid=3D"866cc3b1-f34a-40fc-97a7-50656d1b8241"><strong>And:&nbsp;<=
+/strong>D=C3=B2ng nguy=C3=AAn li=E1=BB=87u n=C3=A0y c=C3=B3 x=E1=BB=AD l=C3=
+=BD ch=C3=AAnh l=E1=BB=87ch</li>
+ <li data-uuid=3D"221cb57c-9b9f-4be4-b0bb-042679dde512"><strong>When: </str=
+ong>Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n v=C3=A0o n=C3=BAt "Ki=E1=BB=83m m=C3=
+=A3 h=C3=A0ng"</li>
+ <li data-uuid=3D"f1b43885-10c9-4ae3-b0f4-8b37df5fcc01"><strong>Then: </str=
+ong>Hi=E1=BB=83n th=E1=BB=8B popup x=C3=A1c nh=E1=BA=ADn=20
+  <ul>
+   <li>VN: Phi=E1=BA=BFu X=E1=BB=AD l=C3=BD Ch=C3=AAnh l=E1=BB=87ch t=E1=BA=
+=A1i c=C3=A1c d=C3=B2ng {line 1, line 2...} s=E1=BA=BD chuy=E1=BB=83n sang =
+tr=E1=BA=A1ng th=C3=A1i "H=E1=BB=A7y". B=E1=BA=A1n c=C3=B3 ch=E1=BA=AFc ch=
+=E1=BA=AFn mu=E1=BB=91n ti=E1=BA=BFp t=E1=BB=A5c? "C=C3=B3 / Kh=C3=B4ng"</l=
+i>
+   <li>EN: The Variance Processing Ticket for&nbsp;lines {line 1, line 2...=
+} will be changed to 'Cancelled' status. Are you sure you want to proceed? =
+'Yes / No'=20
+    <ul>
+     <li>C=C3=B3:=20
+      <ul>
+       <li>=E2=86=92 M=E1=BB=9F Modal "Ki=E1=BB=83m m=C3=A3 h=C3=A0ng" v=C3=
+=A0 cho ph=C3=A9p edit</li>
+       <li>=E2=86=92 Khi Submit k=E1=BA=BFt qu=E1=BA=A3 Modal "Ki=E1=BB=83m=
+ m=C3=A3 h=C3=A0ng" =E2=86=92 Chuy=E1=BB=83n tr=E1=BA=A1ng th=C3=A1i phi=E1=
+=BA=BFu "X=E1=BB=AD l=C3=BD ch=C3=AAnh l=E1=BB=87ch" sang tr=E1=BA=A1ng th=
+=C3=A1i =E2=86=92 "H=E1=BB=A7y"</li>
+      </ul></li>
+    </ul></li>
+  </ul></li>
+</ul>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-3.THI=E1=BA=BETK=E1=BA=
+=BE(UX/UI)"><strong>3. THI=E1=BA=BET K=E1=BA=BE (UX/UI)</strong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-4.QUYT=E1=BA=AECNGHI=E1=
+=BB=86PV=E1=BB=A4(BUSINESSRULES)"><strong>4. QUY T=E1=BA=AEC NGHI=E1=BB=86P=
+ V=E1=BB=A4 (BUSINESS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"9cfbfd9e-0b78-495d-8894-a39721efa351">
+  <p><strong>BR-01:</strong> Ch=E1=BB=89 nh=E1=BB=AFng d=C3=B2ng nguy=C3=AA=
+n li=E1=BB=87u th=C3=B5a m=C3=A3n =C4=91i=E1=BB=81u ki=E1=BB=87n sau c=C3=
+=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n Ki=E1=BB=83m m=C3=A3 h=C3=A0ng, k=
+i=E1=BB=83m tra theo th=E1=BB=A9 t=E1=BB=B1 sau:</p>
+  <ul>
+   <li>Ph=C3=A2n lo=E1=BA=A1i =3D "H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi / H=C3=
+=A0ng g=E1=BB=ADi s=E1=BB=ADa"&nbsp;=E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh=
+ b=C3=A1o:=20
+    <ul>
+     <li>Ch=E1=BB=89 nguy=C3=AAn li=E1=BB=87u "H=C3=A0ng h=E1=BB=93i m=E1=
+=BB=9Bi / H=C3=A0ng g=E1=BB=ADi s=E1=BB=ADa" c=C3=B3 th=E1=BB=83 th=E1=BB=
+=B1c hi=E1=BB=87n Ki=E1=BB=83m m=C3=A3 h=C3=A0ng</li>
+     <li>Only "H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi / H=C3=A0ng g=E1=BB=ADi s=
+=E1=BB=ADa" materials can perform Item Verification</li>
+    </ul></li>
+   <li>v=C3=A0, t=C3=ACnh tr=E1=BA=A1ng =3D "=C4=90=C6=A1n h=C3=A0ng" &nbsp=
+;=E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh b=C3=A1o:=20
+    <ul>
+     <li data-uuid=3D"39d6b688-f7d4-4ba0-ada4-0c4f80a2ea7a">Ch=E1=BB=89 t=
+=C3=ACnh tr=E1=BA=A1ng "=C4=90=C6=A1n h=C3=A0ng" c=C3=B3 th=E1=BB=83 th=E1=
+=BB=B1c hi=E1=BB=87n Ki=E1=BB=83m m=C3=A3 h=C3=A0ng</li>
+     <li data-uuid=3D"6b0f1fdf-1962-41e6-845c-cbb8bb86302f">Item Verificati=
+on can only be performed when the origin is "Order"</li>
+    </ul></li>
+   <li>v=C3=A0, tr=E1=BA=A1ng th=C3=A1i =3D "=C4=90ang x=E1=BB=AD l=C3=BD" =
+=E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh b=C3=A1o:&nbsp;=20
+    <ul>
+     <li>Ch=E1=BB=89 tr=E1=BA=A1ng th=C3=A1i "=C4=90ang x=E1=BB=AD l=C3=BD"=
+ c=C3=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n =C4=90o ph=E1=BB=95</li>
+     <li>Item Verification can only be performed when the status is "In Pro=
+gress"</li>
+    </ul></li>
+  </ul></li>
+ <li data-uuid=3D"9324d739-678f-492c-a4e2-2789d333772b">
+  <p><strong>BR-02:</strong> K=E1=BA=BFt qu=E1=BA=A3 sau khi "Ho=C3=A0n t=
+=E1=BA=A5t" s=E1=BA=BD =C4=91=C6=B0=E1=BB=A3c l=C6=B0u log l=E1=BB=8Bch s=
+=E1=BB=AD (Audit Trail) =C4=91=E1=BB=83 truy v=E1=BA=BFt n=E1=BA=BFu c=C3=
+=B3 khi=E1=BA=BFu n=E1=BA=A1i t=E1=BB=AB kh=C3=A1ch h=C3=A0ng v=E1=BB=81 sa=
+u.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-5.GHICH=C3=9AK=E1=BB=B8T=
+HU=E1=BA=ACT&amp;VALIDATION(TECHNOTES)"><strong>5. GHI CH=C3=9A K=E1=BB=B8 =
+THU=E1=BA=ACT &amp; VALIDATION (TECH NOTES)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-5.1Workflowvalidation">5=
+.1 Workflow validation</h3>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-5.2FieldDefinitionTable(=
+Modal=C4=91oph=E1=BB=95)">5.2 Field Definition Table (Modal =C4=91o ph=E1=
+=BB=95)</h3>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 68=
+.2825%;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 14.2104%;">
+   <col class=3D"" style=3D"width: 13.1954%;">
+   <col class=3D"" style=3D"width: 10.4548%;">
+   <col class=3D"" style=3D"width: 24.5628%;">
+   <col class=3D"" style=3D"width: 37.5562%;">
+  </colgroup>
+  <thead class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>T=C3=AAn tr=C6=B0=E1=BB=9Dng (VN)</strong></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>EN Field Name</strong></td>
+    <td class=3D"confluenceTd"><strong>Type</strong></td>
+    <td class=3D"confluenceTd"><strong>Required</strong></td>
+    <td class=3D"confluenceTd"><strong>Rules</strong></td>
+   </tr>
+  </thead>
+  <tbody class=3D"">
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" colspan=3D"5" data-highlight-=
+colour=3D"grey"><strong title=3D"">Th=C3=B4ng tin m=C3=A3 h=C3=A0ng</strong=
+></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>H=C3=A0ng sai tem</strong></td>
+    <td class=3D"confluenceTd">Tag discrepancy detected</td>
+    <td class=3D"confluenceTd">Checkbox</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng</td>
+    <td class=3D"confluenceTd">Default =3D uncheck</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>M=C3=A3 h=C3=A0ng</strong></td>
+    <td class=3D"confluenceTd">Item code</td>
+    <td class=3D"confluenceTd">Search select</td>
+    <td class=3D"confluenceTd">Default: C=C3=B3<br>
+      Kh=C3=B4ng required n=E1=BA=BFu "H=C3=A0ng sai tem" =3D checked</td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"93f492ec-ca56-4dfb-9131-46fee1c87d32">Cho ph=C3=A9p =
+search like c=C3=A1c m=C3=A3 th=C3=A0nh ph=E1=BA=A9m; Status =3D Active/Ina=
+ctive</li>
+      <li data-uuid=3D"ada4f8d0-bfdd-4a89-b10d-3ee577ab6599">Ch=E1=BB=8Dn 1=
+ t=E1=BB=AB g=E1=BB=A3i =C3=BD</li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>S=E1=BB=91 bag</strong></td>
+    <td class=3D"confluenceTd">Bag number</td>
+    <td class=3D"confluenceTd">Search select</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"2babae6b-4f96-483e-8bf1-1091de698145">Cho ph=C3=A9p =
+search like c=C3=A1c m=C3=A3 bag (Sales Order / Repair Prrder / G Order / S=
+ample Order / Proto Order); T=E1=BA=A5t c=E1=BA=A3 Status</li>
+      <li data-uuid=3D"921117bb-216d-4b3e-9218-ec376d36d1c8">Ch=E1=BB=8Dn 1=
+ t=E1=BB=AB g=E1=BB=A3i =C3=BD</li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>PO kh=C3=A1ch</strong></td>
+    <td class=3D"confluenceTd">Cust PO</td>
+    <td class=3D"confluenceTd">Text</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng</td>
+    <td class=3D"confluenceTd">Max 20 k=C3=BD t=E1=BB=B1</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>S=E1=BB=91 l=C6=B0=E1=BB=A3ng</stron=
+g></td>
+    <td class=3D"confluenceTd">Qty</td>
+    <td class=3D"confluenceTd">Interger</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">{value} &gt; 0</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>Tu=E1=BB=95i</strong></td>
+    <td class=3D"confluenceTd">Purity</td>
+    <td class=3D"confluenceTd">Decimal (4,2)</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">
+     <p>0 &lt; {value} &lt; 100</p>
+     <p>Validate, tu=E1=BB=95i t=E1=BB=AB d=C3=B2ng th=E1=BB=A9 2 t=E1=BB=
+=B1 =C4=91=E1=BB=99ng update theo d=C3=B2ng th=E1=BB=A9 1 (<em>T=E1=BA=A5t =
+c=E1=BA=A3 c=C3=A1c d=C3=B2ng m=C3=A3 h=C3=A0ng trong 1 d=C3=B2ng nguy=C3=
+=AAn li=E1=BB=87u ph=E1=BA=A3i c=C3=B9ng tu=E1=BB=95i)</em></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>M=C3=A0u</strong></td>
+    <td class=3D"confluenceTd">Color</td>
+    <td class=3D"confluenceTd">Dropdown</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">
+     <p>Ch=E1=BB=8Dn t=E1=BB=AB Master Data m=C3=A0u</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>TL t=E1=BB=95ng</strong></td>
+    <td class=3D"confluenceTd">Total Weight</td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">{value} &gt; 0</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>TL =C4=91=C3=A1 / bao</strong></td>
+    <td class=3D"confluenceTd">Stone Weight / bag</td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">
+     <p>{value} &gt; 0</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>TL =C4=91=C3=A1 t=E1=BB=95ng</strong=
+></td>
+    <td class=3D"confluenceTd">Total Stone Weight</td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D "S=E1=BB=91 l=C6=B0=E1=BB=A3ng" x "TL =
+=C4=91=C3=A1 / bao"</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>TL</strong></td>
+    <td class=3D"confluenceTd">Metal Weight</td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D "TL t=E1=BB=95ng" - "TL =C4=91=C3=A1 t=
+=E1=BB=95ng"</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>Gi=C3=A1 c=C3=B4ng / bao</strong></t=
+d>
+    <td class=3D"confluenceTd">Labour Cost / bag</td>
+    <td class=3D"confluenceTd">Currency</td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">{value} &gt; 0</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>Gi=C3=A1 c=C3=B4ng t=E1=BB=95ng</str=
+ong></td>
+    <td class=3D"confluenceTd">Total Labour Cost</td>
+    <td class=3D"confluenceTd">Currency</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D "S=E1=BB=91 l=C6=B0=E1=BB=A3ng" x "Gi=C3=
+=A1 c=C3=B4ng / bao"</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><strong>Ghi ch=C3=BA l=E1=BB=97i</strong></t=
+d>
+    <td class=3D"confluenceTd">Remarks</td>
+    <td class=3D"confluenceTd">Dropdown</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng</td>
+    <td class=3D"confluenceTd">Ch=E1=BB=8Dn t=E1=BB=AB Master Data ghi ch=
+=C3=BA l=E1=BB=97i</td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" colspan=3D"5" data-highlight-=
+colour=3D"grey"><strong>Ki=E1=BB=83m m=C3=A3 h=C3=A0ng</strong></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><strong>Tu=E1=BB=95i - Seva</strong></td>
+    <td class=3D"confluenceTd">Purity (Seva)</td>
+    <td class=3D"confluenceTd">Decimal (4,2)</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D "Tu=E1=BB=95i" =E1=BB=9F d=C3=B2ng =C4=
+=91=E1=BA=A7u ti=C3=AAn c=E1=BB=A7a b=E1=BA=A3ng th=C3=B4ng tin m=C3=A3 h=
+=C3=A0ng</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><strong>TL - Seva</strong></td>
+    <td class=3D"confluenceTd">Metal Weight (Seva)</td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D Sum c=E1=BB=A7a c=E1=BB=99t "TL t=E1=BB=
+=95ng" b=E1=BA=A3ng Th=C3=B4ng tin m=C3=A3 h=C3=A0ng</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><strong>Quy 99.99 - Seva</strong></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">99.99 Equiv. =
+(Seva)</span></td>
+    <td class=3D"confluenceTd">Decimal (10,4)</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D "Tu=E1=BB=95i - Seva" x "TL - Seva" / 99=
+.99</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><strong>Gi=C3=A1 c=C3=B4ng - Seva</strong></=
+td>
+    <td class=3D"confluenceTd">Labour Cost (Seva)</td>
+    <td class=3D"confluenceTd">Currency</td>
+    <td class=3D"confluenceTd">Read-only</td>
+    <td class=3D"confluenceTd">=3D Sum c=E1=BB=A7a c=E1=BB=99t "Gi=C3=A1 c=
+=C3=B4ng t=E1=BB=95ng" b=E1=BA=A3ng Th=C3=B4ng tin m=C3=A3 h=C3=A0ng</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US11:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mm=C3=A3h=C3=A0ng(ItemVerification)-6.GHICH=C3=9ACHOQC"><str=
+ong>6. GHI CH=C3=9A CHO QC</strong></h2>
+    </div>
+</body>
+</html>
+------=_Part_150_1751079031.1776492475732--

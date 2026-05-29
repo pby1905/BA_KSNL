@@ -1,0 +1,1110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CS1 - User Stories Dashboard</title>
+    <style>
+body { font-family: 'Inter', -apple-system, sans-serif; background: #f0f2f5; color: #1a1a1a; line-height: 1.6; margin: 0; padding: 0; }
+.sidebar { width: 300px; position: fixed; height: 100vh; background: #ffffff; border-right: 1px solid #e1e4e8; overflow-y: auto; padding: 20px; box-sizing: border-box; }
+.content { margin-left: 300px; padding: 40px; max-width: 900px; }
+.card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 40px; border: 1px solid #eee; }
+h1 { color: #000; border-bottom: 3px solid #0052cc; padding-bottom: 10px; font-size: 28px; }
+h2 { color: #0052cc; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+h3 { color: #333; background: #f8f9fa; padding: 10px; border-left: 4px solid #0052cc; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+th, td { border: 1px solid #e1e4e8; padding: 12px; text-align: left; }
+th { background: #f6f8fa; font-weight: 600; }
+.nav-item { display: block; padding: 10px; color: #444; text-decoration: none; border-radius: 6px; margin-bottom: 5px; font-size: 14px; transition: 0.2s; }
+.nav-item:hover { background: #f0f7ff; color: #0052cc; }
+.badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 5px; }
+.badge-epic { background: #e3f2fd; color: #1976d2; }
+.tag-us { color: #666; font-family: monospace; }
+blockquote { border-left: 5px solid #ff9800; background: #fffde7; padding: 15px; margin: 0; border-radius: 0 8px 8px 0; }
+</style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 style="font-size: 18px; color: #333;">📋 Mục lục US</h2>
+        <nav id="navbar">
+            <a href="#CS1_E1_US-01" class="nav-item"><b>CS1.E1.US-01</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Tạo, lưu, lưu nháp, in nhãn</span></a>
+<a href="#CS1_E1_US-02" class="nav-item"><b>CS1.E1.US-02</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Thiết lập/chỉnh sửa người duyệt và mức chênh lệch</span></a>
+<a href="#CS1_E1_US-03" class="nav-item"><b>CS1.E1.US-03</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Xóa nháp & Hủy phiếu (Cancel)</span></a>
+<a href="#CS1_E1_US-04" class="nav-item"><b>CS1.E1.US-04</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tra chênh lệch bao bì & Gửi thông báo</span></a>
+<a href="#CS1_E1_US-05" class="nav-item"><b>CS1.E1.US-05</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Xử lý chênh lệch TL bao bì (Duyệt: Trả / Chấp nhận)</span></a>
+<a href="#CS1_E1_US-06" class="nav-item"><b>CS1.E1.US-06</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tra TL (Trọng lượng) chi tiết</span></a>
+<a href="#CS1_E1_US-07" class="nav-item"><b>CS1.E1.US-07</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Đo phổ (Spectrometer)</span></a>
+<a href="#CS1_E1_US-08" class="nav-item"><b>CS1.E1.US-08</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tra chênh lệch đo phổ</span></a>
+<a href="#CS1_E1_US-09" class="nav-item"><b>CS1.E1.US-09</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tem đánh giá & Tính đá</span></a>
+<a href="#CS1_E1_US-10" class="nav-item"><b>CS1.E1.US-10</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tra chênh lệch Kiểm tem</span></a>
+<a href="#CS1_E1_US-11" class="nav-item"><b>CS1.E1.US-11</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm mã hàng (SKU Check)</span></a>
+<a href="#CS1_E1_US-12" class="nav-item"><b>CS1.E1.US-12</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Kiểm tra chênh lệch mã hàng và giá công</span></a>
+<a href="#CS1_E1_US-13" class="nav-item"><b>CS1.E1.US-13</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Quản lý Chấp nhận chênh lệch</span></a>
+<a href="#CS1_E1_US-14" class="nav-item"><b>CS1.E1.US-14</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Yêu cầu trả hàng (Reject)</span></a>
+<a href="#CS1_E1_US-15" class="nav-item"><b>CS1.E1.US-15</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Cấu hình Kho Mặc định (Default Zone)</span></a>
+<a href="#CS1_E1_US-16" class="nav-item"><b>CS1.E1.US-16</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Nhập kho (Inbound) và In phiếu giao nhận</span></a>
+<a href="#CS1_E1_US-18" class="nav-item"><b>CS1.E1.US-18</b><br><span style="font-size:12px; color:#888;">Nhận NL khách - Xem danh sách Phiếu (Listing/Filter)</span></a>
+
+        </nav>
+    </div>
+    <div class="content">
+        <div style="margin-bottom: 40px;">
+            <h1 style="border:none; margin:0;">💎 Jewelry ERP - Material Control</h1>
+            <p style="color:#666;">Control Stage 1: Tiếp nhận nguyên liệu khách (Approved Version)</p>
+        </div>
+        <div id="CS1_E1_US-01" class="card"><h1>🏷️ [CS1.E1.US-01] Nhận NL khách - Tạo, lưu, lưu nháp, in nhãn</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên tiếp nhận nguyên liệu</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận nguyên liệu</li>
+<li><strong>I want:</strong> Tạo phiếu tiếp nhận nguyên liệu từ khách hàng, ghi nhận thông tin bao bì và trọng lượng ban đầu.</li>
+<li><strong>So that:</strong> Tôi có thể thiết lập cơ sở dữ liệu ban đầu cho việc gia công, đảm bảo tính minh bạch về trọng lượng nguyên liệu giữa khách hàng và xưởng.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Tạo mới phiếu tiếp nhận thành công (Lưu)</strong><br />
+- <strong>Given:</strong> Nhân viên tiếp nhận đang ở màn hình "Tạo phiếu tiếp nhận NL".<br />
+- <strong>When:</strong> Nhân viên nhập đầy đủ các trường bắt buộc (Khách hàng, Ngày nhận, Tình trạng bao bì, Trọng lượng thực tế) và nhấn "Lưu".<br />
+- <strong>Then:</strong> Hệ thống hiển thị thông báo "Tạo phiếu tiếp nhận thành công", dữ liệu được lưu vào trạng thái "Đang thực hiện" và hệ thống chuyển hướng đến bước Kiểm tra trọng lượng chi tiết.</p>
+<p><strong>AC 2: Tính toán chênh lệch trọng lượng tự động</strong><br />
+- <strong>Given:</strong> Nhân viên đang nhập thông tin tại phần "Xác nhận bao bì".<br />
+- <strong>When:</strong> Nhân viên nhập "Trọng lượng gồm bao bì khách báo" và "Trọng lượng thực tế".<br />
+- <strong>Then:</strong> Hệ thống tự động tính toán trường "Chênh lệch" = <code>[Trọng lượng gồm bao bì khách báo] - [Trọng lượng thực tế]</code>.</p>
+<p><strong>AC 3: Lưu nháp phiếu tiếp nhận</strong><br />
+- <strong>Given:</strong> Nhân viên đã nhập một phần thông tin nhưng chưa xong.<br />
+- <strong>When:</strong> Nhân viên nhấn "Lưu nháp".<br />
+- <strong>Then:</strong> Hệ thống lưu lại các thông tin đã nhập, trạng thái phiếu là "Nháp". Dữ liệu không bị kiểm tra các ràng buộc bắt buộc (ngoại trừ trường Khách hàng).</p>
+<p><strong>AC 4: Lưu &amp; In nhãn thành công</strong><br />
+- <strong>Given:</strong> Nhân viên đã nhập đầy đủ thông tin bắt buộc.<br />
+- <strong>When:</strong> Nhân viên nhấn "Lưu &amp; In nhãn".<br />
+- <strong>Then:</strong> Hệ thống thực hiện Lưu phiếu đồng thời hiển thị pop-up/màn hình xem trước bản in (Label) bao gồm: Mã phiếu, Tên khách hàng, Trọng lượng thực tế, Ngày nhận.</p>
+<p><strong>AC 5: Kiểm tra bỏ trống trường bắt buộc</strong><br />
+- <strong>Given:</strong> Nhân viên để trống các trường có dấu (<em>).<br />
+- </em><em>When:</em><em> Nhân viên nhấn "Lưu" hoặc "Lưu &amp; In nhãn".<br />
+- </em><em>Then:</em>* Hệ thống hiển thị cảnh báo đỏ tại các trường tương ứng: <code>"[Tên trường] là bắt buộc"</code> và không cho phép lưu.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li><strong>Mô tả Layout:</strong> Giao diện chia làm 2 khu vực chính: Thông tin chung và Xác nhận bao bì. Các nút hành động nằm cố định ở footer.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> Mã phiếu tiếp nhận được hệ thống sinh tự động (tham chiếu → Phụ lục A - Mã hóa) và duy nhất.</li>
+<li><strong>BR-02:</strong> Ngày nhận mặc định là ngày hiện tại của hệ thống nhưng cho phép người dùng điều chỉnh (không được chọn ngày trong tương lai).</li>
+<li><strong>BR-03:</strong> Giá trị chênh lệch cho phép hiển thị số âm (để ghi nhận việc dư nguyên liệu so với khách báo).</li>
+<li><strong>BR-04:</strong> Trường "Trọng lượng gồm bao bì khách báo" chỉ cho phép nhập/tiển thị nếu chọn trường Tình trạng bao bì = "Có". Nếu "Không có", trường này sẽ bị ẩn.</li>
+</ul>
+<h2>5. GHI CHÚ KỸ THUẬT &amp; VALIDATION (TECH NOTES)</h2>
+<h3>5.1. Workflow validation</h3>
+<ul>
+<li><strong>Định dạng trọng lượng:</strong> Cho phép nhập tối đa 4 chữ số thập phân (đặc thù ngành vàng cần độ chính xác cao).</li>
+<li><strong>Khách hàng:</strong> Searchable dropdown (tìm kiếm theo tên hoặc mã khách hàng).</li>
+</ul>
+<h3>5.2. Field Definition Table</h3>
+<table>
+<thead>
+<tr>
+<th>Tên trường (VN)</th>
+<th>Tên trường (EN)</th>
+<th>Cỡ dữ liệu</th>
+<th>Yêu cầu</th>
+<th>Quy tắc (Rules / Logic)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khách hàng</td>
+<td>Customer</td>
+<td>Dropdown</td>
+<td>Có</td>
+<td>Lấy từ Master Data Khách hàng.</td>
+</tr>
+<tr>
+<td>Lô</td>
+<td>Lot</td>
+<td>Text</td>
+<td>N/A</td>
+<td>Read-only. Lô NL tự động sinh theo cấu trúc → Phụ lục A.</td>
+</tr>
+<tr>
+<td>Ngày nhận</td>
+<td>Receipt date</td>
+<td>Datepicker</td>
+<td>Có</td>
+<td>Định dạng DD-MM-YYYY.</td>
+</tr>
+<tr>
+<td>Tình trạng bao bì</td>
+<td>Packaging cond</td>
+<td>Dropdown</td>
+<td>Có</td>
+<td>Lấy từ Master Data Tình trạng bao bì.</td>
+</tr>
+<tr>
+<td>Trọng lượng khách báo</td>
+<td>Declared gross</td>
+<td>Decimal(10,4)</td>
+<td>Không</td>
+<td>Chỉ nhập khi có bao bì. Đơn vị mặc định: lượng.</td>
+</tr>
+<tr>
+<td>Trọng lượng thực tế</td>
+<td>Actual gross wgt</td>
+<td>Decimal(10,4)</td>
+<td>Có</td>
+<td>Trọng lượng cân thực tế tại xưởng.</td>
+</tr>
+<tr>
+<td>Chênh lệch</td>
+<td>Weight Discrepancy</td>
+<td>Decimal(10,4)</td>
+<td>N/A</td>
+<td>Read-only. Tự động tính toán.</td>
+</tr>
+<tr>
+<td>Ghi chú</td>
+<td>Remarks</td>
+<td>TextArea</td>
+<td>Không</td>
+<td>Tối đa 500 ký tự.</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra logic tính toán trường "Chênh lệch" với cả số dương và số âm.</li>
+<li>Kiểm tra tính năng "Lưu &amp; In nhãn": Phải đảm bảo in đúng mẫu label quy định cho bao bì nguyên liệu.</li>
+<li>Kiểm tra trường hợp khách hàng không có bao bì (Radio "Không có") thì không cần nhập trọng lượng khách báo.</li>
+</ul></div>
+<div id="CS1_E1_US-02" class="card"><h1>🏷️ [CS1.E1.US-02] Nhận NL khách - Thiết lập/chỉnh sửa người duyệt và mức chênh lệch</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Trưởng bộ phận Material Control (TBP MC)</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Trưởng bộ phận Material Control (TBP MC)</li>
+<li><strong>I want:</strong> Cấu hình danh sách người phê duyệt và thiết lập các ngưỡng chênh lệch cho phép đối với: TL bao bì; TL và tuổi dẻ; TL đá hàng hồi; TL, tuổi, giá công hàng sửa.</li>
+<li><strong>So that:</strong> Hệ thống có thể tự động kiểm soát dữ liệu đầu vào, ngăn chặn các sai sót vượt mức và đảm bảo quy trình phê duyệt diễn ra đúng thẩm quyền khi có biến động bất thường.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Cấu hình danh sách người phê duyệt (Approval Workflow)</strong><br />
+- <strong>Given:</strong> TBP MC đang ở màn hình "Cấu hình phê duyệt chênh lệch".<br />
+- <strong>When:</strong> Chọn loại nghiệp vụ (Kiểm bao bì / Kiểm dẻ / Kiểm hàng hồi / Kiểm hàng sửa) và chọn danh sách người dùng từ danh mục nhân viên để phân quyền phê duyệt.<br />
+- <strong>Then:</strong> Hệ thống lưu lại danh sách người duyệt cho nghiệp vụ đó.</p>
+<p><strong>AC 2: Cấu hình ngưỡng chênh lệch Trọng lượng (TL) bao bì</strong><br />
+- <strong>Given:</strong> Đang thực hiện cấu hình cho loại "Kiểm bao bì".<br />
+- <strong>When:</strong> Nhập trị số chênh lệch tối đa cho phép giữa trọng lượng khách báo và trọng lượng thực tế và nhấn "Lưu".<br />
+- <strong>Then:</strong> Hệ thống lưu lại cấu hình.</p>
+<p><strong>AC 3: Cấu hình chênh lệch Dẻ (TL &amp; Tuổi dẻ)</strong><br />
+- <strong>Given:</strong> Đang cấu hình thông số cho mục "Kiểm dẻ".<br />
+- <strong>When:</strong> Thiết lập ngưỡng sai số cho Trọng lượng và sai số Tuổi dẻ và nhấn "Lưu".<br />
+- <strong>Then:</strong> Hệ thống lưu lại cấu hình.</p>
+<p><strong>AC 4: Cấu hình chênh lệch Hàng hồi</strong><br />
+- <strong>Given:</strong> Đang cấu hình thông số cho mục "Kiểm hàng hồi".<br />
+- <strong>When:</strong> Nhập ngưỡng cho phép cho 2 chỉ số: Trọng lượng, đá và nhấn "Lưu".<br />
+- <strong>Then:</strong> Hệ thống lưu lại cấu hình.</p>
+<p><strong>AC 5: Cấu hình chênh lệch Hàng sửa</strong><br />
+- <strong>Given:</strong> Đang cấu hình thông số cho mục "Kiểm hàng sửa".<br />
+- <strong>When:</strong> Nhập ngưỡng cho phép cho 3 chỉ số: Trọng lượng (TL), Tuổi vàng, Giá công và nhấn "Lưu".<br />
+- <strong>Then:</strong> Hệ thống lưu lại cấu hình.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li><em>(Tham khảo link thiết kế quy định trong dự án)</em></li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> Một loại cấu hình thiết lập chênh lệch chỉ được phép có <strong>01 phiên bản có Hiệu lực</strong> tại một thời điểm (để tránh xung đột luồng duyệt).</li>
+<li><strong>BR-02:</strong> Mỗi loại chênh lệch khi thiết lập bắt buộc phải có ít nhất 1 người duyệt (không được phép để config ngưỡng chênh lệch mà không gán ai duyệt).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU (FIELD DEFINITION)</h2>
+<table>
+<thead>
+<tr>
+<th>Tên trường</th>
+<th>Kiểu dữ liệu</th>
+<th>Required</th>
+<th>Quy tắc Validation / Ghi chú</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Loại nghiệp vụ</td>
+<td>Dropdown</td>
+<td>Có</td>
+<td>Gồm: Kiểm bao bì / Kiểm dẻ / Kiểm hàng hồi / Kiểm hàng sửa</td>
+</tr>
+<tr>
+<td>Người phê duyệt</td>
+<td>User List</td>
+<td>Có</td>
+<td>Cho phép chọn Multiple Assignee từ danh sách User</td>
+</tr>
+<tr>
+<td>TL bao bì max</td>
+<td>Decimal(4,4)</td>
+<td>Có</td>
+<td>Cho phép nhập số dương. Đơn vị: lượng</td>
+</tr>
+<tr>
+<td>TL NL max</td>
+<td>Decimal(4,4)</td>
+<td>Có</td>
+<td>Cho phép nhập số dương. Đơn vị: lượng</td>
+</tr>
+<tr>
+<td>Tuổi max</td>
+<td>Decimal(2,2)</td>
+<td>Có</td>
+<td>Cho phép nhập số dương ( &gt; 0 và &lt;= 99.99 )</td>
+</tr>
+<tr>
+<td>Trọng lượng đá</td>
+<td>Decimal(4,4)</td>
+<td>Có</td>
+<td>Cho phép nhập số dương. Đơn vị: lượng</td>
+</tr>
+<tr>
+<td>Giá công</td>
+<td>Amount</td>
+<td>Có</td>
+<td>Số tiền chênh lệch đa cho phép</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra tính ràng buộc unique phiên bản (kích hoạt version 2 thì version 1 phải tắt).</li>
+<li>Kiểm tra trường hợp validate trống người duyệt.</li>
+</ul></div>
+<div id="CS1_E1_US-03" class="card"><h1>🏷️ [CS1.E1.US-03] Nhận NL khách - Xóa nháp &amp; Hủy phiếu (Cancel)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên tiếp nhận nguyên liệu, Quản lý</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận nguyên liệu</li>
+<li><strong>I want:</strong> Xóa các phiếu tiếp nhận đang ở trạng thái "Bản nháp" hoặc Hủy phiếu khi đang thao tác dở dang (Lỗi chọn sai dữ liệu cứng).</li>
+<li><strong>So that:</strong> Tôi có thể dọn dẹp hệ thống, loại bỏ các phiếu tạo sai hoặc không còn nhu cầu xử lý, giúp danh sách tiếp nhận được gọn gàng và chính xác.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Xóa bản nháp thành công từ màn hình danh sách</strong><br />
+- <strong>Given:</strong> Nhân viên đang ở màn hình "Danh sách phiếu tiếp nhận NL".<br />
+- <strong>And:</strong> Phiếu tiếp nhận được chọn đang có trạng thái là "Bản nháp".<br />
+- <strong>When:</strong> Nhân viên nhấn vào biểu tượng "Xóa" và xác nhận tại pop-up "Bạn có chắc chắn muốn xóa bản nháp này?".<br />
+- <strong>Then:</strong> Hệ thống hiển thị thông báo "Xóa bản nháp thành công", phiếu biến mất khỏi danh sách hiển thị.</p>
+<p><strong>AC 2: Hủy bỏ thao tác xóa</strong><br />
+- <strong>Given:</strong> Pop-up xác nhận xóa đang hiển thị.<br />
+- <strong>When:</strong> Nhân viên nhấn nút "Hủy" hoặc "Đóng".<br />
+- <strong>Then:</strong> Hệ thống đóng pop-up, phiếu vẫn giữ nguyên trạng thái "Bản nháp" và không có sự thay đổi nào xảy ra.</p>
+<p><strong>AC 3: [Bổ sung] Hủy phiếu đang thực hiện (Cancel/Void)</strong><br />
+- <strong>Given:</strong> Nhân viên đang ở màn hình chi tiết phiếu tiếp nhận có trạng thái "Đang thực hiện".<br />
+- <strong>When:</strong> Nhân viên chọn tính năng "Chấm dứt/Hủy phiếu lệnh".<br />
+- <strong>Then:</strong> Hệ thống hiển thị Popup yêu cầu xác nhận kèm lý do.<br />
+- <strong>And:</strong> Khi xác nhận, trạng thái phiếu được chuyển thành "Đã hủy" (Void), vô hiệu hóa mọi thao tác chỉnh sửa tiếp theo (Ngăn ngừa dữ liệu rác).</p>
+<p><strong>AC 4: Thu hồi quyền xóa/hủy của phiếu đã xử lý xong</strong><br />
+- <strong>Given:</strong> Phiếu tiếp nhận đang ở trạng thái "Hoàn thành" hoặc "Chờ phê duyệt" (không được rút ngang nếu đã đệ trình QC/Quản lý).<br />
+- <strong>When:</strong> Nhân viên mở phiếu.<br />
+- <strong>Then:</strong> Nút "Xóa" và "Hủy phiếu" bị ẩn (Hidden) hoặc vô hiệu hóa (Disabled).</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Nút "Xóa" nằm ở cuối dòng (Row Actions) tại màn hình danh sách. Màn màu Đỏ.</li>
+<li>Nút "Hủy phiếu lệnh" nằm trong Dropdown (ba chấm) tại màn hình chi tiết.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Trạng thái Xóa cứng):</strong> Chỉ cho phép "Xóa" (xóa hẳn khỏi danh sách) các phiếu có Status = <code>DRAFT</code> (Bản nháp).</li>
+<li><strong>BR-02 (Trạng thái Hủy mềm):</strong> Cho phép "Hủy phiếu" (Void - thay đổi thành trạng thái Đã hủy) đối với các phiếu <code>Đang thực hiện</code>. Tác dụng bảo toàn khóa ngoại nếu đã lỡ sinh ra mã cho kho.</li>
+<li><strong>BR-03 (Phân quyền):</strong> Chỉ người tạo ra bản nháp/phiếu thao tác đó, hoặc người có Role "Quản lý/Admin" mới có quyền Xóa / Hủy. Nhân viên khác không nhìn thấy nút trên phiếu của người khác (Security Isolation).</li>
+<li><strong>BR-04 (Soft Delete Logic):</strong> Việc Xóa bản nháp trên hệ thống thực chất là thực hiện Soft Delete (<code>is_deleted = true</code>), không xóa cứng khỏi CSDL để phục vụ audit/log.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU (FIELD DEFINITION)</h2>
+<table>
+<thead>
+<tr>
+<th>Action Button / Field</th>
+<th>Type</th>
+<th>Rules &amp; Logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nút Xóa</td>
+<td>Button</td>
+<td>Chỉ Enable khi trạng thái phiếu = DRAFT. Icon Thùng rác.</td>
+</tr>
+<tr>
+<td>Nút Hủy phiếu</td>
+<td>Button</td>
+<td>Chỉ Enable khi trạng thái phiếu = Đang thực hiện.</td>
+</tr>
+<tr>
+<td>Nút Xác nhận</td>
+<td>Button</td>
+<td>Xác nhận trên Pop-up. Thực thi API (<code>is_deleted = true</code> hoặc Update Status).</td>
+</tr>
+<tr>
+<td>Lý do hủy</td>
+<td>TextArea</td>
+<td>Pop-up hiện ra khi bấm Hủy phiếu. Ràng buộc nhập lý do (Bắt buộc).</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li><strong>Kiểm tra phân quyền:</strong> Dùng tài khoản Nhân viên A, mở màn hình danh sách xem có xóa được bản nháp của Nhân viên B không (Expected: Không thấy nút Xóa).</li>
+<li><strong>Kiểm tra trạng thái bảo mật (Security Interceptor):</strong> Dùng Postman gửi API <code>DELETE /receipts/{id}</code> dối với một phiếu đã "Hoàn Thành" (Expected: API phải trả về lỗi <code>HTTP 403 Forbidden</code> hoặc <code>400 Bad Request</code>).</li>
+<li><strong>Data Check:</strong> Sau khi xóa, Query DB đảm bảo bản ghi vẫn còn nhưng <code>is_deleted = 1</code> và đếm tổng Total Records trên Front-end giảm đi 1.</li>
+</ul></div>
+<div id="CS1_E1_US-04" class="card"><h1>🏷️ [CS1.E1.US-04] Nhận NL khách - Kiểm tra chênh lệch bao bì &amp; Gửi thông báo</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên tiếp nhận nguyên liệu</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận nguyên liệu</li>
+<li><strong>I want:</strong> Hệ thống tự động kiểm tra và ngăn chặn các thao tác lưu dữ liệu khi phát sinh chênh lệch trọng lượng bao bì vượt mức cho phép, đồng thời tự động gửi thông báo đến cấp quản lý có thẩm quyền.</li>
+<li><strong>So that:</strong> Đảm bảo mọi rủi ro về thất thoát nguyên liệu được phát hiện và kiểm soát tức thời. Việc tiếp nhận nguyên liệu chênh lệch chỉ được phép tiếp tục sau khi có sự đồng ý của người quản lý.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Gửi thông báo đến người phê duyệt (Notifications)</strong><br />
+- <strong>Given:</strong> Hệ thống đã xác định chênh lệch trọng lượng vượt ngưỡng cấu hình (tức là <code>TL chênh lệch &gt; Cấu hình cho phép</code> ở US-02).<br />
+- <strong>When:</strong> Nhân viên nhấn "Lưu".<br />
+- <strong>Then:</strong> Trạng thái phiếu chuyển thành "Đang thực hiện".<br />
+- <strong>And:</strong> Hiển thị thêm nhãn trạng thái phụ: "Chờ xác nhận" (Pending Approval).<br />
+- <strong>And:</strong> Hệ thống gửi thông báo tức thời (In-app notification) danh sách Người phê duyệt và người theo dõi đã được thiết lập cho nghiệp vụ này.</p>
+<p><strong>AC 2: Nội dung và ngữ nghĩa thông báo (Notification Payload)</strong><br />
+- <strong>Given:</strong> Cảnh báo chênh lệch được đẩy xuống Notification Center.<br />
+- <strong>Then:</strong> Nội dung thông báo hiển thị rõ ràng thông số:<br />
+  - <strong>(VN):</strong> "Phiếu [Mã phiếu] cần phê duyệt do chênh lệch [Loại chênh lệch]: [Giá trị thực tế] (Vượt ngưỡng [Giá trị cho phép])".<br />
+  - <strong>(EN):</strong> "Ticket [Ticket ID] requires approval due to [Variance Type] variance: [Actual Value] (Exceeds threshold of [Allowed Value])".<br />
+- <strong>And:</strong> Khi Click vào thông báo (DeepLink), hệ thống dẫn trực tiếp đến màn hình chi tiết phiếu cần duyệt.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li><em>(Tham khảo link thiết kế quy định trong dự án)</em></li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Locking Status):</strong> Phiếu ở trạng thái "Chờ phê duyệt" (hoặc Chờ xác nhận) sẽ bị <strong>khóa sửa đổi dữ liệu</strong> đối với nhân viên MC. Người tạo phiếu không thể thay đổi thông tin trọng lượng lúc này cho đến khi người quản lý có phản hồi xử lý (Duyệt hoặc Từ chối).</li>
+<li><strong>BR-02 (Bypass Lock):</strong> Mọi hành vi cố gắng chuyển trạng thái phiếu từ "Chờ phê duyệt" sang trạng thái khác bằng cách F5 trình duyệt hoặc gọi API trực tiếp (Postman) đều bị server chặn lại.</li>
+</ul>
+<h2>5. GHI CHÚ KỸ THUẬT &amp; VALIDATION (TECH NOTES)</h2>
+<h3>5.1. Validation Logic</h3>
+<ul>
+<li>Logic kiểm tra phải thực hiện đồng thời ở Frontend (để hiển thị UI tức thời, chặn UX) và Backend (kiểm tra lại biến chênh lệch trước khi chốt Data Transaction để đảm bảo an toàn dữ liệu).</li>
+</ul>
+<h3>5.2. Audit Logging</h3>
+<ul>
+<li>Hệ thống phải tự động ghi log vào Audit Trail với nội dung: <code>"Hệ thống tự động chặn thao tác do chênh lệch [Value] vượt mức cho phép [Threshold] tại thời điểm [Timestamp]"</code>.</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li><strong>Kiểm tra ngưỡng cận biên:</strong> Ví dụ ngưỡng cấu hình là <code>0.05</code> lượng. Thử nghiệm với data nhập <code>0.049</code> (Pass), <code>0.050</code> (Pass) và <code>0.051</code> (Bị chặn). Tránh lỗi <code>&gt;=</code> vs <code>&gt;</code>.</li>
+<li><strong>Kiểm tra gửi thông báo:</strong> Xác nhận người quản lý mở app nhận được popup thông báo đúng nội dung, hiển thị chuẩn <code>[Mã phiếu]</code>. Click vào thông báo phải điều hướng (routing) tới đúng URL phiếu.</li>
+</ul></div>
+<div id="CS1_E1_US-05" class="card"><h1>🏷️ [CS1.E1.US-05] Nhận NL khách - Xử lý chênh lệch TL bao bì (Duyệt: Trả / Chấp nhận)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên Quản lý MC (MC Manager / Approver)</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người quản lý được phân quyền phê duyệt chênh lệch</li>
+<li><strong>I want:</strong> Xem xét cảnh báo chênh lệch và ra quyết định xử lý (Chấp nhận sử dụng tiếp hoặc Yêu cầu trả lại Nguyên liệu).</li>
+<li><strong>So that:</strong> Đảm bảo mọi thất thoát/chênh lệch đều được xử lý đúng thẩm quyền trước khi đưa luồng vào sản xuất/phân kim.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị cảnh báo chênh lệch vượt mức cho Người duyệt</strong><br />
+- <strong>Given:</strong> Người phê duyệt mở màn hình chi tiết phiếu tiếp nhận NL (ví dụ: <code>NNL-2601-00001</code>).<br />
+- <strong>When:</strong> Trọng lượng thực tế bị lệch vượt quá cấu hình <code>[Value &gt; Config]</code>.<br />
+- <strong>Then:</strong> Hệ thống hiển thị <strong>Banner cảnh báo màu vàng</strong> ở đầu trang với nội dung: <em>"Phát hiện chênh lệch ([Value] lượng) vượt mức cho phép ([Max] lượng). Vui lòng ra quyết định xử lý!"</em>.<br />
+- <strong>And:</strong> Trường "Chênh lệch" được highlight màu đỏ để gây chú ý trên UI.</p>
+<p><strong>AC 2: Chặn luồng xử lý và Yêu cầu phê duyệt</strong><br />
+- <strong>Given:</strong> Phiếu đang có cảnh báo chênh lệch vượt mức.<br />
+- <strong>When:</strong> Nếu Nhân viên MC bình thường cố gắng chuyển trạng thái sang bước tiếp theo ("Thông tin nguyên liệu khách").<br />
+- <strong>Then:</strong> Hệ thống chặn thao tác, chỉ hiển thị Action yêu cầu chờ phê duyệt (Chấp nhận chênh lệch hoặc Yêu cầu trả NL do người duyệt đảm nhận).</p>
+<p><strong>AC 3: Ghi nhận lịch sử (History Log) cho việc xử lý</strong><br />
+- <strong>Given:</strong> Phiếu đã từng phát sinh chênh lệch và được yêu cầu cân lại hoặc xử lý.<br />
+- <strong>When:</strong> Người dùng chọn xem bảng "Lịch sử xử lý chênh lệch".<br />
+- <strong>Then:</strong> Hiển thị List chi tiết: <code>[Lần xử lý / Lần thử]</code>, <code>[TL Khách báo]</code>, <code>[TL Thực tế Seva]</code>, <code>[Chênh lệnh]</code>, <code>Người thực hiện</code>, <code>Ngày thực hiện</code>, và <code>Ghi chú</code>.</p>
+<p><strong>AC 4: Ra quyết định: Chấp nhận chênh lệch (Accept Variance)</strong><br />
+- <strong>Given:</strong> Người có quyền duyệt đang xem phiếu vị chăn.<br />
+- <strong>When:</strong> Quản lý nhấn chọn hành động <strong>"Chấp nhận chênh lệch"</strong>.<br />
+- <strong>Then:</strong> Trạng thái phiếu Xóa bỏ nhãn "Chờ xác nhận" (Chỉ còn "Đang thực hiện").<br />
+- <strong>And:</strong> Hệ thống giải phóng luồng (Unblock), cho phép thực hiện thao tác bước tiếp ở màn hình Thông tin NL khách.<br />
+- <strong>And:</strong> Ghi lịch sử hành động duyệt (Người duyệt, thời gian, Ghi chú duyệt) vào Log.</p>
+<p><strong>AC 5: Ra quyết định: Yêu cầu trả NL (Request Return)</strong><br />
+- <strong>Given:</strong> Người có quyền duyệt đang xem phiếu.<br />
+- <strong>When:</strong> Quản lý nhấn chọn hành động <strong>"Yêu cầu trả NL"</strong>.<br />
+- <strong>Then:</strong> Trạng thái phiếu xử lý chênh lệch chuyển sang <em>"Trả hàng"</em>. Trạng thái phiếu tổng chuyển thành <em>"Trả hàng"</em> (Lúc này tồn tại song song 2 trạng thái <code>Đang thực hiện</code> + <code>Trả hàng</code>).<br />
+- <strong>And:</strong> Ghi log Lịch sử xử lý tương tự AC 4.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Banner cảnh báo: Nền vàng/da cam, chữ nhấn mạnh đỏ.</li>
+<li>Row chênh lệch: Text tô đỏ/đậm so với các dòng khác.</li>
+<li>Action Buttons <code>[Chấp nhận chênh lệch]</code> (Màu xanh), <code>[Yêu cầu trả NL]</code> (Màu xám/đỏ) nằm gọn tại Toolbar phê duyệt.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Authorization Control):</strong> Chỉ những user có quyền "Phê duyệt chênh lệch" (đã cấu hình tại US-02) mới có thể nhìn thấy, click và tương tác được với 2 nút xử lý chênh lệch. Đối với nhân viên MC bình thường, nút này bị Ẩn (Hidden).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU (FIELD DEFINITION)</h2>
+<ul>
+<li>(Các trường thao tác action không có Input field ngoại trừ Popup nhập "Ghi chú phê duyệt")</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li><strong>Test Banner:</strong> Đảm bảo Banner chỉ xuất hiện khi <code>Giá trị chênh lệch &gt; Ngưỡng cho phép</code>.</li>
+<li><strong>Test Phân quyền:</strong> Dùng User Role "Nhân viên" mở phiếu đang bị tạm giữ xem có tự ý "Chấp nhận" được không (Expected: Không thấy Action).</li>
+<li><strong>Trạng thái kép (Dual Status):</strong> Xác minh việc phiếu vừa có label "Đang thực hiện" vừa có label "Trả hàng" (khi Reject).</li>
+</ul></div>
+<div id="CS1_E1_US-06" class="card"><h1>🏷️ [CS1.E1.US-06] Nhận NL khách - Kiểm tra TL (Trọng lượng) chi tiết</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên Tiếp nhận Nguyên liệu</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên Tiếp nhận Nguyên liệu</li>
+<li><strong>I want:</strong> Nhập liệu bóc tách chi tiết (Phân loại NL, Tình trạng, TL khách báo, TL Seva thực tế, Giá công,...) cho từng dòng item.</li>
+<li><strong>So that:</strong> Hệ thống ghi nhận được bảng dữ liệu nguyên liệu thô làm cơ sở tự động tính toán quy đổi hàm lượng vàng ròng (Quy 99.99), trừ đá hột, và đối chiếu sai lệch tổng trước khi nhập kho.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị thông tin tiến trình &amp; thông tin chung</strong><br />
+- <strong>Given:</strong> Nhân viên đã xác nhận bao bì thành công (ở US-01).<br />
+- <strong>When:</strong> Truy cập vào chi tiết bảng tiến trình.<br />
+- <strong>Then:</strong> Hệ thống hiển thị Stepper điều hướng 3 bước:<br />
+  1. Xác nhận bao bì (Đã hoàn thành)<br />
+  2. Kiểm tra trọng lượng chi tiết (Đang thực hiện)<br />
+  3. Xử lý từng loại.<br />
+- <strong>And:</strong> Hiển thị Layout header với "Thông tin chung" và "Lịch sử hoạt động của phiếu".</p>
+<p><strong>AC 2: Tự động tính toán số liệu trên từng dòng (Row Calculation)</strong><br />
+- <strong>Given:</strong> Nhân viên nhập các dữ liệu về Trọng lượng vào bảng lưới (Grid).<br />
+- <strong>When:</strong> Có bất kỳ sự thay đổi (on-change) trên các ô <code>TL tổng - khách</code> hoặc <code>TL đá - khách</code>.<br />
+- <strong>Then:</strong> Hệ thống tự động kích hoạt tính toán 2 công thức:<br />
+  - <code>TL - khách = [TL tổng - khách] - [TL đá - khách]</code><br />
+  - <code>Quy 99.99 - khách = ([TL - khách] * [Tuổi - khách]) / 99.99</code></p>
+<p><strong>AC 3: Tổng hợp chân trang báo cáo (Footer Summary)</strong><br />
+- <strong>Given:</strong> Bảng có nhiều dòng mặt hàng khác nhau.<br />
+- <strong>Then:</strong> Dòng <code>Tổng (Total)</code> ở bottom lưới sẽ tự động SUM (Cộng dồn) cột: <em>TL tổng khách, TL đá khách, TL khách (Metal Weight), Quy 9999 khách, TL tổng Seva, Tiền công khách</em>. Trọng lượng Seva bằng 0 nếu chưa cân thực tế.</p>
+<p><strong>AC 4: Ghi nhận (Draft) thông tin vào Tồn tiếp nhận chờ</strong><br />
+- <strong>Given:</strong> Nhân viên đã điền chi tiết và ấn <code>[Tiếp tục]</code> (sang Step 3 xử lý loại).<br />
+- <strong>When:</strong> Chuyển qua Step xử lý từng loại.<br />
+- <strong>Then:</strong> Hệ thống đánh dấu snapshot dữ liệu tạm thời vào các Kho ảo (Zone) chuyên tiếp nhận để Tracking (Phục vụ truy vết nếu rớt luồng).<br />
+  - Kho: <code>Kho tiếp nhận NL khách</code><br />
+  - Khu vực: <code>Chờ nhập</code> / <code>Chờ sửa</code><br />
+  - (Cơ chế chi phối mapping Tồn được giải thích cụ thể ở Master Data Zone/Location).</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Giao diện Datagrid, cho phép Inline-editing (sửa nhanh trên Grid) cho các trường số liệu. Cột Tổng dưới cùng in đậm (Bold).</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Định dạng độ sâu):</strong> Tất cả các ô nhập trọng lượng vàng bắt buộc cho phép phần thập phân sâu tối đa 4 chữ số (ví dụ: <code>10.4740</code>).</li>
+<li><strong>BR-02 (Điều kiện Tiền công):</strong> Cột <code>Tiền công - khách</code> chỉ được kích hoạt (Bắt buộc nhập) nếu trường <code>Tình trạng = Đơn hàng</code>.</li>
+<li><strong>BR-03 (Điều kiện Validation Chuyển bước):</strong> Nếu <code>TL tổng - Seva</code> chưa được nhập (cân) cho TẤT CẢ các dòng, bộ điều hướng <code>[Tiếp tục]</code> sẽ bị disabled (ngăn không cho đi tiếp nếu chưa cân đối chứng đủ).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU (FIELD DEFINITION)</h2>
+<table>
+<thead>
+<tr>
+<th>Tên trường (VN)</th>
+<th>EN Field Name</th>
+<th>Type / Size</th>
+<th>Required</th>
+<th>Rules &amp; Logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Phân loại</td>
+<td>Classification</td>
+<td>Dropdown</td>
+<td>Y</td>
+<td>Gồm: Dẻ (Scrap), Hàng hồi nấu (Recycle-Melt), Hàng hồi mới (Recycle-New), Hàng gửi sửa (Repair).</td>
+</tr>
+<tr>
+<td>Tình trạng</td>
+<td>Origin</td>
+<td>Dropdown</td>
+<td>Y</td>
+<td>Dữ liệu gốc: NL từ khách / Đơn hàng.</td>
+</tr>
+<tr>
+<td>Tuổi - khách</td>
+<td>Purity (Cust)</td>
+<td>Dec(4,2)</td>
+<td>Y</td>
+<td><code>0 &lt; value &lt; 100</code></td>
+</tr>
+<tr>
+<td>TL tổng khách</td>
+<td>Total Weight</td>
+<td>Dec(10,4)</td>
+<td>Y</td>
+<td><code>&gt; 0</code></td>
+</tr>
+<tr>
+<td>TL đá - khách</td>
+<td>Stone Wgt</td>
+<td>Dec(10,4)</td>
+<td>Y</td>
+<td><code>&gt;= 0</code> (Default 0)</td>
+</tr>
+<tr>
+<td>TL - khách</td>
+<td>Metal Weight</td>
+<td>Dec(10,4)</td>
+<td>ReadOnly</td>
+<td><code>= TL Tổng - TL Đá</code></td>
+</tr>
+<tr>
+<td>Quy 99.99 khách</td>
+<td>99.99 Equiv</td>
+<td>Dec(10,4)</td>
+<td>ReadOnly</td>
+<td><code>= (TL kim loại * Tuổi)/99.99</code></td>
+</tr>
+<tr>
+<td>TL tổng Seva</td>
+<td>Total W (Seva)</td>
+<td>Dec(10,4)</td>
+<td>Y</td>
+<td><code>&gt; 0</code> (Bắt buộc trước khi ấn Tiếp)</td>
+</tr>
+<tr>
+<td>Tiền công</td>
+<td>Labour Cost</td>
+<td>Amount</td>
+<td>Condition</td>
+<td>Bắt buộc nếu Origin = Đơn hàng.</td>
+</tr>
+<tr>
+<td>Ghi chú</td>
+<td>Remarks</td>
+<td>String(100)</td>
+<td>N</td>
+<td>Tối đa 100 kí tự.</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li><strong>Tester chú ý:</strong> Thao tác "Thêm dòng" và "Xóa dòng" bằng nút Add/Delete. Kiểm tra xem dòng footer (Sum) có tự động Update/Recalculate theo Realtime không.</li>
+<li>Thử điền 3 chữ số thập phân, 4 chữ số và 5 chữ số -&gt; xem UI có round hoặc block đúng theo <code>(10,4)</code> không.</li>
+</ul></div>
+<div id="CS1_E1_US-07" class="card"><h1>🏷️ [CS1.E1.US-07] Nhận NL khách - Đo phổ (Spectrometer)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên Tiếp nhận Nguyên liệu</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận nguyên liệu</li>
+<li><strong>I want:</strong> Nhập kết quả đo phổ (Hàm lượng các kim loại Au, Ag, Cu, Zn...) cho các dòng mặt hàng thuộc Phân loại nguyên liệu thô (Dẻ).</li>
+<li><strong>So that:</strong> Xác định chính xác tuổi vàng thực tế (Seva) bằng phương pháp hóa học/quang phổ, làm cơ sở để đối chiếu với tuổi do khách hàng khai báo và nhập vào hệ thống.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị giao diện nhập kết quả Đo phổ</strong><br />
+- <strong>Given:</strong> Nhân viên chọn dòng dữ liệu có phân loại là "Dẻ".<br />
+- <strong>When:</strong> Nhân viên nhấn "Kiểm tra" và chọn tab "Kết quả đo phổ".<br />
+- <strong>Then:</strong> Hệ thống hiển thị bảng nhập liệu tỉ lệ quang phổ (% theo từng nguyên tố) và thông số kỹ thuật.</p>
+<p><strong>AC 2: Tự động tính toán Tuổi từ máy đo (Seva Purity)</strong><br />
+- <strong>Given:</strong> Nhân viên đang ở màn hình nhập bảng nguyên tố.<br />
+- <strong>When:</strong> Nhân viên nhập "% Au" (Vàng).<br />
+- <strong>Then:</strong> Hệ thống tự động thiết lập giá trị trường <code>Tuổi - Seva</code> bằng đúng với hàm lượng "% Au" vừa nhập.</p>
+<p><strong>AC 3: Bắt buộc đo phổ cho hàng Dẻ</strong><br />
+- <strong>Given:</strong> Phiếu tiếp nhận có chứa ít nhất 1 dòng mặt hàng "Dẻ".<br />
+- <strong>When:</strong> Nhân viên cố gắng nhấn "Tiếp tục" hoặc "Hoàn thành" phiếu mà không điền thông tin Đo phổ.<br />
+- <strong>Then:</strong> Hệ thống chặn và hiển thị thông báo lỗi: <em>"Dòng hàng số [RowID] là Dẻ chưa được nhập Kết quả đo phổ."</em></p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Hiển thị pop-up dạng bảng lưới chứa các cột Nguyên tố Hóa học.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Áp dụng):</strong> Chức năng "Lưu kết quả đo phổ" CHỈ bật cho các dòng có <code>Phân loại = Dẻ</code> (Scrap). Các phân loại nguyên liệu khác (Hàng hồi, hàng mới) không được phép và không yêu cầu đo phổ.</li>
+<li><strong>BR-02 (Tổng hàm lượng):</strong> Tổng % các nguyên tố kim loại gõ vào (Au + Ag + Cu + Zn + khác) không được vượt quá 100%.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU (FIELD DEFINITION)</h2>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Rules &amp; Logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Loại nguyên tố</td>
+<td>Dropdown</td>
+<td>Y</td>
+<td>Gồm: Au, Ag, Cu, Zn, Fe, Khác...</td>
+</tr>
+<tr>
+<td>Tỉ lệ (%)</td>
+<td>Decimal(3,3)</td>
+<td>Y</td>
+<td><code>&gt; 0</code> và <code>&lt;= 100</code>. Tổng cộng nhiều ô &lt;= 100%.</td>
+</tr>
+<tr>
+<td>Tuổi - Seva</td>
+<td>Decimal(4,2)</td>
+<td>Auto</td>
+<td><code>= Tỉ lệ (%) của nguyên tố Au</code></td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Cố tình nhập Au = 60%, Ag = 50% xem hệ thống có chặn <code>Tổng &gt; 100%</code> không.</li>
+<li>Thử đo phổ trên dòng "Hàng hồi" xem có bị khóa tính năng không.</li>
+</ul></div>
+<div id="CS1_E1_US-08" class="card"><h1>🏷️ [CS1.E1.US-08] Nhận NL khách - Kiểm tra chênh lệch đo phổ</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Hệ thống tự động / Quản lý duyệt</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người quản lý</li>
+<li><strong>I want:</strong> Hệ thống tự động cảnh báo và ngắt luồng tiếp nhận nếu kết quả Đo phổ (Tuổi thật do xưởng xác định) chênh lệch quá lớn so với Tuổi vàng khách báo (dành cho hàng Dẻ).</li>
+<li><strong>So that:</strong> Ngăn chặn rủi ro hao hụt tài chính (mua vào hoặc tiếp nhận tuổi thấp nhưng trả lại quy chuẩn tuổi cao) nếu không có sự đồng ý của quản lý.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Phát hiện và Cảnh báo chênh lệch đo phổ</strong><br />
+- <strong>Given:</strong> Nhân viên lưu kết quả "Đo phổ".<br />
+- <strong>When:</strong> Hệ thống tính toán sự chênh lệch: <code>ABS([Tuổi - Seva] - [Tuổi - Khách])</code>.<br />
+- <strong>And:</strong> Độ lệch này VƯỢT ngưỡng "Sai số Tuổi dẻ max" (cấu hình tại US-02).<br />
+- <strong>Then:</strong> Hệ thống gửi ngay Notification cho người có quyền duyệt đo phổ.<br />
+- <strong>And:</strong> Hiển thị thẻ "Chờ duyệt: Chênh lệch đo phổ" trên Header của phiếu tương tự US-04.</p>
+<p><strong>AC 2: Xử lý của người Quản lý</strong><br />
+- <strong>Given:</strong> Quản lý mở phiếu bị block do chênh lệch tuổi đo phổ.<br />
+- <strong>When:</strong> Có 2 sự lựa chọn: <code>[Chấp nhận nhận hàng]</code> hoặc <code>[Yêu cầu trả hàng]</code>.<br />
+- <strong>Then:</strong> Nếu Chấp nhận -&gt; Luồng tiếp tục chạy, trạng thái phiều về Đang thực hiện. Dữ liệu kế thừa dựa theo <code>Tuổi - Seva</code> làm chuẩn.<br />
+- <strong>And:</strong> Nếu Trả hàng -&gt; Đẩy vào quy trình xuất trả.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Chung thiết kế UI/UX block và banner cảnh báo màu cam với US-04, US-05.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Kế thừa Logic):</strong> Giống Quy tắc khóa phiếu chờ duyệt (BR-01) ở US-04. Nhân viên tiếp nhận vàng không được ghi đè hay sửa thông số khi phiếu đã bị đưa vào hàng chờ duyệt.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<ul>
+<li>Tham chiếu bảng Field của US-02, phần Cấu hình "Sai số Tuổi dẻ max".</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra lại hàm logic tính Absolute <code>ABS()</code>. Nếu khách khai Tuổi 68%, đo phổ thực là 75% -&gt; Chênh 7% &gt; Ngưỡng cho phép (2%). Hệ thống PHẢI chặn dù là lợi về phía Seva (Vì có thể lầm rủi ro nhầm lẫn mác hàng). Đảm bảo chặn theo giá trị tuyệt đối.</li>
+</ul></div>
+<div id="CS1_E1_US-09" class="card"><h1>🏷️ [CS1.E1.US-09] Nhận NL khách - Kiểm tem đánh giá &amp; Tính đá</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên tiếp nhận</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận</li>
+<li><strong>I want:</strong> Ghi nhận kết quả kiểm tra từng tem đính kèm món hàng trang sức, tháo đá/hột và trừ thủ công tổng trọng lượng đá để chốt được Trọng lượng Kim loại thực tế của lô <code>Hàng hồi</code> / <code>Hàng sửa</code>.</li>
+<li><strong>So that:</strong> Tôi đảm bảo rằng khách hàng không "bơm" đá giả thêm vào để gian lận cân nặng, đồng thời chốt được chính xác tuổi vàng để đưa vào nấu chảy.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị bảng Kiểm tem (Tag Check)</strong><br />
+- <strong>Given:</strong> Dòng hàng có Phân loại = <code>Hàng hồi nấu</code>, <code>Hàng hồi mới</code>, hoặc <code>Hàng sửa</code>.<br />
+- <strong>When:</strong> Nhân viên nhấn hành động "Kiểm tem".<br />
+- <strong>Then:</strong> Hệ thống mở popup liệt kê danh sách tem quét được (Mã tem, Loại món, Trọng lượng tem, Trọng lượng đá).</p>
+<p><strong>AC 2: Ghi nhận sự khác biệt của Tem (Discrepancy)</strong><br />
+- <strong>Given:</strong> Nhân viên đang kiểm tra ngoại quan đồ thật với tem gắn theo.<br />
+- <strong>When:</strong> Nếu phát hiện sai khác (Hàng gãy nát, mất góc vàng nhưng tem ban đầu nặng hơn; Đá bị bung), Nhân viên check vào ô <code>[Sai lệch Tem]</code> và ghi chú lý do.<br />
+- <strong>Then:</strong> Hệ thống alert lỗi cần phê duyệt (Chuyển tiếp đến US-10).</p>
+<p><strong>AC 3: [Bản Vá Logic] Tự động kế thừa Tuổi chốt cho Hàng Hồi nấu</strong><br />
+- <strong>Given:</strong> Món hàng là "Hàng Hồi nấu" (Recycle-Melt).<br />
+- <strong>When:</strong> Nhân viên đã xác nhận <code>Không có sai lệch Tem</code>. Tức là nguyên vẹn, đảm bảo món hàng do xưởng Seva/Đại lý gia công ngày xưa khớp 100% thông tin.<br />
+- <strong>Then:</strong> Hệ thống <strong>TỰ ĐỘNG</strong> gán giá trị: <code>[Tuổi - Seva]</code> = <code>[Tuổi - Khách]</code>.<br />
+- <strong>And:</strong> Nhờ đó, công thức tính <em>Quy 99.99 Seva</em> có đủ biến số để chạy mà không bị deadlock (Vì Hàng hồi nấu không đo phổ hóa học để ra Tuổi, mà kế thừa tính minh bạch của Tem).</p>
+<p><strong>AC 4: Tính Trọng lượng Đá trên lưới</strong><br />
+- <strong>Given:</strong> Phải bóc hột đá khỏi món hàng.<br />
+- <strong>When:</strong> Nhân viên nhập "TL Đá thực tế (Seva)" ở Form kiểm tem.<br />
+- <strong>Then:</strong> Hệ thống sẽ cập nhật dòng cha: <br />
+  - <code>[TL Đá - Seva]</code> = Tổng TL đá vừa nhập.<br />
+  - Từ đó: <code>[TL Kim loại - Seva] = [TL Tổng - Seva] - [TL Đá - Seva]</code>.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Popup chia theo dạng form lấn sang Master/Detail. Phần trên là scan mã tem (Barcode), phần dưới list các tem đã quét kèm Checkbox <code>[Khớp]</code>.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Deadlock Resolver - Resolved):</strong> Đối với Hàng hồi nấu nguyên vẹn, luôn áp dụng nguyên tắc Trust-By-Design. <code>Tuổi Khách</code> được Verify = <code>Tuổi Seva</code>.</li>
+<li><strong>BR-02 (Không kiểm tem cho Dẻ):</strong> Phân loại "Dẻ" chỉ áp dụng Đo Phổ, KHÔNG dùng tính năng "Kiểm tem" vì Dẻ là vàng vụn không còn hình thù món nữ trang.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<table>
+<thead>
+<tr>
+<th>Trường</th>
+<th>Kiểu</th>
+<th>Bắt buộc</th>
+<th>Logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mã tem (Qrcode)</td>
+<td>Text</td>
+<td>Y</td>
+<td>Quét mã / Nhập tay. Nối API Lịch sử SX.</td>
+</tr>
+<tr>
+<td>Khớp Tem</td>
+<td>Checkbox</td>
+<td>Y</td>
+<td>Default = True.</td>
+</tr>
+<tr>
+<td>TL Đá (Thực)</td>
+<td>Dec(10,4)</td>
+<td>Y</td>
+<td><code>&gt; 0</code>. Cân thực tế.</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Pass case: Nhập 1 mặt hàng "Hồi nấu". Đánh dấu Khớp tem. Tự đồng bộ <code>Tuổi Seva</code> = <code>Tuổi Khách</code> và tính tự động ô Quy <code>99.99 Seva</code>. Đảm bảo nút Tiếp Tục (Next Step) sáng lên (Hết bị kẹt/Deadlock).</li>
+</ul></div>
+<div id="CS1_E1_US-10" class="card"><h1>🏷️ [CS1.E1.US-10] Nhận NL khách - Kiểm tra chênh lệch Kiểm tem</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Hệ thống tự động / Quản lý duyệt</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người quản lý điều hành MC</li>
+<li><strong>I want:</strong> Nhận Cảnh báo nếu Nhân viên tiếp nhận đánh dấu <code>[Sai lệch Tem]</code> trên các nhóm "Hàng Hồi", hoặc Trọng lượng đá vượt ngưỡng cho phép.</li>
+<li><strong>So that:</strong> Tôi có thể kiểm tra thực tế hàng hóa để xác định nguyên nhân (Khách lừa đảo thêm đá/băng keo nặng hơn, hoặc tem rách do hao mòn tự nhiên) và ra quyết định xử lý.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Phát hiện khác biệt Tem &amp; Đá</strong><br />
+- <strong>Given:</strong> Dữ liệu Tem đang được nhân viên nhập và chọn lưu.<br />
+- <strong>When:</strong> Có Checkbox <code>[Sai lệch Tem]</code> được tick ở bất kì dòng nào trong danh sách.<br />
+- <strong>Or:</strong> Độ lệch <code>ABS([TL Đá Khách báo] - [TL Đá Seva]) &gt; Cấu hình Chênh lệch Hàng hồi</code>.<br />
+- <strong>Then:</strong> Chuyển trạng thái sang "Chờ xác nhận" (Pending Approval).<br />
+- <strong>And:</strong> Gửi Notification đến nhóm TBP MC: <em>"Tồn tại sai lệch Tem (Tag discrepancy) đối với Món hàng [Item ID]. Cần phê duyệt!"</em>.</p>
+<p><strong>AC 2: Luồng xử lý của quản lý</strong><br />
+- <strong>Given:</strong> Quản lý xem chi tiết phiếu bắt lỗi sai tem.<br />
+- <strong>When:</strong> Có 2 sự lựa chọn: <code>[Chấp nhận]</code> hoặc <code>[Yêu cầu trả hàng]</code>.<br />
+- <strong>Then:</strong> Nếu Chấp nhận -&gt; Luồng tiếp tục chạy, bỏ qua sai khác tem. <code>Tuổi - Seva</code> lúc này do quản lý toàn quyền quyết định (Có thể buộc Đo phổ lại thay vì Kế thừa).<br />
+- <strong>And:</strong> Nếu Trả hàng -&gt; Đẩy vào quy trình xuất trả.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Hiển thị Banner vàng/cam tương tự US-05, US-08.</li>
+<li>Cột lưới báo đỏ vào ô Checkbox <code>[Sai lệch Tem]</code>.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Mất kế thừa):</strong> Nếu phiếu rơi vào diện "Chênh lệch Tem", Tự động tắt logic Kế thừa giá trị (Trust-by-design) của US-09. <code>Tuổi - Seva</code> phải được nhập thủ công lại dựa trên quyết định của Quản lý MC.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<ul>
+<li>(Áp dụng chung danh mục Database Field của popup Quản lý Chênh lệch đã định nghĩa).</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Cố tình tick ô Sai lệch tem sau đó lưu lại, xem Notification có nhảy không.</li>
+<li>Thử test xem <code>Tuổi Seva</code> có bật tắt tính năng ReadOnly động theo trạng thái của Tickbox <code>Sai lệch</code> hay không (Theo BR-01).</li>
+</ul></div>
+<div id="CS1_E1_US-11" class="card"><h1>🏷️ [CS1.E1.US-11] Nhận NL khách - Kiểm mã hàng (SKU Check)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên MC</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên Tiếp nhận Nguyên liệu</li>
+<li><strong>I want:</strong> Kiểm đếm và quét mã hàng (SKU / Product ID) nếu hàng đưa vào là Hàng sửa (Repair) hoặc Đơn hàng gia công (Job Order).</li>
+<li><strong>So that:</strong> Quản lý đối chiếu được tính chính xác về mẫu mã, số lượng và giá công so với thỏa thuận với khách.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị form Kiểm mã hàng</strong><br />
+- <strong>Given:</strong> Dòng dữ liệu hiện tại có Phân loại = <code>Hàng sửa</code> HOẶC Tình trạng = <code>Đơn hàng</code>.<br />
+- <strong>When:</strong> Nhân viên nhấn "Kiểm mã hàng" (Action row).<br />
+- <strong>Then:</strong> Hệ thống mở Pop-up lưới nhập liệu: Mã hàng, Số lượng Khách báo, Số lượng Seva (Thực tế), Đơn giá Công.</p>
+<p><strong>AC 2: Tự động tra cứu Đơn giá công</strong><br />
+- <strong>Given:</strong> Màn hình nhập mã hàng đang hiển thị.<br />
+- <strong>When:</strong> Sử dụng máy quét Barcode quét mã hàng hoặc nhập tay mã SKU đúng chuẩn ERP.<br />
+- <strong>Then:</strong> Hệ thống tự động PULL từ Master Data Sản phẩm các thông tin: Tên hàng, Tuổi vàng mặc định của mã, <strong>Đơn giá gia công chuẩn</strong>.</p>
+<p><strong>AC 3: Tính chênh lệch giá công (Labour Variance)</strong><br />
+- <strong>Given:</strong> Nhân viên điền xong các dòng mã hàng.<br />
+- <strong>When:</strong> Hệ thống tính tổng <code>Tiền công - Seva</code> = <code>SUM(Đơn giá chuẩn * Số lượng)</code>.<br />
+- <strong>Then:</strong> So sánh với ô <code>Tiền công khách</code> (Đã nhập ở Screen US-06). Tính ra <code>[Chênh lệnh Giá công]</code>.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Popup chia theo dạng Barcode Scanner input.</li>
+<li>Footer popup tự động SUM các cột số lượng và hiển thị Số chênh lệch Đơn giá để nhân viên cảnh giác.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> "Kiểm mã hàng" Không bao giờ được phép dùng cho phân loại Dẻ, Hồi Nấu, Hồi Mới (Trừ trường hợp Tình trạng là Đơn hàng làm mới từ vàng cũ).</li>
+<li><strong>BR-02:</strong> (Mã không tồn tại) Trường hợp mã SKU nhập vào không có trong Master Data, được phép chọn mã "HÀNG SỬA TỔNG HỢP - G99" và nhập Đơn giá công tay (Manual Input).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Rules</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mã SKU</td>
+<td>Text</td>
+<td>Auto-complete từ Master Data.</td>
+</tr>
+<tr>
+<td>SL Khách</td>
+<td>Int</td>
+<td><code>&gt; 0</code></td>
+</tr>
+<tr>
+<td>SL Thực tế</td>
+<td>Int</td>
+<td><code>&gt; 0</code> (Kế thừa mặc định = SL khách để gõ cho nhanh, được phép sửa).</td>
+</tr>
+<tr>
+<td>Giá công gốc</td>
+<td>Decimal</td>
+<td>ReadOnly (Từ Master). Cho phép override nếu BR-02.</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra tính năng PULL API của Master Data. Nếu hệ thống chậm, có loading skeleton hay không.</li>
+<li>Thử chọn Dẻ và tìm nút Kiểm mã hàng (Phải bị ẩn / Disabled).</li>
+</ul></div>
+<div id="CS1_E1_US-12" class="card"><h1>🏷️ [CS1.E1.US-12] Nhận NL khách - Kiểm tra chênh lệch mã hàng và giá công</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Hệ thống / Quản lý duyệt</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người quản lý điều hành MC</li>
+<li><strong>I want:</strong> Nhận cảnh báo Notification khi có chênh lệch Số lượng Mã hàng đếm được thực tế so với Khách khai báo, hoặc Tiền Công (Labour Cost) chênh lệch nhau trên mức cho phép.</li>
+<li><strong>So that:</strong> Ra quyết định đàm phán lại với khách hàng (Ví dụ: Khách gửi giá công thấp hơn đơn giá niêm yết của Xưởng) hoặc từ chối thực hiện đơn hàng sửa chữa.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Bắt lỗi Chênh lệnh Giá công</strong><br />
+- <strong>Given:</strong> Nhân viên lưu Form "Kiểm mã hàng" (US-11).<br />
+- <strong>When:</strong> <code>ABS([Tiền Công khách báo] - [Tiền Công Seva tính]) &gt; Cấu hình Chênh Lệch Hàng Sửa</code>.<br />
+- <strong>Then:</strong> Treo cờ "Chờ xác nhận". Gửi Notification cho Quản lý.</p>
+<p><strong>AC 2: Bắt lỗi Thiếu/Thừa số lượng</strong><br />
+- <strong>Given:</strong> Tổng Số lượng sản phẩm khách gửi (Cộng dồn các SKU) KHÁC với Tổng Số lượng Seva kiểm.<br />
+- <strong>Then:</strong> Treo cờ cảnh báo tương tự AC 1.</p>
+<p><strong>AC 3: Quyết định Phê duyệt / Từ chối của Quản lý</strong><br />
+- <strong>Given:</strong> Quản lý đang duyệt phiếu.<br />
+- <strong>When:</strong> Có 2 hành động: [Chấp nhận rủi ro] hoặc [Yêu cầu xác nhận khách/Trả hàng].<br />
+- <strong>Then:</strong> Nếu "Chấp nhận", hệ thống ghi đè Giá công áp dụng cho chuỗi sản xuất tiếp theo = Giá công mà Quản lý chỉ định. </p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Chung thiết kế UI/UX block và banner cảnh báo màu cam với US-04, US-05, US-08.</li>
+<li>(Tham chiếu Widget Banner "Variance Alarm").</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Uu tiên Khách Hàng):</strong> Nếu "Giá công Khách báo" &gt; "Giá công Chuẩn Seva", hệ thống Không cảnh báo (Vì xưởng có lời hơn) HOẶC cảnh báo xanh (Info). (Quy tắc này cần Confirm lại với Ban giám đốc, hiện tại đang áp dụng ABS - cảnh báo tuyệt đối dù lớn hay nhỏ - do có thể khách tính nhầm và cần báo cho khách).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<ul>
+<li>(Tham số Cấu hình từ US-02: <code>Mức chênh lệch Hàng sửa (Amount)</code>).</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Thử case "Tiền công khách" = <code>10.000</code> VNĐ, "Tiền công Seva tính" = <code>15.000</code> VNĐ. Ngưỡng cho phép: <code>2.000</code>. Test xem hệ thống khoá phiếu đúng không. Khóa xong Log user admin (Quản lý) duyệt.</li>
+</ul></div>
+<div id="CS1_E1_US-13" class="card"><h1>🏷️ [CS1.E1.US-13] Nhận NL khách - Quản lý Chấp nhận chênh lệch</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Người duyệt (Quản lý MC)</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người quản lý được phân quyền phê duyệt chênh lệch</li>
+<li><strong>I want:</strong> Bấm nút xác nhận "Chấp nhận" đối với các sai số kiểm định, bất kể đó là sai số Đo Phổ, Cân Ký, Kiểm Tem hay Giá công.</li>
+<li><strong>So that:</strong>Hệ thống mở khóa (Unlock) cho phiếu tiếp tục tiến trình luân chuyển nguyên liệu dựa trên <strong>thông số do Seva đo đạc/quyết định</strong>.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Chấp nhận mọi cảnh báo (Global Accept)</strong><br />
+- <strong>Given:</strong> Một phiếu có 1 hoặc nhiều cảnh báo (Ví dụ: Cả cảnh báo Chênh lệch tuổi đo phổ + Chênh lệch tem).<br />
+- <strong>When:</strong> Người duyệt nhấn "Chấp nhận chênh lệch".<br />
+- <strong>And:</strong> Nhập Ghi chú phê duyệt.<br />
+- <strong>Then:</strong> Hệ thống đóng/Clear toàn bộ các cờ (Flag) treo trên phiếu.<br />
+- <strong>And:</strong> Trạng thái phiếu phục hồi về <code>Đang thực hiện</code>. Đồng thời luồng nhập kho inbound được khai thông.</p>
+<p><strong>AC 2: Đồng bộ dữ liệu sau khi chấp nhận</strong><br />
+- <strong>Given:</strong> Phiếu vừa được chấp nhận.<br />
+- <strong>Then:</strong> Các tham số <code>[TL - Seva]</code>, <code>[Tuổi - Seva]</code>, <code>[Giá công - Seva]</code> được lock và được Hệ thống <strong>lấy làm Data Master tin cậy</strong> để đi tiếp (Quy ra giá trị tồn kho vàng dòng 99.99 và tổng công).</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Nút "Chấp nhận" ở Popup / Toolbar ở đầu màn hình. Popup đi kèm <code>TextArea</code> nhập lí do.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Định danh):</strong> Người duyệt bắt buộc phải nằm trong danh sách Cấu hình phê duyệt của Loại chênh lệch tương ứng (Theo US-02).</li>
+</ul>
+<h2>5. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra Record sau khi duyệt. <code>Modified_By</code> phải là user người duyệt. <code>Is_Locked</code> của các thông số tuổi/trọng lượng Seva bằng True.</li>
+</ul></div>
+<div id="CS1_E1_US-14" class="card"><h1>🏷️ [CS1.E1.US-14] Nhận NL khách - Yêu cầu trả hàng (Reject)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Người duyệt (Quản lý MC)</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người có quyền duyệt chênh lệch</li>
+<li><strong>I want:</strong> Bấm nút "Yêu cầu trả hàng" ghi rõ lý do từ chối trên hệ thống.</li>
+<li><strong>So that:</strong> Ngăn chặn tuyệt đối lượng vàng kém chất lượng / khác biệt thỏa thuận tràn vào kho, đồng thời hệ thống sinh phiếu xuất trả hoặc đánh dấu chờ khách quyết định.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Từ chối và Yêu cầu trả lại</strong><br />
+- <strong>Given:</strong> Phiếu tiếp nhận đang bị giam ở chế độ "Chờ phê duyệt".<br />
+- <strong>When:</strong> Người duyệt chọn "Yêu cầu trả hàng" và điền lý do bắt buộc.<br />
+- <strong>Then:</strong> Trạng thái xử lý rẽ nhánh sang <code>[Trả hàng]</code>. <br />
+- <strong>And:</strong> Toàn bộ các dòng nguyên liệu trong phiếu cập nhật thành <code>[Chờ xuất trả]</code>. Màn hình Inbound bị lock.</p>
+<p><strong>AC 2: Tự động phân luồng theo Mức độ</strong><br />
+- <strong>Given:</strong> Phiếu bị từ chối 1 phần hoặc toàn phần (Tuỳ theo quyết định công ty).<br />
+- <strong>Then:</strong> Đẩy Data sang Process của Control Stage X (Quy trình xuất trả NL).</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Popup ghi nhận Lý do, text box Mandatory (bắt buộc). Bấm nút đỏ (Danger).</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> Phân quyền giới hạn tương tự việc Duyệt.</li>
+<li><strong>BR-02 (Lock Out):</strong> Khi phiếu đã bị đánh mác "Yêu cầu trả", toàn bộ giao dịch trên lệnh nhập/xuất của phiếu này kết thúc, trừ phi đi theo đường Pipeline Trả.</li>
+</ul>
+<h2>5. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Cố tình bỏ ngỏ ô "Lý do trả hàng" (không nhập gì) -&gt; Xem Save có chạy hay không (Expected: validation error đỏ).</li>
+</ul></div>
+<div id="CS1_E1_US-15" class="card"><h1>🏷️ [CS1.E1.US-15] Nhận NL khách - Cấu hình Kho Mặc định (Default Zone)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Admin / Trưởng bộ phận MC</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Quản trị viên</li>
+<li><strong>I want:</strong> Cấu hình sẵn (Map) loại nguyên liệu A sẽ tự động chạy vào Kho B và Khu vực (Zone) C ngay sau khi Nhân viên bấm nút Nhập.</li>
+<li><strong>So that:</strong> Nhân viên vận hành không phải chỉnh tay các kho đến, giảm thiểu rủi ro nhầm lẫn đường đi của nguyên liệu thô vào các Zone đã được bảo mật.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Map Kho cho các luồng Dẻ, Hồi Nấu và Hàng sửa</strong><br />
+- <strong>Given:</strong> Đang ở màn hình Cấu hình Tồn kho.<br />
+- <strong>When:</strong> Admin chỉ định điểm đích (Destination) cho <code>Origin = NL khách</code>.<br />
+- <strong>Then:</strong> Hệ thống ghi nhớ mapping:<br />
+  - Phân loại "Dẻ" -&gt; Kho Vàng thô (VD: Khu vực Chờ nấu).<br />
+  - Phân loại "Hàng hồi" -&gt; Kho Chờ tháo đá / Nấu.</p>
+<p><strong>AC 2: Kế thừa Mapping tự động khi Nhập</strong><br />
+- <strong>Given:</strong> Nhân viên Tiếp nhận (US-16) bấm luồng chuyển hàng vào Inventory.<br />
+- <strong>When:</strong> Hệ thống load danh sách items.<br />
+- <strong>Then:</strong> Trường <code>Từ Kho</code> và <code>Đến Kho</code> phải tự động Fill đầy chữ (Auto-populated) dựa vào config này.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Layout Settings 2 cột (Từ Loại Hàng -&gt; Sang Zone (Dropdown tree)).</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> Không được map 2 loại phân nhánh vào cùng 1 kho nếu chính sách kế toán không cho phép gộp mã. Kế thừa Rules của ERP Inventory Module.</li>
+</ul>
+<h2>5. GHI CHÚ KỸ THUẬT &amp; VALIDATION (TECH NOTES)</h2>
+<ul>
+<li>Load Master Data Tree (Nhánh Kho / Khu Vực).</li>
+</ul></div>
+<div id="CS1_E1_US-16" class="card"><h1>🏷️ [CS1.E1.US-16] Nhận NL khách - Nhập kho (Inbound) và In phiếu giao nhận</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Nhân viên Tiếp nhận</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Nhân viên tiếp nhận</li>
+<li><strong>I want:</strong> Hệ thống xác nhận và đẩy Số liệu Vàng/Đá quy chuẩn vào bảng cân đối Tồn Kho, đồng thời In phiếu giao nhận để khách hàng kí tên và nhận tiền hoàn hoặc biên lai.</li>
+<li><strong>So that:</strong> Hoàn tất hành trình Inbound Control Stage 1, chuyển giao trách nhiệm vật lý từ Khách Sang Kho lưu trữ nội bộ hợp lệ của Xưởng.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hoàn thành &amp; Khoá Phiếu</strong><br />
+- <strong>Given:</strong> Phiếu không còn nằm trong trạng thái Chờ xác nhận (Tức là All Clear).<br />
+- <strong>When:</strong> Nhân viên bấm "Hoàn thành Nhập Kho".<br />
+- <strong>Then:</strong> Trạng thái phiếu là "Hoàn thành" (Completed).<br />
+- <strong>And:</strong> Giao dịch Stock-In (Inventory Transaction) được bắn đi.</p>
+<p><strong>AC 2: Tự động chia Tồn theo Cấu hình</strong><br />
+- <strong>Given:</strong> Phiếu có 1 dòng Dẻ, 1 dòng Hàng hồi.<br />
+- <strong>When:</strong> Lệnh Inbound phát sinh.<br />
+- <strong>Then:</strong> Hệ thống căn cứ theo bảng Cấu hình kho (US-15) để chia 2 giao dịch đẩy về đúng 2 Zone quy định.<br />
+- <strong>And:</strong> (Option) Thực hiện Global Lock hoặc Row-Lock tránh thao tác rút hàng (Issue) khi Inventory Re-calc đang chạy (Tránh âm kho ảo).</p>
+<p><strong>AC 3: In Phiếu (Biên nhận khách hàng)</strong><br />
+- <strong>Given:</strong> Giao dịch hoàn tất.<br />
+- <strong>When:</strong> Nhấn nút <code>[In phiếu]</code>.<br />
+- <strong>Then:</strong> Mở giao diện PDF Preview. Thông tin bao gồm: Thông tin Khách, Mã lệnh, Chi tiết Trọng lượng Khách Báo / Khớp Seva, Tổng Quy 99.99 Seva, Tiền Công. Chữ kí 2 bên.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Nút "Hoàn thành Nhập Kho" to, rõ cuối trang phiếu. Nút "In biên nhận" dạng Icon máy in sau khi phiếu đã lưu.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01:</strong> Phiếu ở trạng thái <code>Hoàn thành</code> không thể Hủy, không thể Edit (Immutable). Nếu sai, phải làm nghiệp vụ Phát sinh Phiếu Bù/Trừ (Adjustment).</li>
+<li><strong>BR-02 (Tồn kho):</strong> Chỉ khi chạm trạng thái "Hoàn thành" thì lượng Vàng 99.99 tính tốn mới thực sự Available (Có sẵn) để cho phòng Kế Hoạch Sản Xuất kéo đi nấu. Khi còn ở "Đang thực hiện", nó chỉ là bóng ma (Ghost Entry).</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<ul>
+<li>(Theo Field Document File mẫu In ERP).</li>
+</ul>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Kiểm tra tính toán FIFO ở các module kho khác xem luồng này có trigger đủ Events vào Database Message Queue không.</li>
+</ul></div>
+<div id="CS1_E1_US-18" class="card"><h1>🏷️ [CS1.E1.US-18] Nhận NL khách - Xem danh sách Phiếu (Listing/Filter)</h1>
+<p><strong>Epic:</strong> Nhận NL khách (CS1.E1)<br />
+<strong>Actor:</strong> Tất cả người dùng MC</p>
+<h2>1. MÔ TẢ (USER STORY)</h2>
+<ul>
+<li><strong>As a:</strong> Người dùng của hệ thống MC</li>
+<li><strong>I want:</strong> Một màn hình bảng (List/Grid) để quan sát, lọc và tìm kiếm toàn bộ dòng đời của các Phiếu tiếp nhận nguyên liệu.</li>
+<li><strong>So that:</strong> Tôi có thể tracking được phiếu nào Đang treo, Nháp, Chờ Duyệt (Chênh lệch) hoặc Đã hoàn thành, qua đó thúc giục quy trình.</li>
+</ul>
+<h2>2. TIÊU CHÍ CHẤP NHẬN (AC)</h2>
+<p><strong>AC 1: Hiển thị danh sách dữ liệu</strong><br />
+- <strong>Given:</strong> Người dùng truy cập Menu "Tiếp nhận &gt; DS Nhận NL khách".<br />
+- <strong>Then:</strong> Lưới hiển thị các cột: Mã phiếu, Khách hàng, Trạng thái (Draft/Ongoing/Pending/Completed), Ngày nhận, Người tạo.<br />
+- <strong>And:</strong> Hiển thị mặc định các phiếu mới nhất lên đầu (Sort by Created Date DESC).</p>
+<p><strong>AC 2: Bộ lọc linh hoạt (Filters)</strong><br />
+- <strong>Given:</strong> Người dùng muốn tra cứu.<br />
+- <strong>When:</strong> Sử dụng thanh lọc Bar ngang.<br />
+- <strong>Then:</strong> Phải có tính năng lọc theo: <code>Trạng thái</code>, <code>Khoảng Ngày nhận</code>, <code>Mã phiếu (Tìm tương đối LIKE)</code>, <code>Khách hàng</code>.</p>
+<p><strong>AC 3: Export Excel / CSV</strong><br />
+- <strong>Given:</strong> Người quản lý cần báo cáo.<br />
+- <strong>When:</strong> Bấm "Xuất dữ liệu".<br />
+- <strong>Then:</strong> Hệ thống tải xuống file <code>*.xlsx</code> chứa đúng danh sách đang lọc theo View hiện tại.</p>
+<h2>3. THIẾT KẾ (UX/UI)</h2>
+<ul>
+<li>Giao diện Table List. Hỗ trợ Phân trang (Pagination), ví dụ 50 records/page.</li>
+</ul>
+<h2>4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)</h2>
+<ul>
+<li><strong>BR-01 (Data Visibility):</strong> User thường chỉ xem được Phiếu của Mình tạo. User Role "Quản lý" (hoặc TBP) được xem Toàn bộ Phiếu của các nhân viên.</li>
+</ul>
+<h2>5. ĐỊNH NGHĨA DỮ LIỆU</h2>
+<table>
+<thead>
+<tr>
+<th>Cột lưới</th>
+<th>Mapping Parameter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>Receipt_Number</td>
+</tr>
+<tr>
+<td>Tổ / Khách</td>
+<td>Customer_Name</td>
+</tr>
+<tr>
+<td>Ngày nhận</td>
+<td>Receipt_Date</td>
+</tr>
+<tr>
+<td>Trạng thái</td>
+<td>Status_Enum (Draft, In-Progress, Pending-Approval, Completed, Void)</td>
+</tr>
+</tbody>
+</table>
+<h2>6. GHI CHÚ CHO QC / TESTING</h2>
+<ul>
+<li>Thử test phân quyền User Staff xem list load có lọc Data theo <code>created_by</code> không.</li>
+<li>Test nhập 1 mã phiểu chữ thường xem thanh search có Tự Auto-upper case (Tìm kiếm không phân biệt hoa thường) hay không.</li>
+</ul></div>
+
+    </div>
+</body>
+</html>
