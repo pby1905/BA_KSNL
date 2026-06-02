@@ -1,0 +1,6 @@
+✅CS1.E1.US-14: [Nhận NL khách] - Xử lý: Yêu cầu trả hàng (Request Return)✅CS1.E1.US-14: [Nhận NL khách] - Xử lý: Yêu cầu trả hàng (Request Return)1. USER STORYLà một:Người phê duyệt chênh lệch.
+Tôi muốn:Xem xét các dòng nguyên liệu có sai lệch vượt ngưỡng và thực hiện đưa ra quyết định.
+Để:Chính thức ghi nhận các thông số đo đạc thực tế vào hệ thống và cho phép tiếp tục quy trình.
+2. TIÊU CHÍ CHẤP NHẬN (ACCEPTANCE CRITERIA - AC)AC1: Yêu cầu trả hàng (Request Return)Given:Người dùngmở phiếu tiếp nhận, Hệ thống hiển thị danh sách các dòng nguyên liệu đã tiếp nhậnWhen:Người dùng chọn dòng nguyên liệu ở trạng thái "Chờ xác nhận"And:Chọn "Yêu cầu trả NL" (từng phiếu, không phê duyệt cùng lúc nhiều phiếu)Then:Hệ thống mở popup xác nhận Y/NAnd:Người dùng chọn Yes và nhập Ghi chúThen:
+Cập nhật trạng thái dòng nguyên liệu: Từ "Chờ xác nhận" sang → "Yêu cầu trả"Cập nhật trạng thái phiếu xử lý chênh lệch: Từ "Chờ xác nhận" sang → "Yêu cầu trả"Ghi nhận ghi chú vào phiếu xử lý chênh lệch3. THIẾT KẾ (UX/UI)
+4. QUY TẮC NGHIỆP VỤ (BUSINESS RULES)BR-01:Chỉ những user có quyền"Phê duyệt chênh lệch"mới nhìn thấy và tương tác được nút "Chấp nhận chênh lệch"/"Yêu cầu trả NL".5. GHI CHÚ KỸ THUẬT & VALIDATION (TECH NOTES)5.1 Validation Logic5.2 Field Definition (Action Buttons)6. GHI CHÚ CHO QC

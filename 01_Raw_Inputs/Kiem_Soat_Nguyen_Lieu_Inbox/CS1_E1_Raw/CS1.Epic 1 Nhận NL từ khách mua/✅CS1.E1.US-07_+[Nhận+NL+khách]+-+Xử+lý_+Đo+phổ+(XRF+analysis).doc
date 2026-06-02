@@ -1,0 +1,611 @@
+Date: Sat, 18 Apr 2026 13:07:35 +0700 (ICT)
+Message-ID: <1518727750.143.1776492455454@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_142_191338643.1776492455453"
+
+------=_Part_142_191338643.1776492455453
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-07: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD=
+ l=C3=BD: =C4=90o ph=E1=BB=95 (XRF analysis)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-07: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD l=
+=C3=BD: =C4=90o ph=E1=BB=95 (XRF analysis)</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=
+=ADl=C3=BD:=C4=90oph=E1=BB=95(XRFanalysis)-1.USERSTORY"><strong>1. USER STO=
+RY</strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t:</strong> Nh=C3=A2n vi=C3=AAn Ti=E1=BA=BFp n=
+h=E1=BA=ADn Nguy=C3=AAn li=E1=BB=87u</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n:</strong> Ghi nh=E1=BA=ADn k=E1=BA=BFt qu=
+=E1=BA=A3 =C4=91o ph=E1=BB=95 chi ti=E1=BA=BFt cho d=E1=BA=BB trong phi=E1=
+=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn.</p>
+<p><strong>=C4=90=E1=BB=83:</strong> X=C3=A1c =C4=91=E1=BB=8Bnh ch=C3=ADnh =
+x=C3=A1c h=C3=A0m l=C6=B0=E1=BB=A3ng v=C3=A0ng (tu=E1=BB=95i v=C3=A0ng) v=
+=C3=A0 c=C3=A1c kim lo=E1=BA=A1i =C4=91i k=C3=A8m, l=C3=A0m c=C4=83n c=E1=
+=BB=A9 t=C3=ADnh to=C3=A1n tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng v=C3=A0ng nguy=
+=C3=AAn ch=E1=BA=A5t (v=C3=A0ng tinh) cho qu=C3=A1 tr=C3=ACnh gia c=C3=B4ng=
+.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-2.TI=C3=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=
+=ACN(ACCEPTANCECRITERIA-AC)"><strong>2. TI=C3=8AU CH=C3=8D CH=E1=BA=A4P NH=
+=E1=BA=ACN (ACCEPTANCE CRITERIA - AC)</strong></h2>
+<p><strong>AC 1: =C4=90o ph=E1=BB=95</strong></p>
+<ul>
+ <li data-uuid=3D"814fd341-c02c-47bf-8995-8d6b173bc8eb">
+  <p><strong>Given:</strong> Nh=C3=A2n vi=C3=AAn =C4=91o ph=E1=BB=95 m=E1=
+=BB=9F phi=E1=BA=BFu ti=E1=BA=BFp nh=E1=BA=ADn, H=E1=BB=87 th=E1=BB=91ng hi=
+=E1=BB=83n th=E1=BB=8B danh s=C3=A1ch c=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=
+=BB=87u =C4=91=C3=A3 ti=E1=BA=BFp nh=E1=BA=ADn =E1=BB=9F b=C6=B0=E1=BB=9Bc =
+tr=C6=B0=E1=BB=9Bc.</p></li>
+ <li data-uuid=3D"55ba960e-8148-48e1-a2a0-02e638b0cce6"><strong>And:</stron=
+g> Nh=C3=A2n vi=C3=AAn ch=E1=BB=8Dn c=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=BB=
+=87u c=C3=B3 lo=E1=BA=A1i =3D "D=E1=BA=BB" nh=E1=BA=A5n v=C3=A0o n=C3=BAt "=
+=C4=90o ph=E1=BB=95".</li>
+ <li data-uuid=3D"6e4d9476-65c0-4898-a30c-202ac27b9a88">
+  <p><strong>When:</strong> H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=BB=
+=8B Modal "=C4=90o ph=E1=BB=95" (nh=C6=B0 h=C3=ACnh =E1=BA=A3nh thi=E1=BA=
+=BFt k=E1=BA=BF).</p></li>
+ <li data-uuid=3D"123990be-bd91-4a08-a9fc-e62338cbb0f9">
+  <p><strong>Then:</strong> Nh=C3=A2n vi=C3=AAn c=C3=B3 th=E1=BB=83 nh=E1=
+=BA=ADp c=C3=A1c th=C3=A0nh ph=E1=BA=A7n kim lo=E1=BA=A1i.</p></li>
+</ul>
+<p><strong>AC 2: Ki=E1=BB=83m tra t=E1=BB=95ng t=E1=BB=B7 l=E1=BB=87 th=C3=
+=A0nh ph=E1=BA=A7n (Validation %)</strong></p>
+<ul>
+ <li data-uuid=3D"56b0bbbd-f1e9-42a7-99fb-5534923a0046">
+  <p><strong>Given:</strong> Nh=C3=A2n vi=C3=AAn nh=E1=BA=ADp t=E1=BB=B7 l=
+=E1=BB=87 % cho c=C3=A1c kim lo=E1=BA=A1i.</p></li>
+ <li data-uuid=3D"b995a9c6-252a-45e0-b50f-05c73248fd56">
+  <p><strong>When:</strong> Nh=E1=BA=A5n "L=C6=B0u" trong Modal k=E1=BA=BFt=
+ qu=E1=BA=A3 =C4=91o.</p></li>
+ <li data-uuid=3D"340a297d-e645-469f-befb-66906d1a7b67">
+  <p><strong>Then:</strong> H=E1=BB=87 th=E1=BB=91ng ki=E1=BB=83m tra t=E1=
+=BB=95ng %. N=E1=BA=BFu t=E1=BB=95ng <span class=3D"math-inline">% &gt; 100=
+%</span>, hi=E1=BB=83n th=E1=BB=8B c=E1=BA=A3nh b=C3=A1o v=C3=A0 kh=C3=B4ng=
+ cho l=C6=B0u.</p>
+  <ul>
+   <li data-uuid=3D"29292082-1c99-4e2b-b314-7496004b298e">
+    <p><strong>VN: </strong>"T=E1=BB=95ng t=E1=BB=B7 l=E1=BB=87 c=C3=A1c th=
+=C3=A0nh ph=E1=BA=A7n kim lo=E1=BA=A1i kh=C3=B4ng =C4=91=C6=B0=E1=BB=A3c v=
+=C6=B0=E1=BB=A3t qu=C3=A1&nbsp;<span class=3D"math-inline">100%</span>. Vui=
+ l=C3=B2ng ki=E1=BB=83m tra l=E1=BA=A1i (Hi=E1=BB=87n t=E1=BA=A1i:&nbsp;<sp=
+an class=3D"math-inline">{Total}%</span>)."</p></li>
+   <li data-uuid=3D"4464f043-fee3-4219-97c5-60a5a21ce745">
+    <p><strong>EN: </strong>"The total percentage of metal components canno=
+t exceed&nbsp;<span class=3D"math-inline">100%</span>. Please verify your i=
+nput (Current:&nbsp;<span class=3D"math-inline">{Total}%</span>)."</p></li>
+  </ul></li>
+</ul>
+<p><strong>AC 3: C=C3=B3 t=E1=BA=A1p</strong></p>
+<ul>
+ <li><strong>Given:&nbsp;</strong>Nh=C3=A2n vi=C3=AAn ho=C3=A0n th=C3=A0nh =
+nh=E1=BA=ADp li=E1=BB=87u 1 d=C3=B2ng =E1=BB=9F Modal "=C4=90o ph=E1=BB=95"=
+</li>
+ <li data-uuid=3D"014ab435-5333-43a1-a736-ca74e4df0f86"><strong>When:&nbsp;=
+</strong>Checkbox "T=E1=BA=A1p ch=E1=BA=A5t" =3D checked (t=E1=BB=B1 =C4=91=
+=E1=BB=99ng check khi c=C3=B3 th=C3=A0nh ph=E1=BA=A7n ngo=C3=A0i B=E1=BA=A1=
+c =C4=90=E1=BB=93ng K=E1=BA=BDm)</li>
+ <li data-uuid=3D"014ab435-5333-43a1-a736-ca74e4df0f86"><strong>Then:</stro=
+ng> H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=BB=8B form nh=E1=BA=ADp "C=
+=C3=B3 t=E1=BA=A1p"</li>
+</ul>
+<p><strong>AC 4: =C4=90o l=E1=BA=A1i &amp; h=E1=BB=A7y x=C3=A1c nh=E1=BA=AD=
+n ch=C3=AAnh l=E1=BB=87ch</strong></p>
+<ul>
+ <li><strong>Given: </strong>Nh=C3=A2n vi=C3=AAn ch=E1=BB=8Dn c=C3=A1c d=C3=
+=B2ng nguy=C3=AAn li=E1=BB=87u c=C3=B3 lo=E1=BA=A1i =3D "D=E1=BA=BB", tr=E1=
+=BA=A1ng th=C3=A1i "=C4=90ang x=E1=BB=AD l=C3=BD"&nbsp;</li>
+ <li><strong>And:&nbsp;</strong>D=C3=B2ng nguy=C3=AAn li=E1=BB=87u n=C3=A0y=
+ c=C3=B3 x=E1=BB=AD l=C3=BD ch=C3=AAnh l=E1=BB=87ch</li>
+ <li data-uuid=3D"83c62db0-611e-4c99-928e-70c681847250"><strong>When: </str=
+ong>Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n v=C3=A0o n=C3=BAt "=C4=90o ph=E1=BB=95=
+"</li>
+ <li><strong>Then: </strong>Hi=E1=BB=83n th=E1=BB=8B popup x=C3=A1c nh=E1=
+=BA=ADn=20
+  <ul>
+   <li data-uuid=3D"1a3a61e8-d356-4355-8131-68b20ae74813">VN: Phi=E1=BA=BFu=
+ X=E1=BB=AD l=C3=BD Ch=C3=AAnh l=E1=BB=87ch t=E1=BA=A1i c=C3=A1c d=C3=B2ng =
+{line 1, line 2...} s=E1=BA=BD chuy=E1=BB=83n sang tr=E1=BA=A1ng th=C3=A1i =
+"H=E1=BB=A7y". B=E1=BA=A1n c=C3=B3 ch=E1=BA=AFc ch=E1=BA=AFn mu=E1=BB=91n t=
+i=E1=BA=BFp t=E1=BB=A5c? "C=C3=B3 / Kh=C3=B4ng"</li>
+   <li data-uuid=3D"645a3365-f801-4bb7-8752-19ce284883b3">EN: The Variance =
+Processing Ticket for lines {line 1, line 2...} will be changed to 'Cancell=
+ed' status. Are you sure you want to proceed? 'Yes / No'=20
+    <ul>
+     <li data-uuid=3D"9e3f14cb-b669-4234-aed9-2c05ed9dd83a">C=C3=B3:=20
+      <ul>
+       <li data-uuid=3D"3f0cf21c-1768-41dc-89f3-036f2c65d3f7">=E2=86=92 M=
+=E1=BB=9F Modal "=C4=90o ph=E1=BB=95" v=C3=A0 cho ph=C3=A9p edit</li>
+       <li data-uuid=3D"52b595b3-fed6-407b-871d-3118b18af302">=E2=86=92 Khi=
+ Submit k=E1=BA=BFt qu=E1=BA=A3 Modal "=C4=90o ph=E1=BB=95" =E2=86=92 Chuy=
+=E1=BB=83n tr=E1=BA=A1ng th=C3=A1i phi=E1=BA=BFu "X=E1=BB=AD l=C3=BD ch=C3=
+=AAnh l=E1=BB=87ch" sang tr=E1=BA=A1ng th=C3=A1i =E2=86=92 "H=E1=BB=A7y"</l=
+i>
+      </ul></li>
+    </ul></li>
+  </ul></li>
+</ul>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-3.THI=E1=BA=BETK=E1=BA=BE(UX/UI)"><stro=
+ng>3. THI=E1=BA=BET K=E1=BA=BE (UX/UI)</strong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-4.QUYT=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=
+=A4(BUSINESSRULES)"><strong>4. QUY T=E1=BA=AEC NGHI=E1=BB=86P V=E1=BB=A4 (B=
+USINESS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"ab9cb975-217f-40de-8cf1-8c649f1a81e6">
+  <p><strong>BR-01:</strong> Ch=E1=BB=89 nh=E1=BB=AFng d=C3=B2ng nguy=C3=AA=
+n li=E1=BB=87u th=C3=B5a m=C3=A3n =C4=91i=E1=BB=81u ki=E1=BB=87n sau c=C3=
+=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n =C4=90o ph=E1=BB=95, ki=E1=BB=83m=
+ tra theo th=E1=BB=A9 t=E1=BB=B1 sau:</p>
+  <ul>
+   <li data-uuid=3D"26e86679-8eb9-407a-afea-6913cc7f16f7">Ph=C3=A2n lo=E1=
+=BA=A1i =3D D=E1=BA=BB =E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh b=C3=A1o:=20
+    <ul>
+     <li data-uuid=3D"fe5ab132-3b68-479d-a104-fbf4d007f638">Ch=E1=BB=89 ngu=
+y=C3=AAn li=E1=BB=87u "D=E1=BA=BB" c=C3=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=
+=BB=87n =C4=90o ph=E1=BB=95</li>
+     <li data-uuid=3D"c9763707-bfea-4680-b8d6-ff515e36e031">Only "D=E1=BA=
+=BB" materials can perform XRF analysis</li>
+    </ul></li>
+   <li data-uuid=3D"35e0447f-31ce-4d7e-9a72-a3bf40388e35">v=C3=A0, tr=E1=BA=
+=A1ng th=C3=A1i =3D =C4=90ang x=E1=BB=AD l=C3=BD =E2=86=92 Vi ph=E1=BA=A1m,=
+ c=E1=BA=A3nh b=C3=A1o:&nbsp;=20
+    <ul>
+     <li data-uuid=3D"adb959ef-d082-4108-a060-3eb65bde3013">Ch=E1=BB=89 tr=
+=E1=BA=A1ng th=C3=A1i "=C4=90ang x=E1=BB=AD l=C3=BD" c=C3=B3 th=E1=BB=83 th=
+=E1=BB=B1c hi=E1=BB=87n =C4=90o ph=E1=BB=95</li>
+     <li data-uuid=3D"56b19baf-6686-424b-949f-4e23b1c84490">XRF analysis ca=
+n only be performed when the status is "In Progress"</li>
+    </ul></li>
+  </ul></li>
+ <li data-uuid=3D"9fcd6b6a-c309-422a-837c-9a41b393a8b7">
+  <p><strong>BR-02:</strong> K=E1=BA=BFt qu=E1=BA=A3 =C4=91o ph=E1=BB=95 sa=
+u khi "Ho=C3=A0n t=E1=BA=A5t" s=E1=BA=BD =C4=91=C6=B0=E1=BB=A3c l=C6=B0u lo=
+g l=E1=BB=8Bch s=E1=BB=AD (Audit Trail) =C4=91=E1=BB=83 truy v=E1=BA=BFt n=
+=E1=BA=BFu c=C3=B3 khi=E1=BA=BFu n=E1=BA=A1i t=E1=BB=AB kh=C3=A1ch h=C3=A0n=
+g v=E1=BB=81 sau.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-5.GHICH=C3=9AK=E1=BB=B8THU=E1=BA=ACT&am=
+p;VALIDATION(TECHNOTES)"><strong>5. GHI CH=C3=9A K=E1=BB=B8 THU=E1=BA=ACT &=
+amp; VALIDATION (TECH NOTES)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-5.1Workflowvalidation">5.1 Workflow val=
+idation</h3>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-5.2FieldDefinitionTable(Modal=C4=91oph=
+=E1=BB=95)">5.2 Field Definition Table (Modal =C4=91o ph=E1=BB=95)</h3>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 33=
+.8789%;">
+  <colgroup>
+   <col style=3D"width: 19.7419%;">
+   <col style=3D"width: 19.4516%;">
+   <col style=3D"width: 18.2903%;">
+   <col style=3D"width: 13.9355%;">
+   <col style=3D"width: 28.4516%;">
+  </colgroup>
+  <thead>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>T=C3=AAn tr=C6=B0=E1=BB=9Dng (VN)</strong></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>EN Field Name</strong></td>
+    <td class=3D"confluenceTd"><strong>Type</strong></td>
+    <td class=3D"confluenceTd"><strong>Required</strong></td>
+    <td class=3D"confluenceTd"><strong>Rules</strong></td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" colspan=3D"5" data-highlight-=
+colour=3D"grey"><strong><span title=3D"">=C4=90o ph=E1=BB=95</span></strong=
+></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Tu=E1=BB=95i - Seva</strong></=
+span></td>
+    <td class=3D"confluenceTd"><span><strong><span style=3D"color:#172b4d;"=
+>Purity (Seva)</span></strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>TL - Seva sau =C4=91o</strong>=
+</span></td>
+    <td class=3D"confluenceTd"><span><strong>Post-XRF Weight</strong> <stro=
+ng>(Seva)</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(10,4)</td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd">&gt; 0</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>TL hao h=E1=BB=A5t</strong></s=
+pan></td>
+    <td class=3D"confluenceTd"><strong><span>Scraping Loss</span></strong><=
+/td>
+    <td class=3D"confluenceTd">Decimal(10,4)</td>
+    <td class=3D"confluenceTd"><span>Read-only</span></td>
+    <td class=3D"confluenceTd">=3D "TL Seva" - "TL - Seva sau =C4=91o"</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Ag</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Ag</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Cu</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Cu</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Zn</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Zn</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Ni</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Ni</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Pd</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Pd</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% M</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% M</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>% Fe</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>% Fe</strong></span></td>
+    <td class=3D"confluenceTd">Decimal(4,2)</td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">Default =3D 0<br>
+      Validate &lt; 100</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>C=C3=B3 t=E1=BA=A1p ch=E1=BA=
+=A5t</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>Has Impurities</strong></span>=
+</td>
+    <td class=3D"confluenceTd"><span>Checkbox</span></td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd">
+     <p><span>T=E1=BB=B1 =C4=91=E1=BB=99ng check khi c=C3=B3 th=C3=A0nh ph=
+=E1=BA=A7n ngo=C3=A0i: Ag, Cu, Zn</span></p>
+     <p><span>Ng=C6=B0=E1=BB=9Di d=C3=B9ng c=C5=A9ng c=C3=B3 th=E1=BB=83 ma=
+nual check/uncheck</span></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Ghi ch=C3=BA</strong></span></=
+td>
+    <td class=3D"confluenceTd"><span><strong>Remarks</strong></span></td>
+    <td class=3D"confluenceTd"><span>Text</span></td>
+    <td class=3D"confluenceTd"><span>Kh=C3=B4ng</span></td>
+    <td class=3D"confluenceTd"><span>Max 100 k=C3=BD t=E1=BB=B1</span></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>&nbsp;</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>&nbsp;</strong></span></td>
+    <td class=3D"confluenceTd"><span>&nbsp;</span></td>
+    <td class=3D"confluenceTd"><span>&nbsp;</span></td>
+    <td class=3D"confluenceTd"><span>&nbsp;</span></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" colspan=3D"5" data-highlight-=
+colour=3D"grey"><strong><span title=3D"">C=C3=B3 t=E1=BA=A1p</span></strong=
+></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Line</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>Line</strong></span></td>
+    <td class=3D"confluenceTd"><span>Number</span></td>
+    <td class=3D"confluenceTd"><span>Read-only</span></td>
+    <td class=3D"confluenceTd"><span>S=E1=BB=91 th=E1=BB=A9 t=E1=BB=B1 d=C3=
+=B2ng c=E1=BB=A7a NL =E1=BB=9F b=E1=BA=A3ng danh s=C3=A1ch NL</span></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>S=E1=BB=91 tu=E1=BB=95i tr=E1=
+=BB=AB (d=E1=BB=B1 ki=E1=BA=BFn)</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>Purity Deduction (Est.)</stron=
+g></span></td>
+    <td class=3D"confluenceTd"><span>Decimal(4,2)</span></td>
+    <td class=3D"confluenceTd"><span>C=C3=B3</span></td>
+    <td class=3D"confluenceTd">
+     <p>Default =3D 0.3</p>
+     <p>Validate &gt; 0 v=C3=A0 &lt; 100</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Tu=E1=BB=95i - Seva (d=E1=BB=
+=B1 ki=E1=BA=BFn)</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>Purity (Seva) (Est.)</strong><=
+/span></td>
+    <td class=3D"confluenceTd"><span>Decimal(4,2)</span></td>
+    <td class=3D"confluenceTd"><span>Read-only</span></td>
+    <td class=3D"confluenceTd"><span>=3D "Tu=E1=BB=95i - Seva" - "S=E1=BB=
+=91 tu=E1=BB=95i tr=E1=BB=AB (d=E1=BB=B1 ki=E1=BA=BFn)"</span></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Quy 99.99 - Seva (d=E1=BB=B1 k=
+i=E1=BA=BFn)</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong><span style=3D"color:#172b4d;"=
+>99.99 Equiv. (Seva) (Est.)</span></strong></span></td>
+    <td class=3D"confluenceTd"><span>Decimal(10,4)</span></td>
+    <td class=3D"confluenceTd"><span>Read-only</span></td>
+    <td class=3D"confluenceTd"><span>=3D "TL Seva" x "Tu=E1=BB=95i - Seva (=
+d=E1=BB=B1 ki=E1=BA=BFn)" / 99.99</span></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><span><strong>Quy 99.99 - Kh=C3=A1ch b=C3=B9=
+ (d=E1=BB=B1 ki=E1=BA=BFn)</strong></span></td>
+    <td class=3D"confluenceTd"><span><strong>99.99 Cust Compensation (Est.)=
+</strong></span></td>
+    <td class=3D"confluenceTd"><span>Decimal(10,4)</span></td>
+    <td class=3D"confluenceTd"><span>Read-only</span></td>
+    <td class=3D"confluenceTd"><span>=3D "Quy 99.99 - Kh=C3=A1ch" - "Quy 99=
+.99 - Seva"</span></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US07:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:=C4=90oph=E1=BB=95(XRFanalysis)-6.GHICH=C3=9ACHOQC"><strong>6. GHI CH=
+=C3=9A CHO QC</strong></h2>
+    </div>
+</body>
+</html>
+------=_Part_142_191338643.1776492455453--

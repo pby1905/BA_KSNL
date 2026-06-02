@@ -1,0 +1,468 @@
+Date: Sat, 18 Apr 2026 13:07:45 +0700 (ICT)
+Message-ID: <1416620388.147.1776492465890@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_146_1337789971.1776492465890"
+
+------=_Part_146_1337789971.1776492465890
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-09: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD=
+ l=C3=BD: Ki=E1=BB=83m tem - T=C3=ADnh =C4=91=C3=A1 (Tag &amp; Stone Verifi=
+cation)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-09: [Nh=E1=BA=ADn NL kh=C3=A1ch] - X=E1=BB=AD l=
+=C3=BD: Ki=E1=BB=83m tem - T=C3=ADnh =C4=91=C3=A1 (Tag &amp; Stone Verifica=
+tion)</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=
+=ADl=C3=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-=
+1.USERSTORY"><strong>1. USER STORY</strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t:</strong> Nh=C3=A2n vi=C3=AAn Ti=E1=BA=BFp n=
+h=E1=BA=ADn Nguy=C3=AAn li=E1=BB=87u</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n:</strong> Ghi nh=E1=BA=ADn tr=E1=BB=8Dng l=
+=C6=B0=E1=BB=A3ng =C4=91=C3=A1 v=E1=BB=9Bi nguy=C3=AAn li=E1=BB=87u h=C3=A0=
+ng h=E1=BB=93i.</p>
+<p><strong>=C4=90=E1=BB=83:</strong> H=E1=BB=87 th=E1=BB=91ng t=E1=BB=B1 =
+=C4=91=E1=BB=99ng t=C3=ADnh to=C3=A1n Tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng v=C3=
+=A0ng th=E1=BB=B1c t=E1=BA=BF (TL - Seva) l=C3=A0m c=C6=A1 s=E1=BB=9F cho v=
+i=E1=BB=87c =C4=91o ph=E1=BB=95 v=C3=A0 =C4=91=E1=BB=91i so=C3=A1t gi=C3=A1=
+ tr=E1=BB=8B.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-2.TI=C3=
+=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=ACN(AC)"><strong>2. TI=C3=8AU CH=C3=8D CH=
+=E1=BA=A4P NH=E1=BA=ACN (AC)</strong></h2>
+<ul>
+ <li data-uuid=3D"d6e659ee-0760-4d91-85e4-7a2c27f5ce54"><strong>AC 1: Ki=E1=
+=BB=83m tem - T=C3=ADnh =C4=91=C3=A1 (Tag &amp; Stone Verification)</strong=
+>
+  <ul>
+   <li data-uuid=3D"6e26472c-c326-46e6-a87a-71dcb8e68a9c">
+    <p><strong>Given:</strong> Nh=C3=A2n vi=C3=AAn m=E1=BB=9F phi=E1=BA=BFu=
+ ti=E1=BA=BFp nh=E1=BA=ADn, H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=BB=
+=8B danh s=C3=A1ch c=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=BB=87u =C4=91=C3=A3=
+ ti=E1=BA=BFp nh=E1=BA=ADn =E1=BB=9F b=C6=B0=E1=BB=9Bc tr=C6=B0=E1=BB=9Bc.<=
+/p></li>
+   <li data-uuid=3D"b138780c-0904-433a-b251-7490b997c489"><strong>And:</str=
+ong> Nh=C3=A2n vi=C3=AAn=20
+    <ul>
+     <li data-uuid=3D"d4003504-49b0-4622-99aa-d4fbb40252ab">ch=E1=BB=8Dn c=
+=C3=A1c d=C3=B2ng nguy=C3=AAn li=E1=BB=87u c=C3=B3:=20
+      <ul>
+       <li data-uuid=3D"dd77bf8d-fce3-42df-a781-4354bcb0d77d">Lo=E1=BA=A1i =
+=3D "H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi" ho=E1=BA=B7c "H=C3=A0ng h=E1=BB=93i=
+ n=E1=BA=A5u"</li>
+       <li data-uuid=3D"e726642b-f97a-491a-9934-a4850182982d">v=C3=A0, t=C3=
+=ACnh tr=E1=BA=A1ng =3D "NL t=E1=BB=AB kh=C3=A1ch"</li>
+      </ul></li>
+     <li data-uuid=3D"b794316a-0eec-4bb4-bea1-0a088cef96a7">nh=E1=BA=A5n v=
+=C3=A0o n=C3=BAt "Ki=E1=BB=83m tem - T=C3=ADnh =C4=91=C3=A1".</li>
+    </ul></li>
+   <li data-uuid=3D"03316717-89c9-443f-837b-34c3b03e9cd9">
+    <p><strong>When:</strong> H=E1=BB=87 th=E1=BB=91ng hi=E1=BB=83n th=E1=
+=BB=8B Modal "Ki=E1=BB=83m tem - T=C3=ADnh =C4=91=C3=A1" (nh=C6=B0 h=C3=ACn=
+h =E1=BA=A3nh thi=E1=BA=BFt k=E1=BA=BF).</p></li>
+   <li data-uuid=3D"48d1301b-82b3-4d29-8cdd-aa3b030a7477">
+    <p><strong>Then:</strong> Nh=C3=A2n vi=C3=AAn c=C3=B3 th=E1=BB=83 nh=E1=
+=BA=ADp th=C3=B4ng TL =C4=91=C3=A1</p></li>
+  </ul></li>
+ <li data-uuid=3D"f299df23-5824-4a78-9a0b-3bf473dbbe45">
+  <p><strong>AC 2: Ki=E1=BB=83m l=E1=BA=A1i &amp; h=E1=BB=A7y x=C3=A1c nh=
+=E1=BA=ADn ch=C3=AAnh l=E1=BB=87ch</strong></p>
+  <ul>
+   <li data-uuid=3D"e328a200-ed33-4671-9f7c-1829917c49e7"><strong>Given:&nb=
+sp;</strong>Nh=C3=A2n vi=C3=AAn ch=E1=BB=8Dn c=C3=A1c d=C3=B2ng nguy=C3=AAn=
+ li=E1=BB=87u c=C3=B3:=20
+    <ul>
+     <li>Lo=E1=BA=A1i =3D "H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi" ho=E1=BA=B7c =
+"H=C3=A0ng h=E1=BB=93i n=E1=BA=A5u".</li>
+     <li>v=C3=A0, t=C3=ACnh tr=E1=BA=A1ng =3D "NL t=E1=BB=AB kh=C3=A1ch"</l=
+i>
+    </ul>
+    <ul>
+     <li>v=C3=A0, tr=E1=BA=A1ng th=C3=A1i =3D "=C4=90ang x=E1=BB=AD l=C3=BD=
+"&nbsp;</li>
+    </ul></li>
+   <li data-uuid=3D"766d6e61-1763-47d7-b75f-1f74cb367f4a"><strong>And:&nbsp=
+;</strong>D=C3=B2ng nguy=C3=AAn li=E1=BB=87u n=C3=A0y c=C3=B3 x=E1=BB=AD l=
+=C3=BD ch=C3=AAnh l=E1=BB=87ch</li>
+   <li data-uuid=3D"c4e2af4f-897d-4755-8092-84d5c570c3fc"><strong>When: </s=
+trong>Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n v=C3=A0o n=C3=BAt "Ki=E1=BB=83m tem =
+- T=C3=ADnh =C4=91=C3=A1"</li>
+   <li data-uuid=3D"be185d16-310e-421c-8746-a66d34b90591"><strong>Then: </s=
+trong>Hi=E1=BB=83n th=E1=BB=8B popup x=C3=A1c nh=E1=BA=ADn=20
+    <ul>
+     <li>VN: Phi=E1=BA=BFu X=E1=BB=AD l=C3=BD Ch=C3=AAnh l=E1=BB=87ch t=E1=
+=BA=A1i c=C3=A1c d=C3=B2ng {line 1, line 2...} s=E1=BA=BD chuy=E1=BB=83n sa=
+ng tr=E1=BA=A1ng th=C3=A1i "H=E1=BB=A7y". B=E1=BA=A1n c=C3=B3 ch=E1=BA=AFc =
+ch=E1=BA=AFn mu=E1=BB=91n ti=E1=BA=BFp t=E1=BB=A5c? "C=C3=B3 / Kh=C3=B4ng"<=
+/li>
+     <li>EN: The Variance Processing Ticket for&nbsp;lines {line 1, line 2.=
+..} will be changed to 'Cancelled' status. Are you sure you want to proceed=
+? 'Yes / No'=20
+      <ul>
+       <li>C=C3=B3:=20
+        <ul>
+         <li>=E2=86=92 M=E1=BB=9F Modal "Ki=E1=BB=83m tem - T=C3=ADnh =C4=
+=91=C3=A1" v=C3=A0 cho ph=C3=A9p edit</li>
+         <li>=E2=86=92 Khi Submit k=E1=BA=BFt qu=E1=BA=A3 Modal "Ki=E1=BB=
+=83m tem - T=C3=ADnh =C4=91=C3=A1" =E2=86=92 Chuy=E1=BB=83n tr=E1=BA=A1ng t=
+h=C3=A1i phi=E1=BA=BFu "X=E1=BB=AD l=C3=BD ch=C3=AAnh l=E1=BB=87ch" sang tr=
+=E1=BA=A1ng th=C3=A1i =E2=86=92 "H=E1=BB=A7y"&nbsp;</li>
+        </ul></li>
+      </ul></li>
+    </ul></li>
+  </ul></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-3.THI=
+=E1=BA=BETK=E1=BA=BE(UX/UI)"><strong>3. THI=E1=BA=BET K=E1=BA=BE (UX/UI)</s=
+trong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-4.QUYT=
+=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=A4(BUSINESSRULES)"><strong>4. QUY T=E1=BA=
+=AEC NGHI=E1=BB=86P V=E1=BB=A4 (BUSINESS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"4f4aa900-8ce3-4b02-a025-e1c53e353e62">
+  <p><strong>BR-01:</strong><span>&nbsp;</span>Ch=E1=BB=89 nh=E1=BB=AFng d=
+=C3=B2ng nguy=C3=AAn li=E1=BB=87u th=C3=B5a m=C3=A3n =C4=91i=E1=BB=81u ki=
+=E1=BB=87n sau c=C3=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n Ki=E1=BB=83m t=
+em - T=C3=ADnh =C4=91=C3=A1, ki=E1=BB=83m tra theo th=E1=BB=A9 t=E1=BB=B1 s=
+au:</p>
+  <ul>
+   <li>Ph=C3=A2n lo=E1=BA=A1i =3D H=C3=A0ng h=E1=BB=93i m=E1=BB=9Bi / H=C3=
+=A0ng h=E1=BB=93i n=E1=BA=A5u&nbsp;=E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh =
+b=C3=A1o:=20
+    <ul>
+     <li>Ch=E1=BB=89 nguy=C3=AAn li=E1=BB=87u "H=C3=A0ng h=E1=BB=93i" c=C3=
+=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n Ki=E1=BB=83m tem - T=C3=ADnh =C4=
+=91=C3=A1</li>
+     <li>Only "H=C3=A0ng h=E1=BB=93i" materials can perform Tag &amp; Stone=
+ Verification</li>
+    </ul></li>
+   <li>v=C3=A0, t=C3=ACnh tr=E1=BA=A1ng =3D "NL t=E1=BB=AB kh=C3=A1ch" =E2=
+=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh b=C3=A1o:=20
+    <ul>
+     <li data-uuid=3D"4eb2df1a-8f5b-4e20-b533-3638cb928d23">Ch=E1=BB=89 "NL=
+ t=E1=BB=AB kh=C3=A1ch" c=C3=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n Ki=E1=
+=BB=83m tem - T=C3=ADnh =C4=91=C3=A1</li>
+     <li data-uuid=3D"b0ca83b1-a467-48a1-86db-16efbce50b73">Tag &amp; Stone=
+ Verification can only be performed when the origin is "Customer Meterial"<=
+/li>
+    </ul></li>
+   <li>v=C3=A0, tr=E1=BA=A1ng th=C3=A1i =3D =C4=90ang x=E1=BB=AD l=C3=BD =
+=E2=86=92 Vi ph=E1=BA=A1m, c=E1=BA=A3nh b=C3=A1o:=20
+    <ul>
+     <li>Ch=E1=BB=89 tr=E1=BA=A1ng th=C3=A1i "=C4=90ang x=E1=BB=AD l=C3=BD"=
+ c=C3=B3 th=E1=BB=83 th=E1=BB=B1c hi=E1=BB=87n Ki=E1=BB=83m tem - T=C3=ADnh=
+ =C4=91=C3=A1</li>
+     <li>Tag &amp; Stone Verification can only be performed when the status=
+ is "In Progress"</li>
+    </ul></li>
+  </ul></li>
+ <li data-uuid=3D"29332a20-4795-4081-b824-e548c153af10">
+  <p><strong>BR-02:</strong><span>&nbsp;</span>K=E1=BA=BFt qu=E1=BA=A3 sau =
+khi "Ho=C3=A0n t=E1=BA=A5t" s=E1=BA=BD =C4=91=C6=B0=E1=BB=A3c l=C6=B0u log =
+l=E1=BB=8Bch s=E1=BB=AD (Audit Trail) =C4=91=E1=BB=83 truy v=E1=BA=BFt n=E1=
+=BA=BFu c=C3=B3 khi=E1=BA=BFu n=E1=BA=A1i t=E1=BB=AB kh=C3=A1ch h=C3=A0ng v=
+=E1=BB=81 sau.</p></li>
+ <li data-uuid=3D"02c7eadf-d92b-4429-a18c-9d1e6beab1dc">
+  <p><strong>BR-03:</strong> TL =C4=91=C3=A1 - Seva ph=E1=BA=A3i &lt; TL t=
+=E1=BB=95ng - Seva</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-5.GHICH=
+=C3=9AK=E1=BB=B8THU=E1=BA=ACT&amp;FIELDDEFINITION"><strong>5. GHI CH=C3=9A =
+K=E1=BB=B8 THU=E1=BA=ACT &amp; FIELD DEFINITION</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-5.1Work=
+flowvalidation">5.1 Workflow validation</h3>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-5.2Fiel=
+dDefinitionTable(Modal=C4=91oph=E1=BB=95)">5.2 Field Definition Table (Moda=
+l =C4=91o ph=E1=BB=95)</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <thead class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd"><strong>T=C3=AAn tr=C6=B0=E1=BB=9Dng (VN)</s=
+trong></td>
+    <td class=3D"confluenceTd"><strong>EN Field Name</strong></td>
+    <td class=3D"confluenceTd"><strong>Type</strong></td>
+    <td class=3D"confluenceTd"><strong>Required</strong></td>
+    <td class=3D"confluenceTd"><strong>Rules &amp; Logic</strong></td>
+   </tr>
+  </thead>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd">TL =C4=91=C3=A1 - Seva</td>
+    <td class=3D"confluenceTd">Stone Weight (Seva)</td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">Decimal(10,4)=
+</span></td>
+    <td class=3D"confluenceTd">C=C3=B3</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>0 &lt;=3D {value}</p>
+      <pre><br></pre>
+     </div></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">C=C3=B3 sai tem</td>
+    <td class=3D"confluenceTd">Tag Discrepancy</td>
+    <td class=3D"confluenceTd">Checkbox</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng</td>
+    <td class=3D"confluenceTd">Default =3D uncheck</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Ghi ch=C3=BA</td>
+    <td class=3D"confluenceTd">Remarks</td>
+    <td class=3D"confluenceTd">Text&nbsp;</td>
+    <td class=3D"confluenceTd">Kh=C3=B4ng&nbsp;</td>
+    <td class=3D"confluenceTd">Max 100 k=C3=BD t=E1=BB=B1&nbsp;</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<hr>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US09:[Nh=E1=BA=ADnNLkh=C3=A1ch]X=E1=BB=ADl=C3=
+=BD:Ki=E1=BB=83mtemT=C3=ADnh=C4=91=C3=A1(Tag&amp;StoneVerification)-6.GHICH=
+=C3=9ACHOQC">6. GHI CH=C3=9A CHO QC</h3>
+<ul>
+ <li data-uuid=3D"771dc95b-5adc-43b9-9a7f-61f884eecfca">
+  <p>Ki=E1=BB=83m tra logic tr=E1=BB=AB tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng: =
+=C4=90=E1=BA=A3m b=E1=BA=A3o t=E1=BB=95ng tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng =
+c=C3=A1c lo=E1=BA=A1i =C4=91=C3=A1 kh=C3=B4ng v=C6=B0=E1=BB=A3t qu=C3=A1 tr=
+=E1=BB=8Dng l=C6=B0=E1=BB=A3ng th=E1=BB=B1c t=E1=BA=BF c=E1=BB=A7a m=C3=B3n=
+ h=C3=A0ng.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_146_1337789971.1776492465890--

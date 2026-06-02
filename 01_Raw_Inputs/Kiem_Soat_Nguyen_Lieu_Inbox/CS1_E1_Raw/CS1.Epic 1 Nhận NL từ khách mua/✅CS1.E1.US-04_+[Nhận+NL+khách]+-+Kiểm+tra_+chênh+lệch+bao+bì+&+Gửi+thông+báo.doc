@@ -1,0 +1,382 @@
+Date: Sat, 18 Apr 2026 13:07:00 +0700 (ICT)
+Message-ID: <164393430.137.1776492420738@0a3f3d7d9056>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_136_2103663271.1776492420738"
+
+------=_Part_136_2103663271.1776492420738
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E2=9C=85CS1.E1.US-04: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Ki=E1=BB=
+=83m tra: ch=C3=AAnh l=E1=BB=87ch bao b=C3=AC &amp; G=E1=BB=ADi th=C3=B4ng =
+b=C3=A1o</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E2=9C=85CS1.E1.US-04: [Nh=E1=BA=ADn NL kh=C3=A1ch] - Ki=E1=BB=83m =
+tra: ch=C3=AAnh l=E1=BB=87ch bao b=C3=AC &amp; G=E1=BB=ADi th=C3=B4ng b=C3=
+=A1o</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=
+=BB=83mtra:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=
+=A1o-1.USERSTORY"><strong>1. USER STORY</strong></h2>
+<p><strong>L=C3=A0 m=E1=BB=99t (As a):</strong> Nh=C3=A2n vi=C3=AAn ti=E1=
+=BA=BFp nh=E1=BA=ADn nguy=C3=AAn li=E1=BB=87u</p>
+<p><strong>T=C3=B4i mu=E1=BB=91n (I want):</strong> H=E1=BB=87 th=E1=BB=91n=
+g t=E1=BB=B1 =C4=91=E1=BB=99ng ki=E1=BB=83m tra v=C3=A0 ng=C4=83n ch=E1=BA=
+=B7n c=C3=A1c thao t=C3=A1c l=C6=B0u d=E1=BB=AF li=E1=BB=87u khi ph=C3=A1t =
+sinh ch=C3=AAnh l=E1=BB=87ch tr=E1=BB=8Dng l=C6=B0=E1=BB=A3ng bao b=C3=AC v=
+=C6=B0=E1=BB=A3t m=E1=BB=A9c cho ph=C3=A9p, =C4=91=E1=BB=93ng th=E1=BB=9Di =
+g=E1=BB=ADi th=C3=B4ng b=C3=A1o =C4=91=E1=BA=BFn c=E1=BA=A5p qu=E1=BA=A3n l=
+=C3=BD c=C3=B3 th=E1=BA=A9m quy=E1=BB=81n.</p>
+<p><strong>=C4=90=E1=BB=83 (So that):</strong> =C4=90=E1=BA=A3m b=E1=BA=A3o=
+ m=E1=BB=8Di r=E1=BB=A7i ro v=E1=BB=81 th=E1=BA=A5t tho=C3=A1t nguy=C3=AAn =
+li=E1=BB=87u =C4=91=C6=B0=E1=BB=A3c ki=E1=BB=83m so=C3=A1t t=E1=BB=A9c th=
+=E1=BB=9Di v=C3=A0 vi=E1=BB=87c ti=E1=BA=BFp nh=E1=BA=ADn ch=E1=BB=89 =C4=
+=91=C6=B0=E1=BB=A3c th=E1=BB=B1c hi=E1=BB=87n sau khi c=C3=B3 s=E1=BB=B1 =
+=C4=91=E1=BB=93ng =C3=BD c=E1=BB=A7a ng=C6=B0=E1=BB=9Di qu=E1=BA=A3n l=C3=
+=BD.</p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-2.TI=C3=
+=8AUCH=C3=8DCH=E1=BA=A4PNH=E1=BA=ACN(ACCEPTANCECRITERIA-AC)"><strong>2. TI=
+=C3=8AU CH=C3=8D CH=E1=BA=A4P NH=E1=BA=ACN (ACCEPTANCE CRITERIA - AC)</stro=
+ng></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-AC1:G=
+=E1=BB=ADith=C3=B4ngb=C3=A1o=C4=91=E1=BA=BFnng=C6=B0=E1=BB=9Diph=C3=AAduy=
+=E1=BB=87t(Notifications)">AC 1: G=E1=BB=ADi th=C3=B4ng b=C3=A1o =C4=91=E1=
+=BA=BFn ng=C6=B0=E1=BB=9Di ph=C3=AA duy=E1=BB=87t (Notifications)</h3>
+<ul>
+ <li data-uuid=3D"8269d7b1-796b-4ed8-86cc-2b7df39b7ad0">
+  <p><strong>Given (Bi=E1=BA=BFt r=E1=BA=B1ng):</strong> H=E1=BB=87 th=E1=
+=BB=91ng =C4=91=C3=A3 x=C3=A1c =C4=91=E1=BB=8Bnh ch=C3=AAnh l=E1=BB=87ch v=
+=C6=B0=E1=BB=A3t ng=C6=B0=E1=BB=A1ng (TL ch=C3=AAnh l=E1=BB=87ch &gt; Ch=C3=
+=AAnh l=E1=BB=87ch c=E1=BA=A5u h=C3=ACnh).</p></li>
+ <li data-uuid=3D"e538edf7-5140-464c-96d7-d8d39b6d05e2">
+  <p><strong>When (Khi):</strong> Nh=C3=A2n vi=C3=AAn nh=E1=BA=A5n <strong>=
+"L=C6=B0u"</strong>.</p></li>
+ <li data-uuid=3D"dd3d3589-8190-43d2-b3d2-e136f70737cd">
+  <p><strong>Then (Th=C3=AC):</strong></p>
+  <ul>
+   <li data-uuid=3D"0c35ba75-ca94-4518-a687-bd6f6ca98fc6">
+    <p>1. Tr=E1=BA=A1ng th=C3=A1i phi=E1=BA=BFu chuy=E1=BB=83n th=C3=A0nh&n=
+bsp;<strong>"=C4=90ang th=E1=BB=B1c hi=E1=BB=87n" </strong>v=C3=A0 hi=E1=BB=
+=83n th=E1=BB=8B th=C3=AAm tr=E1=BA=A1ng th=C3=A1i <strong>"Ch=E1=BB=9D x=
+=C3=A1c nh=E1=BA=ADn"</strong><strong>&nbsp;</strong></p></li>
+   <li data-uuid=3D"f4fdc433-c5c6-4b66-a16b-1674403eefa1">
+    <p>2. H=E1=BB=87 th=E1=BB=91ng g=E1=BB=ADi th=C3=B4ng b=C3=A1o t=E1=BB=
+=A9c th=E1=BB=9Di (In-app notification) danh s=C3=A1ch Ng=C6=B0=E1=BB=9Di p=
+h=C3=AA duy=E1=BB=87t v=C3=A0 ng=C6=B0=E1=BB=9Di theo d=C3=B5i =C4=91=C3=A3=
+ =C4=91=C6=B0=E1=BB=A3c thi=E1=BA=BFt l=E1=BA=ADp cho nghi=E1=BB=87p v=E1=
+=BB=A5 n=C3=A0y.</p></li>
+   <li data-uuid=3D"ce9e4c8a-667a-4bef-8817-806ad45c9907">
+    <p>3. N=E1=BB=99i dung th=C3=B4ng b=C3=A1o hi=E1=BB=83n th=E1=BB=8B r=
+=C3=B5:&nbsp;</p>
+    <ul>
+     <li data-uuid=3D"5d809678-01d3-4728-9517-bb3c23a2bda6">
+      <p><em>VN: "Phi=E1=BA=BFu [M=C3=A3 phi=E1=BA=BFu] c=E1=BA=A7n ph=C3=
+=AA duy=E1=BB=87t do ch=C3=AAnh l=E1=BB=87ch [Lo=E1=BA=A1i ch=C3=AAnh l=E1=
+=BB=87ch]: [Gi=C3=A1 tr=E1=BB=8B th=E1=BB=B1c t=E1=BA=BF] (V=C6=B0=E1=BB=A3=
+t ng=C6=B0=E1=BB=A1ng [Gi=C3=A1 tr=E1=BB=8B cho ph=C3=A9p])"</em>.</p></li>
+     <li data-uuid=3D"0fefe6c3-3c0b-4bfd-89c4-244ff6180cbb"><em>EN: "Ticket=
+ [Ticket ID] requires approval due to [Variance Type] variance: [Actual Val=
+ue] (Exceeds threshold of [Allowed Value])"</em></li>
+    </ul></li>
+  </ul></li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-3.THI=
+=E1=BA=BETK=E1=BA=BE(UX/UI)"><strong>3. THI=E1=BA=BET K=E1=BA=BE (UX/UI)</s=
+trong></h2>
+<p><br></p>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-4.QUYT=
+=E1=BA=AECNGHI=E1=BB=86PV=E1=BB=A4(BUSINESSRULES)"><strong>4. QUY T=E1=BA=
+=AEC NGHI=E1=BB=86P V=E1=BB=A4 (BUSINESS RULES)</strong></h2>
+<ul>
+ <li data-uuid=3D"3ab8e7f8-8c3e-41cb-90da-c45bc9ec16c3"><strong>BR-01:</str=
+ong> Phi=E1=BA=BFu =E1=BB=9F tr=E1=BA=A1ng th=C3=A1i "Ch=E1=BB=9D ph=C3=AA =
+duy=E1=BB=87t" s=E1=BA=BD b=E1=BB=8B <strong>kh=C3=B3a s=E1=BB=ADa =C4=91=
+=E1=BB=95i</strong> d=E1=BB=AF li=E1=BB=87u =C4=91=E1=BB=91i v=E1=BB=9Bi nh=
+=C3=A2n vi=C3=AAn MC cho =C4=91=E1=BA=BFn khi ng=C6=B0=E1=BB=9Di qu=E1=BA=
+=A3n l=C3=BD c=C3=B3 ph=E1=BA=A3n h=E1=BB=93i (Duy=E1=BB=87t ho=E1=BA=B7c T=
+=E1=BB=AB ch=E1=BB=91i).</li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-5.GHICH=
+=C3=9AK=E1=BB=B8THU=E1=BA=ACT&amp;VALIDATION(TECHNOTES)"><strong>5. GHI CH=
+=C3=9A K=E1=BB=B8 THU=E1=BA=ACT &amp; VALIDATION (TECH NOTES)</strong></h2>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-5.1Vali=
+dationLogic">5.1 Validation Logic</h3>
+<ul>
+ <li data-uuid=3D"5a685211-8ad3-4afe-b0bf-3af79a47adad">
+  <p>Logic ki=E1=BB=83m tra ph=E1=BA=A3i th=E1=BB=B1c hi=E1=BB=87n =E1=BB=
+=9F c=E1=BA=A3 Frontend (=C4=91=E1=BB=83 hi=E1=BB=83n th=E1=BB=8B UI t=E1=
+=BB=A9c th=E1=BB=9Di) v=C3=A0 Backend (=C4=91=E1=BB=83 =C4=91=E1=BA=A3m b=
+=E1=BA=A3o an to=C3=A0n d=E1=BB=AF li=E1=BB=87u).</p></li>
+ <li>
+  <p>Click v=C3=A0o th=C3=B4ng b=C3=A1o s=E1=BA=BD d=E1=BA=ABn tr=E1=BB=B1c=
+ ti=E1=BA=BFp =C4=91=E1=BA=BFn m=C3=A0n h=C3=ACnh chi ti=E1=BA=BFt phi=E1=
+=BA=BFu c=E1=BA=A7n duy=E1=BB=87t.</p></li>
+</ul>
+<h3 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-5.2Tech=
+nicalNote(BA-level)">5.2 Technical Note (BA-level)</h3>
+<ul>
+ <li data-uuid=3D"10774933-0f8c-4aa8-8486-6eb93225ace2">H=E1=BB=87 th=E1=BB=
+=91ng ph=E1=BA=A3i ghi log: <em>"H=E1=BB=87 th=E1=BB=91ng ch=E1=BA=B7n thao=
+ t=C3=A1c do ch=C3=AAnh l=E1=BB=87ch v=C6=B0=E1=BB=A3t m=E1=BB=A9c t=E1=BA=
+=A1i th=E1=BB=9Di =C4=91i=E1=BB=83m [Timestamp]"</em>.</li>
+</ul>
+<hr>
+<h2 id=3D"id-=E2=9C=85CS1.E1.US04:[Nh=E1=BA=ADnNLkh=C3=A1ch]Ki=E1=BB=83mtra=
+:ch=C3=AAnhl=E1=BB=87chbaob=C3=AC&amp;G=E1=BB=ADith=C3=B4ngb=C3=A1o-6.GHICH=
+=C3=9ACHOQC(TESTCASES)"><strong>6. GHI CH=C3=9A CHO QC (TEST CASES)</strong=
+></h2>
+<ol>
+ <li data-uuid=3D"9f384ae0-92ad-4232-a7b6-d0562e7e72a6">
+  <p><strong>Ki=E1=BB=83m tra ng=C6=B0=E1=BB=A1ng c=E1=BA=ADn bi=C3=AAn:</s=
+trong> V=C3=AD d=E1=BB=A5 ng=C6=B0=E1=BB=A1ng l=C3=A0 <span class=3D"mord">=
+0.05</span>. Th=E1=BB=AD nghi=E1=BB=87m v=E1=BB=9Bi <span class=3D"mord">0.=
+049</span> (Pass), <span class=3D"mord">0.050</span> (Pass), <span class=3D=
+"mord">0.051</span> (Block).</p></li>
+ <li data-uuid=3D"869ed573-1f3b-40aa-b882-57f20490e23b">
+  <p><strong>Ki=E1=BB=83m tra g=E1=BB=ADi th=C3=B4ng b=C3=A1o:</strong> X=
+=C3=A1c nh=E1=BA=ADn ng=C6=B0=E1=BB=9Di qu=E1=BA=A3n l=C3=BD nh=E1=BA=ADn =
+=C4=91=C6=B0=E1=BB=A3c th=C3=B4ng b=C3=A1o =C4=91=C3=BAng n=E1=BB=99i dung =
+v=C3=A0 =C4=91=C3=BAng m=C3=A3 phi=E1=BA=BFu&nbsp;</p></li>
+ <li data-uuid=3D"c775fb78-af42-45ba-85ec-82b2eb324415">
+  <p><strong>Ki=E1=BB=83m tra quy=E1=BB=81n h=E1=BA=A1n:</strong> =C4=90=E1=
+=BA=A3m b=E1=BA=A3o nh=C3=A2n vi=C3=AAn kh=C3=B4ng th=E1=BB=83 t=E1=BB=B1 =
+=C3=BD chuy=E1=BB=83n tr=E1=BA=A1ng th=C3=A1i phi=E1=BA=BFu t=E1=BB=AB "Ch=
+=E1=BB=9D ph=C3=AA duy=E1=BB=87t" sang "Ch=E1=BB=9D x=E1=BB=AD l=C3=BD" b=
+=E1=BA=B1ng c=C3=A1ch F5 ho=E1=BA=B7c can thi=E1=BB=87p API.</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_136_2103663271.1776492420738--
