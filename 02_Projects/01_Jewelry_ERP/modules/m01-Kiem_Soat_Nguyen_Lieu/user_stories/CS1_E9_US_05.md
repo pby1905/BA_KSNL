@@ -1,10 +1,10 @@
 # 🏷️ [CS1.E9.US-05] Kiểm kê kho - Phê duyệt điều chỉnh tồn kho (Approve Adjustment)
 
 **Epic:** Kiểm kê kho & Điều chỉnh (CS1.E9)
-**Actor:** Người phê duyệt (Trưởng phòng MC)
+**Actor:** Người phê duyệt (Kế toán trưởng / Ban Giám Đốc)
 
 ## 1. USER STORY
-- **Là một:** Người phê duyệt (Trưởng phòng MC).
+- **Là một:** Người phê duyệt (Kế toán trưởng hoặc Ban Giám Đốc).
 - **Tôi muốn:** Xem xét, từ chối hoặc phê duyệt các Phiếu yêu cầu điều chỉnh tồn kho có phát sinh hao hụt giá trị lớn.
 - **Để:** Hệ thống chính thức cập nhật Tồn kho sổ sách bằng với Tồn thực tế và đóng Phiếu kiểm kê.
 
