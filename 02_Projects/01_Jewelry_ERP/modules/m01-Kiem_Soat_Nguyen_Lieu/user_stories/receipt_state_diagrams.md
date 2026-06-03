@@ -87,19 +87,18 @@ Biên bản trả hàng (`CS1_E1_US_24.1`) gom các dòng `Yêu cầu trả NL`.
 
 ```mermaid
 stateDiagram-v2
-    Ban_nhap: Bản nháp
-    Cho_bàn_giao: Chờ bàn giao
-    Da_ky_nhan: Đã ký nhận
-    Hoan_thanh: Hoàn thành
+    Nhap_R: Nháp
+    Moi_tao_R: Mới tạo
+    Cho_khach_nhan_R: Chờ khách nhận
+    Hoan_thanh_R: Hoàn thành
+    Da_huy_R: Đã hủy
 
-    [*] --> Ban_nhap : Gom các dòng "Yêu cầu trả NL"
-    
-    Ban_nhap --> [*] : Hủy phiếu trả
-    
-    Ban_nhap --> Cho_bàn_giao : Lưu chính thức
-    
-    Cho_bàn_giao --> Da_ky_nhan : Khách/Kinh doanh nhận
-    
-    Da_ky_nhan --> Hoan_thanh : Đóng phiếu
-    Hoan_thanh --> [*]
+    [*] --> Nhap_R : Khởi tạo từ các Line "Yêu cầu trả NL"
+    Nhap_R --> Da_huy_R : Xóa nháp
+    Nhap_R --> Moi_tao_R : Lưu chính thức
+    Moi_tao_R --> Da_huy_R : Hủy lệnh trả hàng (Rollback)
+    Moi_tao_R --> Cho_khach_nhan_R : Xác nhận bàn giao
+    Cho_khach_nhan_R --> Hoan_thanh_R : Khách/Kinh doanh ký nhận
+    Hoan_thanh_R --> [*]
+    Da_huy_R --> [*]
 ```
